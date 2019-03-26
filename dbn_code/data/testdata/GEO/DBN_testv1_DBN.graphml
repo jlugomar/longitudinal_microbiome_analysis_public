@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+http://graphml.graphdrawing.org/xmlns/1.1/graphml.xsd">
+<key id="key_weight" for="edge" attr.name="weight" attr.type="double"/>
+<graph id="DBN_GEO_test1" edgedefault="directed">
+<node id="Exacerbation_t0"/>
+<node id="fasting status_t0"/>
+<node id="bactin-gapdh 5' 3' ratio_t0"/>
+<node id="atopy status_t0"/>
+<node id="maximum steroid exposure  4=systemic  3=inhaled  2=intranasal  1_t0"/>
+<node id="ratio of monocytes to lymphocytes  whole blood_t0"/>
+<node id="baseline severity nih guideline_t0"/>
+<node id="race_t0"/>
+<node id="PPM1G_p1_t0"/>
+<node id="COPE_p1_t0"/>
+<node id="ALDH3A2_p2_t0"/>
+<node id="HDAC5_p1_t0"/>
+<node id="PPIE_p1_t0"/>
+<node id="FZD7_p1_t0"/>
+<node id="ADK_p2_t0"/>
+<node id="POLE2_p1_t0"/>
+<node id="NPY5R_p1_t0"/>
+<node id="C18orf1_p1_t0"/>
+<node id="RUNX1_p1_t0"/>
+<node id="GAGE1 /// GAGE12F /// GAGE12G /// GAGE12I /// GAGE12J /// GAGE4 /// GAGE5 /// GAGE6 /// GAGE7_p1_t0"/>
+<node id="HMG20B_p1_t0"/>
+<node id="UCK2_p1_t0"/>
+<node id="STX12_p1_t0"/>
+<node id="LPIN1_p1_t0"/>
+<node id="GGT1 /// GGT2 /// GGT3P /// GGTLC2 /// GGTLC3_p1_t0"/>
+<node id="CTAG2_p2_t0"/>
+<node id="MBTPS1_p2_t0"/>
+<node id="USP39_p1_t0"/>
+<node id="FAF1_p1_t0"/>
+<node id="USP21_p1_t0"/>
+<node id="VPREB3_p1_t0"/>
+<node id="SLC30A5_p2_t0"/>
+<node id="ZDHHC4_p1_t0"/>
+<node id="UBL4A_p1_t0"/>
+<node id="NUS1P3_p1_t0"/>
+<node id="Exacerbation_tn"/>
+<node id="fasting status_tn"/>
+<node id="bactin-gapdh 5' 3' ratio_tn"/>
+<node id="atopy status_tn"/>
+<node id="maximum steroid exposure  4=systemic  3=inhaled  2=intranasal  1_tn"/>
+<node id="ratio of monocytes to lymphocytes  whole blood_tn"/>
+<node id="baseline severity nih guideline_tn"/>
+<node id="race_tn"/>
+<node id="PPM1G_p1_tn"/>
+<node id="COPE_p1_tn"/>
+<node id="ALDH3A2_p2_tn"/>
+<node id="HDAC5_p1_tn"/>
+<node id="PPIE_p1_tn"/>
+<node id="FZD7_p1_tn"/>
+<node id="ADK_p2_tn"/>
+<node id="POLE2_p1_tn"/>
+<node id="NPY5R_p1_tn"/>
+<node id="C18orf1_p1_tn"/>
+<node id="RUNX1_p1_tn"/>
+<node id="GAGE1 /// GAGE12F /// GAGE12G /// GAGE12I /// GAGE12J /// GAGE4 /// GAGE5 /// GAGE6 /// GAGE7_p1_tn"/>
+<node id="HMG20B_p1_tn"/>
+<node id="UCK2_p1_tn"/>
+<node id="STX12_p1_tn"/>
+<node id="LPIN1_p1_tn"/>
+<node id="GGT1 /// GGT2 /// GGT3P /// GGTLC2 /// GGTLC3_p1_tn"/>
+<node id="CTAG2_p2_tn"/>
+<node id="MBTPS1_p2_tn"/>
+<node id="USP39_p1_tn"/>
+<node id="FAF1_p1_tn"/>
+<node id="USP21_p1_tn"/>
+<node id="VPREB3_p1_tn"/>
+<node id="SLC30A5_p2_tn"/>
+<node id="ZDHHC4_p1_tn"/>
+<node id="UBL4A_p1_tn"/>
+<node id="NUS1P3_p1_tn"/>
+<edge id="e1" source="Exacerbation_t0" target="Exacerbation_tn">
+<data key="key_weight">232.853386</data>
+</edge>
+<edge id="e2" source="Exacerbation_t0" target="bactin-gapdh 5' 3' ratio_tn">
+<data key="key_weight">32.836254</data>
+</edge>
+<edge id="e3" source="Exacerbation_t0" target="race_tn">
+<data key="key_weight">4.137527</data>
+</edge>
+<edge id="e4" source="Exacerbation_t0" target="PPM1G_p1_tn">
+<data key="key_weight">2.897495</data>
+</edge>
+<edge id="e5" source="Exacerbation_t0" target="FZD7_p1_tn">
+<data key="key_weight">1.046941</data>
+</edge>
+<edge id="e6" source="Exacerbation_t0" target="UCK2_p1_tn">
+<data key="key_weight">9.779695</data>
+</edge>
+<edge id="e7" source="Exacerbation_t0" target="LPIN1_p1_tn">
+<data key="key_weight">10.403422</data>
+</edge>
+<edge id="e8" source="fasting status_t0" target="fasting status_tn">
+<data key="key_weight">13.151019</data>
+</edge>
+<edge id="e9" source="fasting status_t0" target="PPM1G_p1_tn">
+<data key="key_weight">11.037329</data>
+</edge>
+<edge id="e10" source="fasting status_t0" target="COPE_p1_tn">
+<data key="key_weight">14.064324</data>
+</edge>
+<edge id="e11" source="fasting status_t0" target="GGT1 /// GGT2 /// GGT3P /// GGTLC2 /// GGTLC3_p1_tn">
+<data key="key_weight">17.026792</data>
+</edge>
+<edge id="e12" source="fasting status_t0" target="USP21_p1_tn">
+<data key="key_weight">15.056296</data>
+</edge>
+<edge id="e13" source="bactin-gapdh 5' 3' ratio_t0" target="bactin-gapdh 5' 3' ratio_tn">
+<data key="key_weight">4.349368</data>
+</edge>
+<edge id="e14" source="bactin-gapdh 5' 3' ratio_t0" target="HDAC5_p1_tn">
+<data key="key_weight">0.556636</data>
+</edge>
+<edge id="e15" source="bactin-gapdh 5' 3' ratio_t0" target="VPREB3_p1_tn">
+<data key="key_weight">3.121529</data>
+</edge>
+<edge id="e16" source="atopy status_t0" target="atopy status_tn">
+<data key="key_weight">35.276149</data>
+</edge>
+<edge id="e17" source="atopy status_t0" target="POLE2_p1_tn">
+<data key="key_weight">1.246825</data>
+</edge>
+<edge id="e18" source="atopy status_t0" target="GGT1 /// GGT2 /// GGT3P /// GGTLC2 /// GGTLC3_p1_tn">
+<data key="key_weight">1.770233</data>
+</edge>
+<edge id="e19" source="atopy status_t0" target="CTAG2_p2_tn">
+<data key="key_weight">1.308156</data>
+</edge>
+<edge id="e20" source="atopy status_t0" target="MBTPS1_p2_tn">
+<data key="key_weight">1.346026</data>
+</edge>
+<edge id="e21" source="atopy status_t0" target="UBL4A_p1_tn">
+<data key="key_weight">2.302339</data>
+</edge>
+<edge id="e22" source="maximum steroid exposure  4=systemic  3=inhaled  2=intranasal  1_t0" target="maximum steroid exposure  4=systemic  3=inhaled  2=intranasal  1_tn">
+<data key="key_weight">7.262125</data>
+</edge>
+<edge id="e23" source="maximum steroid exposure  4=systemic  3=inhaled  2=intranasal  1_t0" target="ALDH3A2_p2_tn">
+<data key="key_weight">3.799189</data>
+</edge>
+<edge id="e24" source="maximum steroid exposure  4=systemic  3=inhaled  2=intranasal  1_t0" target="PPIE_p1_tn">
+<data key="key_weight">13.335724</data>
+</edge>
+<edge id="e25" source="maximum steroid exposure  4=systemic  3=inhaled  2=intranasal  1_t0" target="GAGE1 /// GAGE12F /// GAGE12G /// GAGE12I /// GAGE12J /// GAGE4 /// GAGE5 /// GAGE6 /// GAGE7_p1_tn">
+<data key="key_weight">5.297753</data>
+</edge>
+<edge id="e26" source="maximum steroid exposure  4=systemic  3=inhaled  2=intranasal  1_t0" target="CTAG2_p2_tn">
+<data key="key_weight">0.457699</data>
+</edge>
+<edge id="e27" source="ratio of monocytes to lymphocytes  whole blood_t0" target="ratio of monocytes to lymphocytes  whole blood_tn">
+<data key="key_weight">4.630306</data>
+</edge>
+<edge id="e28" source="ratio of monocytes to lymphocytes  whole blood_t0" target="ALDH3A2_p2_tn">
+<data key="key_weight">0.340791</data>
+</edge>
+<edge id="e29" source="ratio of monocytes to lymphocytes  whole blood_t0" target="POLE2_p1_tn">
+<data key="key_weight">0.794089</data>
+</edge>
+<edge id="e30" source="ratio of monocytes to lymphocytes  whole blood_t0" target="USP39_p1_tn">
+<data key="key_weight">1.055957</data>
+</edge>
+<edge id="e31" source="ratio of monocytes to lymphocytes  whole blood_t0" target="UBL4A_p1_tn">
+<data key="key_weight">1.937211</data>
+</edge>
+<edge id="e32" source="baseline severity nih guideline_t0" target="ratio of monocytes to lymphocytes  whole blood_tn">
+<data key="key_weight">17.084671</data>
+</edge>
+<edge id="e33" source="baseline severity nih guideline_t0" target="baseline severity nih guideline_tn">
+<data key="key_weight">38.292960</data>
+</edge>
+<edge id="e34" source="baseline severity nih guideline_t0" target="COPE_p1_tn">
+<data key="key_weight">7.797604</data>
+</edge>
+<edge id="e35" source="baseline severity nih guideline_t0" target="ADK_p2_tn">
+<data key="key_weight">17.511027</data>
+</edge>
+<edge id="e36" source="baseline severity nih guideline_t0" target="USP21_p1_tn">
+<data key="key_weight">34.199695</data>
+</edge>
+<edge id="e37" source="race_t0" target="ratio of monocytes to lymphocytes  whole blood_tn">
+<data key="key_weight">25.372656</data>
+</edge>
+<edge id="e38" source="race_t0" target="baseline severity nih guideline_tn">
+<data key="key_weight">5.193082</data>
+</edge>
+<edge id="e39" source="race_t0" target="race_tn">
+<data key="key_weight">460.497051</data>
+</edge>
+<edge id="e40" source="race_t0" target="PPIE_p1_tn">
+<data key="key_weight">4.160227</data>
+</edge>
+<edge id="e41" source="race_t0" target="UCK2_p1_tn">
+<data key="key_weight">2.012904</data>
+</edge>
+<edge id="e42" source="race_t0" target="STX12_p1_tn">
+<data key="key_weight">14.962662</data>
+</edge>
+<edge id="e43" source="race_t0" target="LPIN1_p1_tn">
+<data key="key_weight">4.552698</data>
+</edge>
+<edge id="e44" source="race_t0" target="USP39_p1_tn">
+<data key="key_weight">1.742245</data>
+</edge>
+<edge id="e45" source="race_t0" target="FAF1_p1_tn">
+<data key="key_weight">1.924834</data>
+</edge>
+<edge id="e46" source="race_t0" target="ZDHHC4_p1_tn">
+<data key="key_weight">13.148638</data>
+</edge>
+<edge id="e47" source="HDAC5_p1_t0" target="POLE2_p1_tn">
+<data key="key_weight">0.949010</data>
+</edge>
+<edge id="e48" source="ADK_p2_t0" target="UBL4A_p1_tn">
+<data key="key_weight">1.174850</data>
+</edge>
+<edge id="e49" source="USP39_p1_t0" target="STX12_p1_tn">
+<data key="key_weight">10.168175</data>
+</edge>
+<edge id="e50" source="USP21_p1_t0" target="RUNX1_p1_tn">
+<data key="key_weight">2.962311</data>
+</edge>
+<edge id="e51" source="USP21_p1_t0" target="GAGE1 /// GAGE12F /// GAGE12G /// GAGE12I /// GAGE12J /// GAGE4 /// GAGE5 /// GAGE6 /// GAGE7_p1_tn">
+<data key="key_weight">2.181343</data>
+</edge>
+</graph>
+</graphml>

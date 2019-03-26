@@ -1,0 +1,6 @@
+phenols	link	flavanoids
+flavanoids	link	color
+flavanoids	link	od280od315
+color	link	od280od315
+hue	link	phenols
+class	link	color

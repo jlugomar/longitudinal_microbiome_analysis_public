@@ -1,0 +1,15 @@
+WEKA AUCs,,
+,,
+file (train),file (test),AUC
+weka_disc_train4.arff,weka_disc_test4.arff,0.826
+weka_disc_train5.arff,weka_disc_test5.arff,0.721
+weka_disc_train6.arff,weka_disc_test6.arff,0.727
+weka_disc_train7.arff,weka_disc_test7.arff,0.5
+weka_disc_train8.arff,weka_disc_test8.arff,0.747
+weka_disc_train9.arff,weka_disc_test9.arff,0.5
+weka_disc_train10.arff,weka_disc_test10.arff,0.851
+weka_disc_train11.arff,weka_disc_test11.arff,0.597
+weka_disc_train12.arff,weka_disc_test12.arff,0.7
+weka_disc_train13.arff,weka_disc_test13.arff,0.827
+,,
+AVG AUC:,AVG AUC:,0.6996

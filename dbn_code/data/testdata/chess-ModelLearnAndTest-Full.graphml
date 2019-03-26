@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+http://graphml.graphdrawing.org/xmlns/1.1/graphml.xsd">
+<key id="key_weight" for="edge" attr.name="weight" attr.type="double"/>
+<graph id="chess-ModelLearnAndTest-Full" edgedefault="directed">
+<node id="class"/>
+<node id="alcohol"/>
+<node id="phenols"/>
+<node id="flavanoids"/>
+<node id="color"/>
+<node id="proline"/>
+<edge id="e1" source="proline" target="phenols">
+<data key="key_weight">16.216085</data>
+</edge>
+<edge id="e2" source="class" target="flavanoids">
+<data key="key_weight">24.844216</data>
+</edge>
+<edge id="e3" source="phenols" target="flavanoids">
+<data key="key_weight">74.659382</data>
+</edge>
+<edge id="e4" source="class" target="color">
+<data key="key_weight">23.536965</data>
+</edge>
+<edge id="e5" source="flavanoids" target="color">
+<data key="key_weight">23.014593</data>
+</edge>
+<edge id="e6" source="class" target="proline">
+<data key="key_weight">40.681020</data>
+</edge>
+<edge id="e7" source="alcohol" target="proline">
+<data key="key_weight">17.671209</data>
+</edge>
+</graph>
+</graphml>

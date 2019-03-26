@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+http://graphml.graphdrawing.org/xmlns/1.1/graphml.xsd">
+<key id="key_weight" for="edge" attr.name="weight" attr.type="double"/>
+<graph id="" edgedefault="directed">
+<node id="Steroid Exacerbator"/>
+<node id="PMS2P11_p1"/>
+<node id="EPRS_p2"/>
+<node id="SMARCC1_p4"/>
+<node id="CSNK2B_p1"/>
+<node id="SORD_p2"/>
+<node id="CPSF1_p2"/>
+<node id="TUBG1_p1"/>
+<node id="ACIN1_p1"/>
+<node id="TOR1A_p2"/>
+<node id="USP1_p1"/>
+<node id="PDK2_p1"/>
+<node id="EPS8_p1"/>
+<node id="FMOD_p1"/>
+<node id="SFSWAP_p2"/>
+<node id="PTK2B_p1"/>
+<node id="GOLGA1_p1"/>
+<node id="MED1_p1"/>
+<node id="TG_p1"/>
+<node id="CSH2_p1"/>
+<node id="TPM2_p1"/>
+<node id="NFYA_p2"/>
+<node id="EDNRB_p1"/>
+<node id="TMEM186_p1"/>
+<node id="MYL5_p1"/>
+<node id="GTPBP1_p3"/>
+<node id="STEAP1_p1"/>
+<node id="DUS4L_p1"/>
+<node id="TCAP_p1"/>
+<node id="FMO5_p1"/>
+<node id="DPEP1_p1"/>
+<node id="ITGA9_p1"/>
+<node id="GNB3_p1"/>
+<node id="RTEL1_p1"/>
+<node id="FUT1_p1"/>
+<node id="AMPD1_p1"/>
+<node id="CPA2_p1"/>
+<node id="ANGPTL7_p1"/>
+<node id="CYP4F12_p1"/>
+<node id="THUMPD1_p1"/>
+<node id="PTPN6_p1"/>
+<node id="ACCN1_p1"/>
+<node id="NRG2_p1"/>
+<node id="NR1I3_p1"/>
+<node id="HTATIP2_p1"/>
+<node id="BRS3_p1"/>
+<node id="SNUPN_p1"/>
+<node id="POU4F2_p1"/>
+<node id="HMGA2_p1"/>
+<node id="GAGE1 /// GAGE12F /// GAGE12G /// GAGE12I /// GAGE12J /// GAGE4 /// GAGE5 /// GAGE6 /// GAGE7_p1"/>
+<node id="AVPR1B_p1"/>
+<node id="AKAP13_p1"/>
+<node id="INPP4A_p4"/>
+<node id="BAZ1B_p1"/>
+<node id="C10orf10_p2"/>
+<node id="MFSD10_p1"/>
+<node id="SMC3_p1"/>
+<node id="SRSF2IP_p2"/>
+<node id="HLCS_p2"/>
+<node id="OSBPL3_p2"/>
+<node id="SLC19A2_p1"/>
+<node id="RAD51C_p2"/>
+<node id="SLC16A1_p4"/>
+<node id="TNNC1_p1"/>
+<node id="MAGEA3_p1"/>
+<node id="GABBR2_p2"/>
+<node id="CACNB1_p2"/>
+<node id="GRIN2C_p1"/>
+<node id="ITSN1_p4"/>
+<node id="TRIP11_p2"/>
+<node id="NCR3_p1"/>
+<node id="MCAM_p4"/>
+<node id="CD84_p5"/>
+<node id="GPR4_p2"/>
+<node id="POU4F1_p2"/>
+<node id="FGFR2_p10"/>
+<node id="LAT2_p1"/>
+<node id="NFYC_p4"/>
+<node id="GNB5_p3"/>
+<node id="ARHGEF4_p2"/>
+<node id="SDC2_p2"/>
+<node id="MAPK1IP1L_p3"/>
+<node id="TUBB4_p1"/>
+<node id="PPP1R14B_p1"/>
+<node id="CAMTA2_p1"/>
+<node id="GOSR1_p3"/>
+<node id="DNAJC9_p2"/>
+<node id="SOCS1_p4"/>
+<node id="ARL3_p2"/>
+<node id="MAP2K2_p2"/>
+<node id="EXOSC7_p2"/>
+<node id="213972_at"/>
+<node id="DHRS2_p2"/>
+<node id="ELL2_p1"/>
+<node id="SMR3A /// SMR3B_p1"/>
+<node id="PAM_p3"/>
+<node id="DIXDC1_p1"/>
+<node id="NFASC_p2"/>
+<node id="PIGO_p2"/>
+<node id="NRIP2_p1"/>
+<node id="215206_at"/>
+<node id="LYPLA2 /// LYPLA2P1_p1"/>
+<node id="MPPED2_p2"/>
+<node id="SMARCA4_p8"/>
+<node id="SLC6A2_p2"/>
+<node id="CD72_p1"/>
+<node id="C19orf29_p3"/>
+<node id="KDM4B_p5"/>
+<node id="WWC1_p2"/>
+<node id="MYH7_p1"/>
+<node id="TNXA /// TNXB_p4"/>
+<node id="216431_at"/>
+<node id="216455_at"/>
+<node id="216732_at"/>
+<node id="FLJ23519 /// RNH1_p1"/>
+<node id="GDF11_p1"/>
+<node id="SYCP1_p2"/>
+<node id="KIF22_p2"/>
+<node id="AZGP1P1_p1"/>
+<node id="NCR1_p3"/>
+<node id="N4BP2L1_p6"/>
+<node id="OR7E37P_p1"/>
+<node id="COX16_p1"/>
+<node id="ZFAND5_p3"/>
+<node id="LUC7L2_p1"/>
+<node id="CENPT_p1"/>
+<node id="LGR4_p1"/>
+<node id="PHC1_p1"/>
+<node id="ZNF302_p1"/>
+<node id="CD320_p1"/>
+<node id="RFWD3_p1"/>
+<node id="MGC2752_p1"/>
+<node id="OGN_p1"/>
+<node id="NT5DC3_p1"/>
+<node id="GON4L_p1"/>
+<node id="SLC37A1_p1"/>
+<node id="FBXL15_p1"/>
+<node id="AP1AR_p1"/>
+<node id="ZNF576_p1"/>
+<node id="MYBBP1A_p1"/>
+<node id="CAPN10_p1"/>
+<node id="CLN8_p2"/>
+<node id="NUDT18_p1"/>
+<node id="ZNF329_p1"/>
+<node id="ALS2CR8_p1"/>
+<node id="PGPEP1_p1"/>
+<node id="LINS_p1"/>
+<node id="ADAMTS13_p1"/>
+<node id="VPS13D_p4"/>
+<node id="ZDHHC4_p1"/>
+<node id="IQCA1_p1"/>
+<node id="PRRG3_p1"/>
+<node id="CST8_p1"/>
+<node id="PURG_p1"/>
+<node id="SLC17A5_p1"/>
+<node id="NCR2_p3"/>
+<node id="CALHM2_p1"/>
+<node id="PEX16_p2"/>
+<node id="COL5A2_p1"/>
+<node id="CC2D1A_p2"/>
+<node id="P4HTM_p1"/>
+<node id="ETFDH_p2"/>
+<node id="TBC1D13_p2"/>
+<node id="AMBRA1_p2"/>
+<node id="SCLY_p3"/>
+<edge id="e1" source="Steroid Exacerbator" target="PMS2P11_p1">
+<data key="key_weight">3.796841</data>
+</edge>
+<edge id="e2" source="Steroid Exacerbator" target="EPRS_p2">
+<data key="key_weight">5.580495</data>
+</edge>
+<edge id="e3" source="Steroid Exacerbator" target="SMARCC1_p4">
+<data key="key_weight">4.314723</data>
+</edge>
+<edge id="e4" source="Steroid Exacerbator" target="CSNK2B_p1">
+<data key="key_weight">3.213836</data>
+</edge>
+<edge id="e5" source="Steroid Exacerbator" target="SORD_p2">
+<data key="key_weight">4.972293</data>
+</edge>
+<edge id="e6" source="Steroid Exacerbator" target="CPSF1_p2">
+<data key="key_weight">3.712815</data>
+</edge>
+<edge id="e7" source="Steroid Exacerbator" target="TUBG1_p1">
+<data key="key_weight">3.159881</data>
+</edge>
+<edge id="e8" source="Steroid Exacerbator" target="ACIN1_p1">
+<data key="key_weight">3.638904</data>
+</edge>
+<edge id="e9" source="Steroid Exacerbator" target="TOR1A_p2">
+<data key="key_weight">3.164128</data>
+</edge>
+<edge id="e10" source="Steroid Exacerbator" target="USP1_p1">
+<data key="key_weight">6.055792</data>
+</edge>
+<edge id="e11" source="Steroid Exacerbator" target="PDK2_p1">
+<data key="key_weight">3.045151</data>
+</edge>
+<edge id="e12" source="Steroid Exacerbator" target="EPS8_p1">
+<data key="key_weight">3.066853</data>
+</edge>
+<edge id="e13" source="Steroid Exacerbator" target="FMOD_p1">
+<data key="key_weight">6.548714</data>
+</edge>
+<edge id="e14" source="Steroid Exacerbator" target="SFSWAP_p2">
+<data key="key_weight">3.598432</data>
+</edge>
+<edge id="e15" source="Steroid Exacerbator" target="PTK2B_p1">
+<data key="key_weight">3.538109</data>
+</edge>
+<edge id="e16" source="Steroid Exacerbator" target="GOLGA1_p1">
+<data key="key_weight">3.177388</data>
+</edge>
+<edge id="e17" source="Steroid Exacerbator" target="MED1_p1">
+<data key="key_weight">3.625665</data>
+</edge>
+<edge id="e18" source="Steroid Exacerbator" target="TG_p1">
+<data key="key_weight">7.752147</data>
+</edge>
+<edge id="e19" source="Steroid Exacerbator" target="CSH2_p1">
+<data key="key_weight">3.392909</data>
+</edge>
+<edge id="e20" source="Steroid Exacerbator" target="TPM2_p1">
+<data key="key_weight">5.366235</data>
+</edge>
+<edge id="e21" source="Steroid Exacerbator" target="NFYA_p2">
+<data key="key_weight">3.003598</data>
+</edge>
+<edge id="e22" source="Steroid Exacerbator" target="EDNRB_p1">
+<data key="key_weight">5.197636</data>
+</edge>
+<edge id="e23" source="Steroid Exacerbator" target="TMEM186_p1">
+<data key="key_weight">3.303278</data>
+</edge>
+<edge id="e24" source="Steroid Exacerbator" target="MYL5_p1">
+<data key="key_weight">3.777197</data>
+</edge>
+<edge id="e25" source="Steroid Exacerbator" target="GTPBP1_p3">
+<data key="key_weight">3.158424</data>
+</edge>
+<edge id="e26" source="Steroid Exacerbator" target="STEAP1_p1">
+<data key="key_weight">3.009847</data>
+</edge>
+<edge id="e27" source="Steroid Exacerbator" target="DUS4L_p1">
+<data key="key_weight">3.487259</data>
+</edge>
+<edge id="e28" source="Steroid Exacerbator" target="TCAP_p1">
+<data key="key_weight">3.191728</data>
+</edge>
+<edge id="e29" source="Steroid Exacerbator" target="FMO5_p1">
+<data key="key_weight">4.328232</data>
+</edge>
+<edge id="e30" source="Steroid Exacerbator" target="DPEP1_p1">
+<data key="key_weight">5.222369</data>
+</edge>
+<edge id="e31" source="Steroid Exacerbator" target="ITGA9_p1">
+<data key="key_weight">4.065054</data>
+</edge>
+<edge id="e32" source="Steroid Exacerbator" target="GNB3_p1">
+<data key="key_weight">4.698891</data>
+</edge>
+<edge id="e33" source="Steroid Exacerbator" target="RTEL1_p1">
+<data key="key_weight">4.353992</data>
+</edge>
+<edge id="e34" source="Steroid Exacerbator" target="FUT1_p1">
+<data key="key_weight">3.240794</data>
+</edge>
+<edge id="e35" source="Steroid Exacerbator" target="AMPD1_p1">
+<data key="key_weight">6.856467</data>
+</edge>
+<edge id="e36" source="Steroid Exacerbator" target="CPA2_p1">
+<data key="key_weight">3.336436</data>
+</edge>
+<edge id="e37" source="Steroid Exacerbator" target="ANGPTL7_p1">
+<data key="key_weight">3.074910</data>
+</edge>
+<edge id="e38" source="Steroid Exacerbator" target="CYP4F12_p1">
+<data key="key_weight">4.352721</data>
+</edge>
+<edge id="e39" source="Steroid Exacerbator" target="THUMPD1_p1">
+<data key="key_weight">3.069022</data>
+</edge>
+<edge id="e40" source="Steroid Exacerbator" target="PTPN6_p1">
+<data key="key_weight">3.516964</data>
+</edge>
+<edge id="e41" source="Steroid Exacerbator" target="ACCN1_p1">
+<data key="key_weight">4.061683</data>
+</edge>
+<edge id="e42" source="Steroid Exacerbator" target="NRG2_p1">
+<data key="key_weight">4.002346</data>
+</edge>
+<edge id="e43" source="Steroid Exacerbator" target="NR1I3_p1">
+<data key="key_weight">5.647634</data>
+</edge>
+<edge id="e44" source="Steroid Exacerbator" target="HTATIP2_p1">
+<data key="key_weight">3.153338</data>
+</edge>
+<edge id="e45" source="Steroid Exacerbator" target="BRS3_p1">
+<data key="key_weight">4.632342</data>
+</edge>
+<edge id="e46" source="Steroid Exacerbator" target="SNUPN_p1">
+<data key="key_weight">4.060094</data>
+</edge>
+<edge id="e47" source="Steroid Exacerbator" target="POU4F2_p1">
+<data key="key_weight">3.029561</data>
+</edge>
+<edge id="e48" source="Steroid Exacerbator" target="HMGA2_p1">
+<data key="key_weight">3.443709</data>
+</edge>
+<edge id="e49" source="Steroid Exacerbator" target="GAGE1 /// GAGE12F /// GAGE12G /// GAGE12I /// GAGE12J /// GAGE4 /// GAGE5 /// GAGE6 /// GAGE7_p1">
+<data key="key_weight">3.713225</data>
+</edge>
+<edge id="e50" source="Steroid Exacerbator" target="AVPR1B_p1">
+<data key="key_weight">4.776965</data>
+</edge>
+<edge id="e51" source="Steroid Exacerbator" target="AKAP13_p1">
+<data key="key_weight">3.647787</data>
+</edge>
+<edge id="e52" source="Steroid Exacerbator" target="INPP4A_p4">
+<data key="key_weight">4.155961</data>
+</edge>
+<edge id="e53" source="Steroid Exacerbator" target="BAZ1B_p1">
+<data key="key_weight">5.128102</data>
+</edge>
+<edge id="e54" source="Steroid Exacerbator" target="C10orf10_p2">
+<data key="key_weight">4.340411</data>
+</edge>
+<edge id="e55" source="Steroid Exacerbator" target="MFSD10_p1">
+<data key="key_weight">3.128274</data>
+</edge>
+<edge id="e56" source="Steroid Exacerbator" target="SMC3_p1">
+<data key="key_weight">3.211120</data>
+</edge>
+<edge id="e57" source="Steroid Exacerbator" target="SRSF2IP_p2">
+<data key="key_weight">3.315724</data>
+</edge>
+<edge id="e58" source="Steroid Exacerbator" target="HLCS_p2">
+<data key="key_weight">4.500387</data>
+</edge>
+<edge id="e59" source="Steroid Exacerbator" target="OSBPL3_p2">
+<data key="key_weight">4.446084</data>
+</edge>
+<edge id="e60" source="Steroid Exacerbator" target="SLC19A2_p1">
+<data key="key_weight">3.298825</data>
+</edge>
+<edge id="e61" source="Steroid Exacerbator" target="RAD51C_p2">
+<data key="key_weight">3.228384</data>
+</edge>
+<edge id="e62" source="Steroid Exacerbator" target="SLC16A1_p4">
+<data key="key_weight">3.769898</data>
+</edge>
+<edge id="e63" source="Steroid Exacerbator" target="TNNC1_p1">
+<data key="key_weight">3.182129</data>
+</edge>
+<edge id="e64" source="Steroid Exacerbator" target="MAGEA3_p1">
+<data key="key_weight">4.128689</data>
+</edge>
+<edge id="e65" source="Steroid Exacerbator" target="GABBR2_p2">
+<data key="key_weight">3.514532</data>
+</edge>
+<edge id="e66" source="Steroid Exacerbator" target="CACNB1_p2">
+<data key="key_weight">3.678158</data>
+</edge>
+<edge id="e67" source="Steroid Exacerbator" target="GRIN2C_p1">
+<data key="key_weight">4.352481</data>
+</edge>
+<edge id="e68" source="Steroid Exacerbator" target="ITSN1_p4">
+<data key="key_weight">3.919143</data>
+</edge>
+<edge id="e69" source="Steroid Exacerbator" target="TRIP11_p2">
+<data key="key_weight">6.661936</data>
+</edge>
+<edge id="e70" source="Steroid Exacerbator" target="NCR3_p1">
+<data key="key_weight">3.172675</data>
+</edge>
+<edge id="e71" source="Steroid Exacerbator" target="MCAM_p4">
+<data key="key_weight">4.791342</data>
+</edge>
+<edge id="e72" source="Steroid Exacerbator" target="CD84_p5">
+<data key="key_weight">4.212096</data>
+</edge>
+<edge id="e73" source="Steroid Exacerbator" target="GPR4_p2">
+<data key="key_weight">5.569279</data>
+</edge>
+<edge id="e74" source="Steroid Exacerbator" target="POU4F1_p2">
+<data key="key_weight">4.356557</data>
+</edge>
+<edge id="e75" source="Steroid Exacerbator" target="FGFR2_p10">
+<data key="key_weight">3.214940</data>
+</edge>
+<edge id="e76" source="Steroid Exacerbator" target="LAT2_p1">
+<data key="key_weight">3.225140</data>
+</edge>
+<edge id="e77" source="Steroid Exacerbator" target="NFYC_p4">
+<data key="key_weight">3.607857</data>
+</edge>
+<edge id="e78" source="Steroid Exacerbator" target="GNB5_p3">
+<data key="key_weight">4.110387</data>
+</edge>
+<edge id="e79" source="Steroid Exacerbator" target="ARHGEF4_p2">
+<data key="key_weight">3.301544</data>
+</edge>
+<edge id="e80" source="Steroid Exacerbator" target="SDC2_p2">
+<data key="key_weight">3.348761</data>
+</edge>
+<edge id="e81" source="Steroid Exacerbator" target="MAPK1IP1L_p3">
+<data key="key_weight">3.287253</data>
+</edge>
+<edge id="e82" source="Steroid Exacerbator" target="TUBB4_p1">
+<data key="key_weight">3.164577</data>
+</edge>
+<edge id="e83" source="Steroid Exacerbator" target="PPP1R14B_p1">
+<data key="key_weight">3.100790</data>
+</edge>
+<edge id="e84" source="Steroid Exacerbator" target="CAMTA2_p1">
+<data key="key_weight">5.285954</data>
+</edge>
+<edge id="e85" source="Steroid Exacerbator" target="GOSR1_p3">
+<data key="key_weight">4.530103</data>
+</edge>
+<edge id="e86" source="Steroid Exacerbator" target="DNAJC9_p2">
+<data key="key_weight">3.139316</data>
+</edge>
+<edge id="e87" source="Steroid Exacerbator" target="SOCS1_p4">
+<data key="key_weight">4.139631</data>
+</edge>
+<edge id="e88" source="Steroid Exacerbator" target="ARL3_p2">
+<data key="key_weight">4.268024</data>
+</edge>
+<edge id="e89" source="Steroid Exacerbator" target="MAP2K2_p2">
+<data key="key_weight">3.132255</data>
+</edge>
+<edge id="e90" source="Steroid Exacerbator" target="EXOSC7_p2">
+<data key="key_weight">3.171779</data>
+</edge>
+<edge id="e91" source="Steroid Exacerbator" target="213972_at">
+<data key="key_weight">3.048441</data>
+</edge>
+<edge id="e92" source="Steroid Exacerbator" target="DHRS2_p2">
+<data key="key_weight">4.926078</data>
+</edge>
+<edge id="e93" source="Steroid Exacerbator" target="ELL2_p1">
+<data key="key_weight">4.029331</data>
+</edge>
+<edge id="e94" source="Steroid Exacerbator" target="SMR3A /// SMR3B_p1">
+<data key="key_weight">4.106043</data>
+</edge>
+<edge id="e95" source="Steroid Exacerbator" target="PAM_p3">
+<data key="key_weight">3.265978</data>
+</edge>
+<edge id="e96" source="Steroid Exacerbator" target="DIXDC1_p1">
+<data key="key_weight">3.326517</data>
+</edge>
+<edge id="e97" source="Steroid Exacerbator" target="NFASC_p2">
+<data key="key_weight">4.578594</data>
+</edge>
+<edge id="e98" source="Steroid Exacerbator" target="PIGO_p2">
+<data key="key_weight">3.847001</data>
+</edge>
+<edge id="e99" source="Steroid Exacerbator" target="NRIP2_p1">
+<data key="key_weight">3.348291</data>
+</edge>
+<edge id="e100" source="Steroid Exacerbator" target="215206_at">
+<data key="key_weight">3.343522</data>
+</edge>
+<edge id="e101" source="Steroid Exacerbator" target="LYPLA2 /// LYPLA2P1_p1">
+<data key="key_weight">3.202537</data>
+</edge>
+<edge id="e102" source="Steroid Exacerbator" target="MPPED2_p2">
+<data key="key_weight">4.013907</data>
+</edge>
+<edge id="e103" source="Steroid Exacerbator" target="SMARCA4_p8">
+<data key="key_weight">5.946535</data>
+</edge>
+<edge id="e104" source="Steroid Exacerbator" target="SLC6A2_p2">
+<data key="key_weight">3.320547</data>
+</edge>
+<edge id="e105" source="Steroid Exacerbator" target="CD72_p1">
+<data key="key_weight">5.507635</data>
+</edge>
+<edge id="e106" source="Steroid Exacerbator" target="C19orf29_p3">
+<data key="key_weight">3.923088</data>
+</edge>
+<edge id="e107" source="Steroid Exacerbator" target="KDM4B_p5">
+<data key="key_weight">6.198745</data>
+</edge>
+<edge id="e108" source="Steroid Exacerbator" target="WWC1_p2">
+<data key="key_weight">3.482221</data>
+</edge>
+<edge id="e109" source="Steroid Exacerbator" target="MYH7_p1">
+<data key="key_weight">4.575048</data>
+</edge>
+<edge id="e110" source="Steroid Exacerbator" target="TNXA /// TNXB_p4">
+<data key="key_weight">3.920620</data>
+</edge>
+<edge id="e111" source="Steroid Exacerbator" target="216431_at">
+<data key="key_weight">4.459842</data>
+</edge>
+<edge id="e112" source="Steroid Exacerbator" target="216455_at">
+<data key="key_weight">4.605702</data>
+</edge>
+<edge id="e113" source="Steroid Exacerbator" target="216732_at">
+<data key="key_weight">3.125946</data>
+</edge>
+<edge id="e114" source="Steroid Exacerbator" target="FLJ23519 /// RNH1_p1">
+<data key="key_weight">4.090496</data>
+</edge>
+<edge id="e115" source="Steroid Exacerbator" target="GDF11_p1">
+<data key="key_weight">3.029453</data>
+</edge>
+<edge id="e116" source="Steroid Exacerbator" target="SYCP1_p2">
+<data key="key_weight">4.172212</data>
+</edge>
+<edge id="e117" source="Steroid Exacerbator" target="KIF22_p2">
+<data key="key_weight">4.652980</data>
+</edge>
+<edge id="e118" source="Steroid Exacerbator" target="AZGP1P1_p1">
+<data key="key_weight">4.313976</data>
+</edge>
+<edge id="e119" source="Steroid Exacerbator" target="NCR1_p3">
+<data key="key_weight">3.451279</data>
+</edge>
+<edge id="e120" source="Steroid Exacerbator" target="N4BP2L1_p6">
+<data key="key_weight">3.482971</data>
+</edge>
+<edge id="e121" source="Steroid Exacerbator" target="OR7E37P_p1">
+<data key="key_weight">3.591721</data>
+</edge>
+<edge id="e122" source="Steroid Exacerbator" target="COX16_p1">
+<data key="key_weight">3.201057</data>
+</edge>
+<edge id="e123" source="Steroid Exacerbator" target="ZFAND5_p3">
+<data key="key_weight">3.359842</data>
+</edge>
+<edge id="e124" source="Steroid Exacerbator" target="LUC7L2_p1">
+<data key="key_weight">3.534196</data>
+</edge>
+<edge id="e125" source="Steroid Exacerbator" target="CENPT_p1">
+<data key="key_weight">3.949968</data>
+</edge>
+<edge id="e126" source="Steroid Exacerbator" target="LGR4_p1">
+<data key="key_weight">3.600355</data>
+</edge>
+<edge id="e127" source="Steroid Exacerbator" target="PHC1_p1">
+<data key="key_weight">3.355419</data>
+</edge>
+<edge id="e128" source="Steroid Exacerbator" target="ZNF302_p1">
+<data key="key_weight">3.500830</data>
+</edge>
+<edge id="e129" source="Steroid Exacerbator" target="CD320_p1">
+<data key="key_weight">3.523776</data>
+</edge>
+<edge id="e130" source="Steroid Exacerbator" target="RFWD3_p1">
+<data key="key_weight">5.252892</data>
+</edge>
+<edge id="e131" source="Steroid Exacerbator" target="MGC2752_p1">
+<data key="key_weight">3.056721</data>
+</edge>
+<edge id="e132" source="Steroid Exacerbator" target="OGN_p1">
+<data key="key_weight">3.133331</data>
+</edge>
+<edge id="e133" source="Steroid Exacerbator" target="NT5DC3_p1">
+<data key="key_weight">3.135311</data>
+</edge>
+<edge id="e134" source="Steroid Exacerbator" target="GON4L_p1">
+<data key="key_weight">3.012189</data>
+</edge>
+<edge id="e135" source="Steroid Exacerbator" target="SLC37A1_p1">
+<data key="key_weight">3.449186</data>
+</edge>
+<edge id="e136" source="Steroid Exacerbator" target="FBXL15_p1">
+<data key="key_weight">3.078786</data>
+</edge>
+<edge id="e137" source="Steroid Exacerbator" target="AP1AR_p1">
+<data key="key_weight">7.233312</data>
+</edge>
+<edge id="e138" source="Steroid Exacerbator" target="ZNF576_p1">
+<data key="key_weight">3.578782</data>
+</edge>
+<edge id="e139" source="Steroid Exacerbator" target="MYBBP1A_p1">
+<data key="key_weight">3.731030</data>
+</edge>
+<edge id="e140" source="Steroid Exacerbator" target="CAPN10_p1">
+<data key="key_weight">4.386160</data>
+</edge>
+<edge id="e141" source="Steroid Exacerbator" target="CLN8_p2">
+<data key="key_weight">3.280924</data>
+</edge>
+<edge id="e142" source="Steroid Exacerbator" target="NUDT18_p1">
+<data key="key_weight">3.733719</data>
+</edge>
+<edge id="e143" source="Steroid Exacerbator" target="ZNF329_p1">
+<data key="key_weight">3.036057</data>
+</edge>
+<edge id="e144" source="Steroid Exacerbator" target="ALS2CR8_p1">
+<data key="key_weight">3.353309</data>
+</edge>
+<edge id="e145" source="Steroid Exacerbator" target="PGPEP1_p1">
+<data key="key_weight">3.354714</data>
+</edge>
+<edge id="e146" source="Steroid Exacerbator" target="LINS_p1">
+<data key="key_weight">3.977558</data>
+</edge>
+<edge id="e147" source="Steroid Exacerbator" target="ADAMTS13_p1">
+<data key="key_weight">4.039096</data>
+</edge>
+<edge id="e148" source="Steroid Exacerbator" target="VPS13D_p4">
+<data key="key_weight">3.130183</data>
+</edge>
+<edge id="e149" source="Steroid Exacerbator" target="ZDHHC4_p1">
+<data key="key_weight">3.220715</data>
+</edge>
+<edge id="e150" source="Steroid Exacerbator" target="IQCA1_p1">
+<data key="key_weight">3.486954</data>
+</edge>
+<edge id="e151" source="Steroid Exacerbator" target="PRRG3_p1">
+<data key="key_weight">4.439010</data>
+</edge>
+<edge id="e152" source="Steroid Exacerbator" target="CST8_p1">
+<data key="key_weight">3.022167</data>
+</edge>
+<edge id="e153" source="Steroid Exacerbator" target="PURG_p1">
+<data key="key_weight">3.846000</data>
+</edge>
+<edge id="e154" source="Steroid Exacerbator" target="SLC17A5_p1">
+<data key="key_weight">5.371414</data>
+</edge>
+<edge id="e155" source="Steroid Exacerbator" target="NCR2_p3">
+<data key="key_weight">3.405373</data>
+</edge>
+<edge id="e156" source="Steroid Exacerbator" target="CALHM2_p1">
+<data key="key_weight">5.093110</data>
+</edge>
+<edge id="e157" source="Steroid Exacerbator" target="PEX16_p2">
+<data key="key_weight">8.768756</data>
+</edge>
+<edge id="e158" source="Steroid Exacerbator" target="COL5A2_p1">
+<data key="key_weight">3.476180</data>
+</edge>
+<edge id="e159" source="Steroid Exacerbator" target="CC2D1A_p2">
+<data key="key_weight">3.933573</data>
+</edge>
+<edge id="e160" source="Steroid Exacerbator" target="P4HTM_p1">
+<data key="key_weight">3.821640</data>
+</edge>
+<edge id="e161" source="Steroid Exacerbator" target="ETFDH_p2">
+<data key="key_weight">3.400799</data>
+</edge>
+<edge id="e162" source="Steroid Exacerbator" target="TBC1D13_p2">
+<data key="key_weight">4.612103</data>
+</edge>
+<edge id="e163" source="Steroid Exacerbator" target="AMBRA1_p2">
+<data key="key_weight">3.408697</data>
+</edge>
+<edge id="e164" source="Steroid Exacerbator" target="SCLY_p3">
+<data key="key_weight">3.500662</data>
+</edge>
+<edge id="e165" source="PMS2P11_p1" target="IQCA1_p1">
+<data key="key_weight">4.014694</data>
+</edge>
+<edge id="e166" source="EPRS_p2" target="GNB5_p3">
+<data key="key_weight">9.705787</data>
+</edge>
+<edge id="e167" source="SMARCC1_p4" target="TPM2_p1">
+<data key="key_weight">6.364573</data>
+</edge>
+<edge id="e168" source="SMARCC1_p4" target="ZFAND5_p3">
+<data key="key_weight">4.603273</data>
+</edge>
+<edge id="e169" source="SMARCC1_p4" target="CD320_p1">
+<data key="key_weight">7.098704</data>
+</edge>
+<edge id="e170" source="SMARCC1_p4" target="LINS_p1">
+<data key="key_weight">9.284403</data>
+</edge>
+<edge id="e171" source="CSNK2B_p1" target="NFASC_p2">
+<data key="key_weight">6.354847</data>
+</edge>
+<edge id="e172" source="SORD_p2" target="CSNK2B_p1">
+<data key="key_weight">13.969349</data>
+</edge>
+<edge id="e173" source="SORD_p2" target="PTK2B_p1">
+<data key="key_weight">8.710229</data>
+</edge>
+<edge id="e174" source="SORD_p2" target="HTATIP2_p1">
+<data key="key_weight">11.472340</data>
+</edge>
+<edge id="e175" source="SORD_p2" target="SMARCA4_p8">
+<data key="key_weight">9.723276</data>
+</edge>
+<edge id="e176" source="ACIN1_p1" target="TCAP_p1">
+<data key="key_weight">2.977042</data>
+</edge>
+<edge id="e177" source="ACIN1_p1" target="AP1AR_p1">
+<data key="key_weight">9.083361</data>
+</edge>
+<edge id="e178" source="TOR1A_p2" target="TNNC1_p1">
+<data key="key_weight">9.629747</data>
+</edge>
+<edge id="e179" source="USP1_p1" target="TUBG1_p1">
+<data key="key_weight">2.998732</data>
+</edge>
+<edge id="e180" source="FMOD_p1" target="LAT2_p1">
+<data key="key_weight">15.280638</data>
+</edge>
+<edge id="e181" source="FMOD_p1" target="TNXA /// TNXB_p4">
+<data key="key_weight">5.443297</data>
+</edge>
+<edge id="e182" source="FMOD_p1" target="SLC17A5_p1">
+<data key="key_weight">12.033203</data>
+</edge>
+<edge id="e183" source="MED1_p1" target="ZNF576_p1">
+<data key="key_weight">7.824119</data>
+</edge>
+<edge id="e184" source="NFYA_p2" target="TOR1A_p2">
+<data key="key_weight">10.695290</data>
+</edge>
+<edge id="e185" source="DUS4L_p1" target="PHC1_p1">
+<data key="key_weight">3.519806</data>
+</edge>
+<edge id="e186" source="FMO5_p1" target="SORD_p2">
+<data key="key_weight">16.461274</data>
+</edge>
+<edge id="e187" source="FMO5_p1" target="ALS2CR8_p1">
+<data key="key_weight">4.250577</data>
+</edge>
+<edge id="e188" source="DPEP1_p1" target="GABBR2_p2">
+<data key="key_weight">2.341398</data>
+</edge>
+<edge id="e189" source="RTEL1_p1" target="MGC2752_p1">
+<data key="key_weight">5.245760</data>
+</edge>
+<edge id="e190" source="AMPD1_p1" target="PPP1R14B_p1">
+<data key="key_weight">10.287623</data>
+</edge>
+<edge id="e191" source="AMPD1_p1" target="NT5DC3_p1">
+<data key="key_weight">9.520748</data>
+</edge>
+<edge id="e192" source="CPA2_p1" target="DPEP1_p1">
+<data key="key_weight">10.093017</data>
+</edge>
+<edge id="e193" source="CPA2_p1" target="DHRS2_p2">
+<data key="key_weight">1.796183</data>
+</edge>
+<edge id="e194" source="CPA2_p1" target="AZGP1P1_p1">
+<data key="key_weight">7.655211</data>
+</edge>
+<edge id="e195" source="CPA2_p1" target="CLN8_p2">
+<data key="key_weight">7.738057</data>
+</edge>
+<edge id="e196" source="THUMPD1_p1" target="MED1_p1">
+<data key="key_weight">23.558948</data>
+</edge>
+<edge id="e197" source="PTPN6_p1" target="EPS8_p1">
+<data key="key_weight">4.209386</data>
+</edge>
+<edge id="e198" source="PTPN6_p1" target="RAD51C_p2">
+<data key="key_weight">5.207717</data>
+</edge>
+<edge id="e199" source="PTPN6_p1" target="GOSR1_p3">
+<data key="key_weight">4.284459</data>
+</edge>
+<edge id="e200" source="PTPN6_p1" target="ZNF329_p1">
+<data key="key_weight">8.206677</data>
+</edge>
+<edge id="e201" source="BRS3_p1" target="LUC7L2_p1">
+<data key="key_weight">5.505728</data>
+</edge>
+<edge id="e202" source="SNUPN_p1" target="NFYA_p2">
+<data key="key_weight">10.183818</data>
+</edge>
+<edge id="e203" source="SNUPN_p1" target="BAZ1B_p1">
+<data key="key_weight">9.547032</data>
+</edge>
+<edge id="e204" source="HMGA2_p1" target="PIGO_p2">
+<data key="key_weight">6.085821</data>
+</edge>
+<edge id="e205" source="INPP4A_p4" target="PURG_p1">
+<data key="key_weight">3.516562</data>
+</edge>
+<edge id="e206" source="SMC3_p1" target="ELL2_p1">
+<data key="key_weight">5.131403</data>
+</edge>
+<edge id="e207" source="SRSF2IP_p2" target="EPRS_p2">
+<data key="key_weight">40.029350</data>
+</edge>
+<edge id="e208" source="SRSF2IP_p2" target="USP1_p1">
+<data key="key_weight">33.101276</data>
+</edge>
+<edge id="e209" source="SRSF2IP_p2" target="SFSWAP_p2">
+<data key="key_weight">28.828823</data>
+</edge>
+<edge id="e210" source="SRSF2IP_p2" target="THUMPD1_p1">
+<data key="key_weight">42.914043</data>
+</edge>
+<edge id="e211" source="SRSF2IP_p2" target="AKAP13_p1">
+<data key="key_weight">20.789583</data>
+</edge>
+<edge id="e212" source="SRSF2IP_p2" target="SMC3_p1">
+<data key="key_weight">43.256280</data>
+</edge>
+<edge id="e213" source="OSBPL3_p2" target="SMARCC1_p4">
+<data key="key_weight">12.206981</data>
+</edge>
+<edge id="e214" source="OSBPL3_p2" target="CD72_p1">
+<data key="key_weight">8.488610</data>
+</edge>
+<edge id="e215" source="TNNC1_p1" target="DNAJC9_p2">
+<data key="key_weight">3.679331</data>
+</edge>
+<edge id="e216" source="GABBR2_p2" target="CYP4F12_p1">
+<data key="key_weight">2.371082</data>
+</edge>
+<edge id="e217" source="GRIN2C_p1" target="FMOD_p1">
+<data key="key_weight">18.085725</data>
+</edge>
+<edge id="e218" source="GRIN2C_p1" target="SLC6A2_p2">
+<data key="key_weight">5.019678</data>
+</edge>
+<edge id="e219" source="GRIN2C_p1" target="PGPEP1_p1">
+<data key="key_weight">5.072999</data>
+</edge>
+<edge id="e220" source="TRIP11_p2" target="GPR4_p2">
+<data key="key_weight">2.747838</data>
+</edge>
+<edge id="e221" source="NCR3_p1" target="HLCS_p2">
+<data key="key_weight">3.726847</data>
+</edge>
+<edge id="e222" source="MCAM_p4" target="OSBPL3_p2">
+<data key="key_weight">13.166483</data>
+</edge>
+<edge id="e223" source="CD84_p5" target="CACNB1_p2">
+<data key="key_weight">7.711765</data>
+</edge>
+<edge id="e224" source="CD84_p5" target="ARHGEF4_p2">
+<data key="key_weight">9.050534</data>
+</edge>
+<edge id="e225" source="CD84_p5" target="DIXDC1_p1">
+<data key="key_weight">3.484163</data>
+</edge>
+<edge id="e226" source="CD84_p5" target="KDM4B_p5">
+<data key="key_weight">3.311685</data>
+</edge>
+<edge id="e227" source="POU4F1_p2" target="RTEL1_p1">
+<data key="key_weight">6.793828</data>
+</edge>
+<edge id="e228" source="POU4F1_p2" target="PAM_p3">
+<data key="key_weight">1.115828</data>
+</edge>
+<edge id="e229" source="POU4F1_p2" target="VPS13D_p4">
+<data key="key_weight">3.035500</data>
+</edge>
+<edge id="e230" source="FGFR2_p10" target="TBC1D13_p2">
+<data key="key_weight">5.404325</data>
+</edge>
+<edge id="e231" source="LAT2_p1" target="PMS2P11_p1">
+<data key="key_weight">7.556771</data>
+</edge>
+<edge id="e232" source="LAT2_p1" target="CPA2_p1">
+<data key="key_weight">18.262041</data>
+</edge>
+<edge id="e233" source="LAT2_p1" target="BRS3_p1">
+<data key="key_weight">8.364759</data>
+</edge>
+<edge id="e234" source="LAT2_p1" target="MAGEA3_p1">
+<data key="key_weight">9.347666</data>
+</edge>
+<edge id="e235" source="LAT2_p1" target="FGFR2_p10">
+<data key="key_weight">14.127499</data>
+</edge>
+<edge id="e236" source="LAT2_p1" target="SDC2_p2">
+<data key="key_weight">7.324757</data>
+</edge>
+<edge id="e237" source="LAT2_p1" target="TUBB4_p1">
+<data key="key_weight">11.844818</data>
+</edge>
+<edge id="e238" source="LAT2_p1" target="ARL3_p2">
+<data key="key_weight">9.169659</data>
+</edge>
+<edge id="e239" source="LAT2_p1" target="EXOSC7_p2">
+<data key="key_weight">7.219508</data>
+</edge>
+<edge id="e240" source="LAT2_p1" target="215206_at">
+<data key="key_weight">8.504974</data>
+</edge>
+<edge id="e241" source="LAT2_p1" target="216431_at">
+<data key="key_weight">3.745468</data>
+</edge>
+<edge id="e242" source="LAT2_p1" target="216732_at">
+<data key="key_weight">9.061371</data>
+</edge>
+<edge id="e243" source="LAT2_p1" target="OR7E37P_p1">
+<data key="key_weight">7.204403</data>
+</edge>
+<edge id="e244" source="LAT2_p1" target="ADAMTS13_p1">
+<data key="key_weight">13.458102</data>
+</edge>
+<edge id="e245" source="LAT2_p1" target="CST8_p1">
+<data key="key_weight">6.147669</data>
+</edge>
+<edge id="e246" source="LAT2_p1" target="COL5A2_p1">
+<data key="key_weight">6.414274</data>
+</edge>
+<edge id="e247" source="NFYC_p4" target="NRIP2_p1">
+<data key="key_weight">3.652228</data>
+</edge>
+<edge id="e248" source="SDC2_p2" target="C10orf10_p2">
+<data key="key_weight">8.097020</data>
+</edge>
+<edge id="e249" source="MAPK1IP1L_p3" target="PTPN6_p1">
+<data key="key_weight">11.106927</data>
+</edge>
+<edge id="e250" source="MAPK1IP1L_p3" target="SLC16A1_p4">
+<data key="key_weight">6.982571</data>
+</edge>
+<edge id="e251" source="MAPK1IP1L_p3" target="CAMTA2_p1">
+<data key="key_weight">2.960465</data>
+</edge>
+<edge id="e252" source="TUBB4_p1" target="ITSN1_p4">
+<data key="key_weight">2.262772</data>
+</edge>
+<edge id="e253" source="TUBB4_p1" target="216455_at">
+<data key="key_weight">8.694444</data>
+</edge>
+<edge id="e254" source="PPP1R14B_p1" target="GAGE1 /// GAGE12F /// GAGE12G /// GAGE12I /// GAGE12J /// GAGE4 /// GAGE5 /// GAGE6 /// GAGE7_p1">
+<data key="key_weight">4.761868</data>
+</edge>
+<edge id="e255" source="DNAJC9_p2" target="LGR4_p1">
+<data key="key_weight">2.256182</data>
+</edge>
+<edge id="e256" source="EXOSC7_p2" target="C19orf29_p3">
+<data key="key_weight">4.075059</data>
+</edge>
+<edge id="e257" source="213972_at" target="NCR2_p3">
+<data key="key_weight">8.143539</data>
+</edge>
+<edge id="e258" source="SMR3A /// SMR3B_p1" target="213972_at">
+<data key="key_weight">8.732623</data>
+</edge>
+<edge id="e259" source="PIGO_p2" target="LYPLA2 /// LYPLA2P1_p1">
+<data key="key_weight">4.443070</data>
+</edge>
+<edge id="e260" source="LYPLA2 /// LYPLA2P1_p1" target="PDK2_p1">
+<data key="key_weight">4.817098</data>
+</edge>
+<edge id="e261" source="LYPLA2 /// LYPLA2P1_p1" target="MAPK1IP1L_p3">
+<data key="key_weight">9.608749</data>
+</edge>
+<edge id="e262" source="SMARCA4_p8" target="CPSF1_p2">
+<data key="key_weight">8.515048</data>
+</edge>
+<edge id="e263" source="SMARCA4_p8" target="MFSD10_p1">
+<data key="key_weight">10.834295</data>
+</edge>
+<edge id="e264" source="SMARCA4_p8" target="NCR3_p1">
+<data key="key_weight">7.589752</data>
+</edge>
+<edge id="e265" source="SMARCA4_p8" target="FLJ23519 /// RNH1_p1">
+<data key="key_weight">7.125241</data>
+</edge>
+<edge id="e266" source="SMARCA4_p8" target="CC2D1A_p2">
+<data key="key_weight">5.594408</data>
+</edge>
+<edge id="e267" source="CD72_p1" target="ITGA9_p1">
+<data key="key_weight">6.435559</data>
+</edge>
+<edge id="e268" source="C19orf29_p3" target="GTPBP1_p3">
+<data key="key_weight">3.965295</data>
+</edge>
+<edge id="e269" source="WWC1_p2" target="NRG2_p1">
+<data key="key_weight">4.616431</data>
+</edge>
+<edge id="e270" source="216431_at" target="EDNRB_p1">
+<data key="key_weight">3.244659</data>
+</edge>
+<edge id="e271" source="216455_at" target="AMPD1_p1">
+<data key="key_weight">9.865467</data>
+</edge>
+<edge id="e272" source="216455_at" target="SLC37A1_p1">
+<data key="key_weight">5.962793</data>
+</edge>
+<edge id="e273" source="216732_at" target="ANGPTL7_p1">
+<data key="key_weight">3.196816</data>
+</edge>
+<edge id="e274" source="GDF11_p1" target="ACCN1_p1">
+<data key="key_weight">11.780952</data>
+</edge>
+<edge id="e275" source="GDF11_p1" target="MAP2K2_p2">
+<data key="key_weight">7.335519</data>
+</edge>
+<edge id="e276" source="N4BP2L1_p6" target="MCAM_p4">
+<data key="key_weight">12.742392</data>
+</edge>
+<edge id="e277" source="N4BP2L1_p6" target="ETFDH_p2">
+<data key="key_weight">6.236750</data>
+</edge>
+<edge id="e278" source="ZFAND5_p3" target="DUS4L_p1">
+<data key="key_weight">6.189155</data>
+</edge>
+<edge id="e279" source="ZFAND5_p3" target="SLC19A2_p1">
+<data key="key_weight">12.615408</data>
+</edge>
+<edge id="e280" source="LUC7L2_p1" target="NCR1_p3">
+<data key="key_weight">3.933774</data>
+</edge>
+<edge id="e281" source="PHC1_p1" target="TG_p1">
+<data key="key_weight">2.522724</data>
+</edge>
+<edge id="e282" source="PHC1_p1" target="MYH7_p1">
+<data key="key_weight">2.751991</data>
+</edge>
+<edge id="e283" source="ZNF302_p1" target="GOLGA1_p1">
+<data key="key_weight">3.583174</data>
+</edge>
+<edge id="e284" source="ZNF302_p1" target="CAPN10_p1">
+<data key="key_weight">6.123494</data>
+</edge>
+<edge id="e285" source="NT5DC3_p1" target="AVPR1B_p1">
+<data key="key_weight">2.722445</data>
+</edge>
+<edge id="e286" source="GON4L_p1" target="MYBBP1A_p1">
+<data key="key_weight">5.053139</data>
+</edge>
+<edge id="e287" source="FBXL15_p1" target="GNB3_p1">
+<data key="key_weight">6.893105</data>
+</edge>
+<edge id="e288" source="FBXL15_p1" target="SNUPN_p1">
+<data key="key_weight">20.028763</data>
+</edge>
+<edge id="e289" source="FBXL15_p1" target="INPP4A_p4">
+<data key="key_weight">2.927858</data>
+</edge>
+<edge id="e290" source="FBXL15_p1" target="NUDT18_p1">
+<data key="key_weight">9.765878</data>
+</edge>
+<edge id="e291" source="AP1AR_p1" target="STEAP1_p1">
+<data key="key_weight">9.715657</data>
+</edge>
+<edge id="e292" source="AP1AR_p1" target="P4HTM_p1">
+<data key="key_weight">0.753727</data>
+</edge>
+<edge id="e293" source="CAPN10_p1" target="SOCS1_p4">
+<data key="key_weight">3.966789</data>
+</edge>
+<edge id="e294" source="CLN8_p2" target="NR1I3_p1">
+<data key="key_weight">4.067465</data>
+</edge>
+<edge id="e295" source="CLN8_p2" target="SRSF2IP_p2">
+<data key="key_weight">14.862706</data>
+</edge>
+<edge id="e296" source="NUDT18_p1" target="FMO5_p1">
+<data key="key_weight">8.227745</data>
+</edge>
+<edge id="e297" source="LINS_p1" target="TMEM186_p1">
+<data key="key_weight">5.974824</data>
+</edge>
+<edge id="e298" source="LINS_p1" target="KIF22_p2">
+<data key="key_weight">7.467379</data>
+</edge>
+<edge id="e299" source="LINS_p1" target="ZNF302_p1">
+<data key="key_weight">13.474496</data>
+</edge>
+<edge id="e300" source="LINS_p1" target="RFWD3_p1">
+<data key="key_weight">7.562930</data>
+</edge>
+<edge id="e301" source="ADAMTS13_p1" target="CSH2_p1">
+<data key="key_weight">14.165956</data>
+</edge>
+<edge id="e302" source="ADAMTS13_p1" target="HMGA2_p1">
+<data key="key_weight">7.958093</data>
+</edge>
+<edge id="e303" source="ADAMTS13_p1" target="CD84_p5">
+<data key="key_weight">13.137525</data>
+</edge>
+<edge id="e304" source="ADAMTS13_p1" target="OGN_p1">
+<data key="key_weight">1.461252</data>
+</edge>
+<edge id="e305" source="ZDHHC4_p1" target="POU4F1_p2">
+<data key="key_weight">6.009548</data>
+</edge>
+<edge id="e306" source="ZDHHC4_p1" target="SMR3A /// SMR3B_p1">
+<data key="key_weight">6.864579</data>
+</edge>
+<edge id="e307" source="ZDHHC4_p1" target="WWC1_p2">
+<data key="key_weight">14.878884</data>
+</edge>
+<edge id="e308" source="ZDHHC4_p1" target="GDF11_p1">
+<data key="key_weight">12.645205</data>
+</edge>
+<edge id="e309" source="ZDHHC4_p1" target="FBXL15_p1">
+<data key="key_weight">17.544131</data>
+</edge>
+<edge id="e310" source="PRRG3_p1" target="MPPED2_p2">
+<data key="key_weight">2.204549</data>
+</edge>
+<edge id="e311" source="CST8_p1" target="PRRG3_p1">
+<data key="key_weight">6.307398</data>
+</edge>
+<edge id="e312" source="SLC17A5_p1" target="FUT1_p1">
+<data key="key_weight">9.428008</data>
+</edge>
+<edge id="e313" source="SLC17A5_p1" target="POU4F2_p1">
+<data key="key_weight">13.910204</data>
+</edge>
+<edge id="e314" source="NCR2_p3" target="GRIN2C_p1">
+<data key="key_weight">19.389849</data>
+</edge>
+<edge id="e315" source="CALHM2_p1" target="NFYC_p4">
+<data key="key_weight">14.064461</data>
+</edge>
+<edge id="e316" source="CALHM2_p1" target="N4BP2L1_p6">
+<data key="key_weight">12.723239</data>
+</edge>
+<edge id="e317" source="CALHM2_p1" target="COX16_p1">
+<data key="key_weight">13.648091</data>
+</edge>
+<edge id="e318" source="CALHM2_p1" target="ZDHHC4_p1">
+<data key="key_weight">15.693944</data>
+</edge>
+<edge id="e319" source="PEX16_p2" target="AMBRA1_p2">
+<data key="key_weight">0.620145</data>
+</edge>
+<edge id="e320" source="P4HTM_p1" target="CENPT_p1">
+<data key="key_weight">3.795231</data>
+</edge>
+<edge id="e321" source="P4HTM_p1" target="GON4L_p1">
+<data key="key_weight">8.827514</data>
+</edge>
+<edge id="e322" source="P4HTM_p1" target="CALHM2_p1">
+<data key="key_weight">0.151492</data>
+</edge>
+<edge id="e323" source="TBC1D13_p2" target="MYL5_p1">
+<data key="key_weight">11.619607</data>
+</edge>
+<edge id="e324" source="AMBRA1_p2" target="ACIN1_p1">
+<data key="key_weight">5.420241</data>
+</edge>
+<edge id="e325" source="SCLY_p3" target="TRIP11_p2">
+<data key="key_weight">3.127378</data>
+</edge>
+<edge id="e326" source="SCLY_p3" target="SYCP1_p2">
+<data key="key_weight">5.378782</data>
+</edge>
+<edge id="e327" source="SCLY_p3" target="PEX16_p2">
+<data key="key_weight">7.748117</data>
+</edge>
+</graph>
+</graphml>

@@ -1,0 +1,122 @@
+1	Exacerbation_t0
+2	fasting status_t0
+3	bactin-gapdh 5' 3' ratio_t0
+4	atopy status_t0
+5	maximum steroid exposure  4=systemic  3=inhaled  2=intranasal  1_t0
+6	ratio of monocytes to lymphocytes  whole blood_t0
+7	baseline severity nih guideline_t0
+8	race_t0
+9	PPM1G_p1_t0
+10	COPE_p1_t0
+11	ALDH3A2_p2_t0
+12	HDAC5_p1_t0
+13	PPIE_p1_t0
+14	FZD7_p1_t0
+15	ADK_p2_t0
+16	POLE2_p1_t0
+17	NPY5R_p1_t0
+18	C18orf1_p1_t0
+19	RUNX1_p1_t0
+20	GAGE1 /// GAGE12F /// GAGE12G /// GAGE12I /// GAGE12J /// GAGE4 /// GAGE5 /// GAGE6 /// GAGE7_p1_t0
+21	HMG20B_p1_t0
+22	UCK2_p1_t0
+23	STX12_p1_t0
+24	LPIN1_p1_t0
+25	GGT1 /// GGT2 /// GGT3P /// GGTLC2 /// GGTLC3_p1_t0
+26	CTAG2_p2_t0
+27	MBTPS1_p2_t0
+28	USP39_p1_t0
+29	FAF1_p1_t0
+30	USP21_p1_t0
+31	VPREB3_p1_t0
+32	SLC30A5_p2_t0
+33	ZDHHC4_p1_t0
+34	UBL4A_p1_t0
+35	NUS1P3_p1_t0
+36	Exacerbation_tn
+37	fasting status_tn
+38	bactin-gapdh 5' 3' ratio_tn
+39	atopy status_tn
+40	maximum steroid exposure  4=systemic  3=inhaled  2=intranasal  1_tn
+41	ratio of monocytes to lymphocytes  whole blood_tn
+42	baseline severity nih guideline_tn
+43	race_tn
+44	PPM1G_p1_tn
+45	COPE_p1_tn
+46	ALDH3A2_p2_tn
+47	HDAC5_p1_tn
+48	PPIE_p1_tn
+49	FZD7_p1_tn
+50	ADK_p2_tn
+51	POLE2_p1_tn
+52	NPY5R_p1_tn
+53	C18orf1_p1_tn
+54	RUNX1_p1_tn
+55	GAGE1 /// GAGE12F /// GAGE12G /// GAGE12I /// GAGE12J /// GAGE4 /// GAGE5 /// GAGE6 /// GAGE7_p1_tn
+56	HMG20B_p1_tn
+57	UCK2_p1_tn
+58	STX12_p1_tn
+59	LPIN1_p1_tn
+60	GGT1 /// GGT2 /// GGT3P /// GGTLC2 /// GGTLC3_p1_tn
+61	CTAG2_p2_tn
+62	MBTPS1_p2_tn
+63	USP39_p1_tn
+64	FAF1_p1_tn
+65	USP21_p1_tn
+66	VPREB3_p1_tn
+67	SLC30A5_p2_tn
+68	ZDHHC4_p1_tn
+69	UBL4A_p1_tn
+70	NUS1P3_p1_tn
+#
+1	36
+1	38
+1	43
+1	44
+1	49
+1	57
+1	59
+2	37
+2	44
+2	45
+2	60
+2	65
+3	38
+3	47
+3	66
+4	39
+4	51
+4	60
+4	61
+4	62
+4	69
+5	40
+5	46
+5	48
+5	55
+5	61
+6	41
+6	46
+6	51
+6	63
+6	69
+7	41
+7	42
+7	45
+7	50
+7	65
+8	41
+8	42
+8	43
+8	48
+8	57
+8	58
+8	59
+8	63
+8	64
+8	68
+12	51
+15	69
+28	58
+30	54
+30	55

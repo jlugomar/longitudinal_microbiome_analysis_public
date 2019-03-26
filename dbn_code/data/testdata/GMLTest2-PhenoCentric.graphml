@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+http://graphml.graphdrawing.org/xmlns/1.1/graphml.xsd">
+<key id="key_weight" for="edge" attr.name="weight" attr.type="double"/>
+<graph id="GMLTest2-PhenoCentric" edgedefault="directed">
+<node id="class"/>
+<node id="malicacid"/>
+<node id="phenols"/>
+<node id="flavanoids"/>
+<node id="proanthocyanins"/>
+<node id="color"/>
+<node id="hue"/>
+<node id="od280od315"/>
+<node id="proline"/>
+<edge id="e1" source="class" target="malicacid">
+<data key="key_weight">23.335547</data>
+</edge>
+<edge id="e2" source="hue" target="malicacid">
+<data key="key_weight">2.051026</data>
+</edge>
+<edge id="e3" source="od280od315" target="malicacid">
+<data key="key_weight">3.545030</data>
+</edge>
+<edge id="e4" source="class" target="phenols">
+<data key="key_weight">25.300475</data>
+</edge>
+<edge id="e5" source="flavanoids" target="phenols">
+<data key="key_weight">45.689859</data>
+</edge>
+<edge id="e6" source="od280od315" target="phenols">
+<data key="key_weight">2.551126</data>
+</edge>
+<edge id="e7" source="class" target="flavanoids">
+<data key="key_weight">89.115111</data>
+</edge>
+<edge id="e8" source="color" target="flavanoids">
+<data key="key_weight">21.858466</data>
+</edge>
+<edge id="e9" source="od280od315" target="flavanoids">
+<data key="key_weight">15.409623</data>
+</edge>
+<edge id="e10" source="class" target="proanthocyanins">
+<data key="key_weight">8.568575</data>
+</edge>
+<edge id="e11" source="phenols" target="proanthocyanins">
+<data key="key_weight">2.237310</data>
+</edge>
+<edge id="e12" source="flavanoids" target="proanthocyanins">
+<data key="key_weight">20.283367</data>
+</edge>
+<edge id="e13" source="class" target="color">
+<data key="key_weight">87.471959</data>
+</edge>
+<edge id="e14" source="class" target="hue">
+<data key="key_weight">4.120815</data>
+</edge>
+<edge id="e15" source="class" target="od280od315">
+<data key="key_weight">47.020640</data>
+</edge>
+<edge id="e16" source="class" target="proline">
+<data key="key_weight">102.788577</data>
+</edge>
+<edge id="e17" source="color" target="proline">
+<data key="key_weight">20.700925</data>
+</edge>
+<edge id="e18" source="hue" target="proline">
+<data key="key_weight">9.743663</data>
+</edge>
+</graph>
+</graphml>

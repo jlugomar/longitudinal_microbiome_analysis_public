@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+http://graphml.graphdrawing.org/xmlns/1.1/graphml.xsd">
+<key id="key_weight" for="edge" attr.name="weight" attr.type="double"/>
+<graph id="DBN_test_v3" edgedefault="directed">
+<node id="Day of life sample obtained_t0"/>
+<node id="Gestational age at birth - weeks_t0"/>
+<node id="postconceptional age when sample obtained_t0"/>
+<node id="openroom_t0"/>
+<node id="days of antibiotics_t0"/>
+<node id="Actinobacteria_t0"/>
+<node id="Alphaproteobacteria_t0"/>
+<node id="Bacilli_t0"/>
+<node id="Bacteroidia_t0"/>
+<node id="Betaproteobacteria_t0"/>
+<node id="Clostridia_t0"/>
+<node id="Cyanobacteria_t0"/>
+<node id="Epsilonproteobacteria_t0"/>
+<node id="Erysipelotrichi_t0"/>
+<node id="Flavobacteria_t0"/>
+<node id="Fusobacteria_t0"/>
+<node id="Gammaproteobacteria_t0"/>
+<node id="Mollicutes_t0"/>
+<node id="Bacteroidetes_no_class_t0"/>
+<node id="Sphingobacteria_t0"/>
+<node id="Deltaproteobacteria_t0"/>
+<node id="OD1_no_class_t0"/>
+<node id="TM7_no_class_t0"/>
+<node id="Thermomicrobia_t0"/>
+<node id="Deinococci_t0"/>
+<node id="OP11_no_class_t0"/>
+<node id="Verrucomicrobiae_t0"/>
+<node id="Acidobacteria_Gp6_t0"/>
+<node id="Nitrospira_t0"/>
+<node id="Subdivision3_t0"/>
+<node id="Gemmatimonadetes_t0"/>
+<node id="Opitutae_t0"/>
+<node id="Holophagae_t0"/>
+<node id="unclassified_t0"/>
+<node id="Day of life sample obtained_tn"/>
+<node id="Gestational age at birth - weeks_tn"/>
+<node id="postconceptional age when sample obtained_tn"/>
+<node id="openroom_tn"/>
+<node id="days of antibiotics_tn"/>
+<node id="Actinobacteria_tn"/>
+<node id="Alphaproteobacteria_tn"/>
+<node id="Bacilli_tn"/>
+<node id="Bacteroidia_tn"/>
+<node id="Betaproteobacteria_tn"/>
+<node id="Clostridia_tn"/>
+<node id="Cyanobacteria_tn"/>
+<node id="Epsilonproteobacteria_tn"/>
+<node id="Erysipelotrichi_tn"/>
+<node id="Flavobacteria_tn"/>
+<node id="Fusobacteria_tn"/>
+<node id="Gammaproteobacteria_tn"/>
+<node id="Mollicutes_tn"/>
+<node id="Bacteroidetes_no_class_tn"/>
+<node id="Sphingobacteria_tn"/>
+<node id="Deltaproteobacteria_tn"/>
+<node id="OD1_no_class_tn"/>
+<node id="TM7_no_class_tn"/>
+<node id="Thermomicrobia_tn"/>
+<node id="Deinococci_tn"/>
+<node id="OP11_no_class_tn"/>
+<node id="Verrucomicrobiae_tn"/>
+<node id="Acidobacteria_Gp6_tn"/>
+<node id="Nitrospira_tn"/>
+<node id="Subdivision3_tn"/>
+<node id="Gemmatimonadetes_tn"/>
+<node id="Opitutae_tn"/>
+<node id="Holophagae_tn"/>
+<node id="unclassified_tn"/>
+<edge id="e1" source="Day of life sample obtained_t0" target="Day of life sample obtained_tn">
+<data key="key_weight">1427.351590</data>
+</edge>
+<edge id="e2" source="Betaproteobacteria_t0" target="Day of life sample obtained_tn">
+<data key="key_weight">0.104921</data>
+</edge>
+<edge id="e3" source="Flavobacteria_t0" target="Day of life sample obtained_tn">
+<data key="key_weight">0.008285</data>
+</edge>
+<edge id="e4" source="Fusobacteria_t0" target="Day of life sample obtained_tn">
+<data key="key_weight">0.325373</data>
+</edge>
+<edge id="e5" source="Gestational age at birth - weeks_t0" target="Gestational age at birth - weeks_tn">
+<data key="key_weight">2710.332374</data>
+</edge>
+<edge id="e6" source="Gestational age at birth - weeks_t0" target="postconceptional age when sample obtained_tn">
+<data key="key_weight">1.498341</data>
+</edge>
+<edge id="e7" source="postconceptional age when sample obtained_t0" target="postconceptional age when sample obtained_tn">
+<data key="key_weight">1532.906518</data>
+</edge>
+<edge id="e8" source="Clostridia_t0" target="postconceptional age when sample obtained_tn">
+<data key="key_weight">0.109654</data>
+</edge>
+<edge id="e9" source="Fusobacteria_t0" target="postconceptional age when sample obtained_tn">
+<data key="key_weight">0.322985</data>
+</edge>
+<edge id="e10" source="openroom_t0" target="openroom_tn">
+<data key="key_weight">574.355486</data>
+</edge>
+<edge id="e11" source="Day of life sample obtained_t0" target="days of antibiotics_tn">
+<data key="key_weight">7.592617</data>
+</edge>
+<edge id="e12" source="days of antibiotics_t0" target="days of antibiotics_tn">
+<data key="key_weight">1412.745247</data>
+</edge>
+<edge id="e13" source="Betaproteobacteria_t0" target="days of antibiotics_tn">
+<data key="key_weight">2.030867</data>
+</edge>
+<edge id="e14" source="Flavobacteria_t0" target="days of antibiotics_tn">
+<data key="key_weight">0.053661</data>
+</edge>
+<edge id="e15" source="Actinobacteria_t0" target="Actinobacteria_tn">
+<data key="key_weight">8.774408</data>
+</edge>
+<edge id="e16" source="Holophagae_t0" target="Actinobacteria_tn">
+<data key="key_weight">0.000000</data>
+</edge>
+<edge id="e17" source="Actinobacteria_t0" target="Bacilli_tn">
+<data key="key_weight">0.178421</data>
+</edge>
+<edge id="e18" source="Alphaproteobacteria_t0" target="Bacilli_tn">
+<data key="key_weight">0.010612</data>
+</edge>
+<edge id="e19" source="Bacilli_t0" target="Bacilli_tn">
+<data key="key_weight">253.151631</data>
+</edge>
+<edge id="e20" source="Clostridia_t0" target="Bacilli_tn">
+<data key="key_weight">0.295481</data>
+</edge>
+<edge id="e21" source="openroom_t0" target="Bacteroidia_tn">
+<data key="key_weight">14.246372</data>
+</edge>
+<edge id="e22" source="Actinobacteria_t0" target="Bacteroidia_tn">
+<data key="key_weight">0.919700</data>
+</edge>
+<edge id="e23" source="Bacteroidia_t0" target="Bacteroidia_tn">
+<data key="key_weight">354.410967</data>
+</edge>
+<edge id="e24" source="Cyanobacteria_t0" target="Bacteroidia_tn">
+<data key="key_weight">0.003101</data>
+</edge>
+<edge id="e25" source="Betaproteobacteria_t0" target="Betaproteobacteria_tn">
+<data key="key_weight">0.797951</data>
+</edge>
+<edge id="e26" source="Epsilonproteobacteria_t0" target="Betaproteobacteria_tn">
+<data key="key_weight">0.000079</data>
+</edge>
+<edge id="e27" source="Flavobacteria_t0" target="Betaproteobacteria_tn">
+<data key="key_weight">0.011484</data>
+</edge>
+<edge id="e28" source="Deltaproteobacteria_t0" target="Betaproteobacteria_tn">
+<data key="key_weight">0.000008</data>
+</edge>
+<edge id="e29" source="postconceptional age when sample obtained_t0" target="Clostridia_tn">
+<data key="key_weight">7.935693</data>
+</edge>
+<edge id="e30" source="Alphaproteobacteria_t0" target="Clostridia_tn">
+<data key="key_weight">0.116150</data>
+</edge>
+<edge id="e31" source="Clostridia_t0" target="Clostridia_tn">
+<data key="key_weight">205.618431</data>
+</edge>
+<edge id="e32" source="Fusobacteria_t0" target="Clostridia_tn">
+<data key="key_weight">0.651850</data>
+</edge>
+<edge id="e33" source="Erysipelotrichi_t0" target="Erysipelotrichi_tn">
+<data key="key_weight">0.026964</data>
+</edge>
+<edge id="e34" source="Fusobacteria_t0" target="Fusobacteria_tn">
+<data key="key_weight">1.080773</data>
+</edge>
+<edge id="e35" source="Bacilli_t0" target="Gammaproteobacteria_tn">
+<data key="key_weight">2.508990</data>
+</edge>
+<edge id="e36" source="Betaproteobacteria_t0" target="Gammaproteobacteria_tn">
+<data key="key_weight">0.422689</data>
+</edge>
+<edge id="e37" source="Gammaproteobacteria_t0" target="Gammaproteobacteria_tn">
+<data key="key_weight">326.327791</data>
+</edge>
+<edge id="e38" source="unclassified_t0" target="Gammaproteobacteria_tn">
+<data key="key_weight">0.647018</data>
+</edge>
+<edge id="e39" source="unclassified_t0" target="unclassified_tn">
+<data key="key_weight">0.188288</data>
+</edge>
+</graph>
+</graphml>

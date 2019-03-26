@@ -1,0 +1,17 @@
+alcohol	link	malicacid
+alcohol	link	proline
+ash	link	alcalinity
+ash	link	magnesium
+magnesium	link	alcohol
+phenols	link	magnesium
+phenols	link	proanthocyanins
+flavanoids	link	phenols
+flavanoids	link	nonflavanoid
+flavanoids	link	color
+nonflavanoid	link	alcohol
+hue	link	malicacid
+hue	link	od280od315
+od280od315	link	flavanoids
+proline	link	alcalinity
+class	link	color
+class	link	proline

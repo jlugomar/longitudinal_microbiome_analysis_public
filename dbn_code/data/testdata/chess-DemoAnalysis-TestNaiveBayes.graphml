@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+http://graphml.graphdrawing.org/xmlns/1.1/graphml.xsd">
+<key id="key_weight" for="edge" attr.name="weight" attr.type="double"/>
+<graph id="chess-DemoAnalysis-TestNaiveBayes" edgedefault="directed">
+<node id="class"/>
+<node id="malicacid"/>
+<node id="phenols"/>
+<node id="flavanoids"/>
+<node id="proanthocyanins"/>
+<node id="color"/>
+<node id="od280od315"/>
+<node id="proline"/>
+<edge id="e1" source="class" target="malicacid">
+<data key="key_weight">7.587230</data>
+</edge>
+<edge id="e2" source="class" target="phenols">
+<data key="key_weight">14.816881</data>
+</edge>
+<edge id="e3" source="class" target="flavanoids">
+<data key="key_weight">55.862501</data>
+</edge>
+<edge id="e4" source="class" target="proanthocyanins">
+<data key="key_weight">10.904146</data>
+</edge>
+<edge id="e5" source="class" target="color">
+<data key="key_weight">23.536965</data>
+</edge>
+<edge id="e6" source="class" target="od280od315">
+<data key="key_weight">11.190595</data>
+</edge>
+<edge id="e7" source="class" target="proline">
+<data key="key_weight">40.681020</data>
+</edge>
+</graph>
+</graphml>

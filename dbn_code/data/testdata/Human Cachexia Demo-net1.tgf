@@ -1,0 +1,11 @@
+1	Muscle loss
+2	Creatinine
+3	Glucose
+4	Lactate
+5	trans-Aconitate
+#
+1	2
+1	3
+2	4
+4	3
+5	3

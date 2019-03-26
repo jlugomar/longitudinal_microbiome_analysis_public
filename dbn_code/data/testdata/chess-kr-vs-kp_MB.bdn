@@ -1,0 +1,22 @@
+precision 3
+prior-precision 12
+states 10
+missing ?
+strategy :GREEDY
+parents 2
+mar :TRUE
+bins 4
+discretization FREQUENCY
+set-http-link ""
+defnode CLASS (0 1) NIL 258 136
+defnode BKNWY (0 1) NIL 255 107
+defnode BKBLK (0 1) NIL 258 122
+defnode MULCH (0 1) (CLASS BKNWY) 97 87
+defnode BKON8 (0 1) (CLASS BKBLK) 250 94
+defnode BKONA (0 1) (BKON8 BKBLK) 243 81
+defnode SKRXP (0 1) (CLASS BKONA) 154 213
+defnode BKXBQ (0 1) (CLASS BKONA) 223 60
+defnode BKXWP (0 1) (BKXBQ) 197 47
+defnode BXQSQ (0 1) (BKXWP CLASS) 168 43
+defnode RIMMX (0 1) (BXQSQ CLASS) 91 158
+defnode WKNCK (0 1) (RIMMX CLASS) 234 189

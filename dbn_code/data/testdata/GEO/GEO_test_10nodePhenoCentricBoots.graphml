@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+http://graphml.graphdrawing.org/xmlns/1.1/graphml.xsd">
+<key id="key_weight" for="edge" attr.name="weight" attr.type="double"/>
+<graph id="mb_bootsnet" edgedefault="directed">
+<node id="Steroid Exacerbator"/>
+<node id="USP1_p1"/>
+<node id="CPA2_p1"/>
+<node id="BRS3_p1"/>
+<node id="RAD51C_p2"/>
+<node id="TRIP11_p2"/>
+<node id="LAT2_p1"/>
+<node id="TUBB4_p1"/>
+<node id="CAMTA2_p1"/>
+<node id="DIXDC1_p1"/>
+<edge id="e1" source="Steroid Exacerbator" target="USP1_p1">
+<data key="key_weight">1.000000</data>
+</edge>
+<edge id="e2" source="Steroid Exacerbator" target="CPA2_p1">
+<data key="key_weight">1.000000</data>
+</edge>
+<edge id="e3" source="Steroid Exacerbator" target="BRS3_p1">
+<data key="key_weight">1.000000</data>
+</edge>
+<edge id="e4" source="Steroid Exacerbator" target="RAD51C_p2">
+<data key="key_weight">1.000000</data>
+</edge>
+<edge id="e5" source="Steroid Exacerbator" target="TRIP11_p2">
+<data key="key_weight">1.000000</data>
+</edge>
+<edge id="e6" source="Steroid Exacerbator" target="LAT2_p1">
+<data key="key_weight">1.000000</data>
+</edge>
+<edge id="e7" source="Steroid Exacerbator" target="TUBB4_p1">
+<data key="key_weight">1.000000</data>
+</edge>
+<edge id="e8" source="Steroid Exacerbator" target="CAMTA2_p1">
+<data key="key_weight">1.000000</data>
+</edge>
+<edge id="e9" source="Steroid Exacerbator" target="DIXDC1_p1">
+<data key="key_weight">1.000000</data>
+</edge>
+</graph>
+</graphml>

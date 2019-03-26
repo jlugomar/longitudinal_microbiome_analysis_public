@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+http://graphml.graphdrawing.org/xmlns/1.1/graphml.xsd">
+<key id="key_weight" for="edge" attr.name="weight" attr.type="double"/>
+<graph id="ExhaustiveBN" edgedefault="directed">
+<node id="Steroid Exacerbator"/>
+<node id="race"/>
+<node id="PMS2P11_p1"/>
+<node id="EPRS_p2"/>
+<node id="LGALS3BP_p1"/>
+<node id="SMARCC1_p4"/>
+<node id="CSNK2B_p1"/>
+<node id="SORD_p2"/>
+<node id="CPSF1_p2"/>
+<node id="TUBG1_p1"/>
+<node id="ACIN1_p1"/>
+<node id="TOR1A_p2"/>
+<node id="USP1_p1"/>
+<node id="PDK2_p1"/>
+<node id="EPS8_p1"/>
+<node id="FMOD_p1"/>
+<node id="SFSWAP_p2"/>
+<node id="PTK2B_p1"/>
+<node id="GOLGA1_p1"/>
+<node id="MED1_p1"/>
+<node id="TG_p1"/>
+<node id="CSH2_p1"/>
+<node id="TPM2_p1"/>
+<node id="NFYA_p2"/>
+<node id="EDNRB_p1"/>
+<node id="TMEM186_p1"/>
+<node id="MYL5_p1"/>
+<node id="GTPBP1_p3"/>
+<node id="STEAP1_p1"/>
+<node id="DUS4L_p1"/>
+<node id="TCAP_p1"/>
+<node id="FMO5_p1"/>
+<node id="DPEP1_p1"/>
+<node id="ITGA9_p1"/>
+<node id="GNB3_p1"/>
+<node id="RTEL1_p1"/>
+<node id="FUT1_p1"/>
+<node id="AMPD1_p1"/>
+<node id="CPA2_p1"/>
+<node id="ANGPTL7_p1"/>
+<node id="CYP4F12_p1"/>
+<node id="THUMPD1_p1"/>
+<node id="PTPN6_p1"/>
+<node id="ACCN1_p1"/>
+<node id="NRG2_p1"/>
+<node id="NR1I3_p1"/>
+<node id="HTATIP2_p1"/>
+<node id="BRS3_p1"/>
+<node id="SNUPN_p1"/>
+<node id="POU4F2_p1"/>
+<node id="HMGA2_p1"/>
+<node id="GAGE1 /// GAGE12F /// GAGE12G /// GAGE12I /// GAGE12J /// GAGE4 /// GAGE5 /// GAGE6 /// GAGE7_p1"/>
+<node id="AVPR1B_p1"/>
+<node id="AKAP13_p1"/>
+<node id="INPP4A_p4"/>
+<node id="BAZ1B_p1"/>
+<node id="C10orf10_p2"/>
+<node id="MFSD10_p1"/>
+<node id="SMC3_p1"/>
+<node id="SRSF2IP_p2"/>
+<node id="HLCS_p2"/>
+<node id="OSBPL3_p2"/>
+<node id="SLC19A2_p1"/>
+<node id="RAD51C_p2"/>
+<node id="SLC16A1_p4"/>
+<node id="TNNC1_p1"/>
+<node id="MAGEA3_p1"/>
+<node id="GABBR2_p2"/>
+<node id="CACNB1_p2"/>
+<node id="GRIN2C_p1"/>
+<node id="ITSN1_p4"/>
+<node id="TRIP11_p2"/>
+<node id="NCR3_p1"/>
+<node id="MCAM_p4"/>
+<node id="CD84_p5"/>
+<node id="GPR4_p2"/>
+<node id="POU4F1_p2"/>
+<node id="FGFR2_p10"/>
+<node id="LAT2_p1"/>
+<node id="NFYC_p4"/>
+<node id="GNB5_p3"/>
+<node id="ARHGEF4_p2"/>
+<node id="SDC2_p2"/>
+<node id="MAPK1IP1L_p3"/>
+<node id="TUBB4_p1"/>
+<node id="PPP1R14B_p1"/>
+<node id="CAMTA2_p1"/>
+<node id="GOSR1_p3"/>
+<node id="DNAJC9_p2"/>
+<node id="SOCS1_p4"/>
+<node id="ARL3_p2"/>
+<node id="MAP2K2_p2"/>
+<node id="EXOSC7_p2"/>
+<node id="213972_at"/>
+<node id="DHRS2_p2"/>
+<node id="ELL2_p1"/>
+<node id="SMR3A /// SMR3B_p1"/>
+<node id="PAM_p3"/>
+<node id="DIXDC1_p1"/>
+<node id="NFASC_p2"/>
+<node id="PIGO_p2"/>
+<node id="NRIP2_p1"/>
+<node id="215206_at"/>
+<node id="LYPLA2 /// LYPLA2P1_p1"/>
+<node id="MPPED2_p2"/>
+<node id="SMARCA4_p8"/>
+<node id="SLC6A2_p2"/>
+<node id="CD72_p1"/>
+<node id="C19orf29_p3"/>
+<node id="KDM4B_p5"/>
+<node id="WWC1_p2"/>
+<node id="MYH7_p1"/>
+<node id="TNXA /// TNXB_p4"/>
+<node id="216431_at"/>
+<node id="216455_at"/>
+<node id="216732_at"/>
+<node id="FLJ23519 /// RNH1_p1"/>
+<node id="GDF11_p1"/>
+<node id="SYCP1_p2"/>
+<node id="KIF22_p2"/>
+<node id="AZGP1P1_p1"/>
+<node id="NCR1_p3"/>
+<node id="N4BP2L1_p6"/>
+<node id="OR7E37P_p1"/>
+<node id="COX16_p1"/>
+<node id="ZFAND5_p3"/>
+<node id="LUC7L2_p1"/>
+<node id="CENPT_p1"/>
+<node id="LGR4_p1"/>
+<node id="PHC1_p1"/>
+<node id="ZNF302_p1"/>
+<node id="CD320_p1"/>
+<node id="RFWD3_p1"/>
+<node id="MGC2752_p1"/>
+<node id="OGN_p1"/>
+<node id="NT5DC3_p1"/>
+<node id="GON4L_p1"/>
+<node id="SLC37A1_p1"/>
+<node id="FBXL15_p1"/>
+<node id="AP1AR_p1"/>
+<node id="ZNF576_p1"/>
+<node id="MYBBP1A_p1"/>
+<node id="CAPN10_p1"/>
+<node id="CLN8_p2"/>
+<node id="NUDT18_p1"/>
+<node id="ZNF329_p1"/>
+<node id="ALS2CR8_p1"/>
+<node id="PGPEP1_p1"/>
+<node id="LINS_p1"/>
+<node id="ADAMTS13_p1"/>
+<node id="VPS13D_p4"/>
+<node id="ZDHHC4_p1"/>
+<node id="IQCA1_p1"/>
+<node id="PRRG3_p1"/>
+<node id="CST8_p1"/>
+<node id="PURG_p1"/>
+<node id="SLC17A5_p1"/>
+<node id="NCR2_p3"/>
+<node id="CALHM2_p1"/>
+<node id="PEX16_p2"/>
+<node id="COL5A2_p1"/>
+<node id="CC2D1A_p2"/>
+<node id="P4HTM_p1"/>
+<node id="ETFDH_p2"/>
+<node id="TBC1D13_p2"/>
+<node id="AMBRA1_p2"/>
+<node id="SCLY_p3"/>
+<edge id="e1" source="Steroid Exacerbator" target="TG_p1">
+<data key="key_weight">7.752147</data>
+</edge>
+<edge id="e2" source="Steroid Exacerbator" target="AMPD1_p1">
+<data key="key_weight">6.856467</data>
+</edge>
+<edge id="e3" source="Steroid Exacerbator" target="TRIP11_p2">
+<data key="key_weight">6.661936</data>
+</edge>
+<edge id="e4" source="Steroid Exacerbator" target="GNB5_p3">
+<data key="key_weight">5.566190</data>
+</edge>
+<edge id="e5" source="Steroid Exacerbator" target="SLC17A5_p1">
+<data key="key_weight">5.214913</data>
+</edge>
+<edge id="e6" source="Steroid Exacerbator" target="NCR2_p3">
+<data key="key_weight">5.720646</data>
+</edge>
+<edge id="e7" source="Steroid Exacerbator" target="PEX16_p2">
+<data key="key_weight">6.481314</data>
+</edge>
+<edge id="e8" source="PMS2P11_p1" target="CACNB1_p2">
+<data key="key_weight">3.008806</data>
+</edge>
+<edge id="e9" source="PMS2P11_p1" target="IQCA1_p1">
+<data key="key_weight">5.057684</data>
+</edge>
+<edge id="e10" source="EPRS_p2" target="MYL5_p1">
+<data key="key_weight">7.397172</data>
+</edge>
+<edge id="e11" source="EPRS_p2" target="GNB5_p3">
+<data key="key_weight">8.249984</data>
+</edge>
+<edge id="e12" source="EPRS_p2" target="PPP1R14B_p1">
+<data key="key_weight">13.520003</data>
+</edge>
+<edge id="e13" source="EPRS_p2" target="MYBBP1A_p1">
+<data key="key_weight">6.259007</data>
+</edge>
+<edge id="e14" source="SMARCC1_p4" target="TPM2_p1">
+<data key="key_weight">11.486798</data>
+</edge>
+<edge id="e15" source="SMARCC1_p4" target="CD320_p1">
+<data key="key_weight">9.958603</data>
+</edge>
+<edge id="e16" source="SMARCC1_p4" target="GON4L_p1">
+<data key="key_weight">8.276464</data>
+</edge>
+<edge id="e17" source="SMARCC1_p4" target="CAPN10_p1">
+<data key="key_weight">9.638225</data>
+</edge>
+<edge id="e18" source="CSNK2B_p1" target="SORD_p2">
+<data key="key_weight">18.231381</data>
+</edge>
+<edge id="e19" source="CSNK2B_p1" target="TOR1A_p2">
+<data key="key_weight">13.332634</data>
+</edge>
+<edge id="e20" source="CSNK2B_p1" target="SMC3_p1">
+<data key="key_weight">13.143627</data>
+</edge>
+<edge id="e21" source="CSNK2B_p1" target="NFASC_p2">
+<data key="key_weight">8.984945</data>
+</edge>
+<edge id="e22" source="SORD_p2" target="FMO5_p1">
+<data key="key_weight">20.857543</data>
+</edge>
+<edge id="e23" source="SORD_p2" target="PTPN6_p1">
+<data key="key_weight">8.099680</data>
+</edge>
+<edge id="e24" source="SORD_p2" target="HTATIP2_p1">
+<data key="key_weight">15.224964</data>
+</edge>
+<edge id="e25" source="SORD_p2" target="SMARCA4_p8">
+<data key="key_weight">9.262755</data>
+</edge>
+<edge id="e26" source="SORD_p2" target="NUDT18_p1">
+<data key="key_weight">14.879990</data>
+</edge>
+<edge id="e27" source="SORD_p2" target="CALHM2_p1">
+<data key="key_weight">9.263513</data>
+</edge>
+<edge id="e28" source="CPSF1_p2" target="PHC1_p1">
+<data key="key_weight">3.673197</data>
+</edge>
+<edge id="e29" source="CPSF1_p2" target="ZNF576_p1">
+<data key="key_weight">4.770203</data>
+</edge>
+<edge id="e30" source="TUBG1_p1" target="DPEP1_p1">
+<data key="key_weight">0.617716</data>
+</edge>
+<edge id="e31" source="ACIN1_p1" target="SFSWAP_p2">
+<data key="key_weight">2.656282</data>
+</edge>
+<edge id="e32" source="ACIN1_p1" target="TPM2_p1">
+<data key="key_weight">3.987326</data>
+</edge>
+<edge id="e33" source="ACIN1_p1" target="TCAP_p1">
+<data key="key_weight">7.100667</data>
+</edge>
+<edge id="e34" source="ACIN1_p1" target="AMBRA1_p2">
+<data key="key_weight">9.104363</data>
+</edge>
+<edge id="e35" source="TOR1A_p2" target="DUS4L_p1">
+<data key="key_weight">3.030168</data>
+</edge>
+<edge id="e36" source="TOR1A_p2" target="PPP1R14B_p1">
+<data key="key_weight">2.543931</data>
+</edge>
+<edge id="e37" source="USP1_p1" target="TUBG1_p1">
+<data key="key_weight">3.288054</data>
+</edge>
+<edge id="e38" source="USP1_p1" target="COX16_p1">
+<data key="key_weight">3.967486</data>
+</edge>
+<edge id="e39" source="USP1_p1" target="LINS_p1">
+<data key="key_weight">7.634842</data>
+</edge>
+<edge id="e40" source="PDK2_p1" target="216431_at">
+<data key="key_weight">5.834460</data>
+</edge>
+<edge id="e41" source="EPS8_p1" target="PDK2_p1">
+<data key="key_weight">3.778626</data>
+</edge>
+<edge id="e42" source="FMOD_p1" target="GRIN2C_p1">
+<data key="key_weight">24.388073</data>
+</edge>
+<edge id="e43" source="FMOD_p1" target="TNXA /// TNXB_p4">
+<data key="key_weight">8.343290</data>
+</edge>
+<edge id="e44" source="FMOD_p1" target="SLC17A5_p1">
+<data key="key_weight">12.189704</data>
+</edge>
+<edge id="e45" source="SFSWAP_p2" target="NFYA_p2">
+<data key="key_weight">6.292612</data>
+</edge>
+<edge id="e46" source="SFSWAP_p2" target="RFWD3_p1">
+<data key="key_weight">2.493272</data>
+</edge>
+<edge id="e47" source="PTK2B_p1" target="CYP4F12_p1">
+<data key="key_weight">3.095591</data>
+</edge>
+<edge id="e48" source="PTK2B_p1" target="MAPK1IP1L_p3">
+<data key="key_weight">5.649188</data>
+</edge>
+<edge id="e49" source="PTK2B_p1" target="N4BP2L1_p6">
+<data key="key_weight">3.878637</data>
+</edge>
+<edge id="e50" source="GOLGA1_p1" target="TMEM186_p1">
+<data key="key_weight">0.521274</data>
+</edge>
+<edge id="e51" source="MED1_p1" target="RTEL1_p1">
+<data key="key_weight">5.005170</data>
+</edge>
+<edge id="e52" source="MED1_p1" target="ZNF576_p1">
+<data key="key_weight">9.993792</data>
+</edge>
+<edge id="e53" source="MED1_p1" target="COL5A2_p1">
+<data key="key_weight">3.756013</data>
+</edge>
+<edge id="e54" source="TG_p1" target="PHC1_p1">
+<data key="key_weight">6.193583</data>
+</edge>
+<edge id="e55" source="CSH2_p1" target="TNNC1_p1">
+<data key="key_weight">12.174336</data>
+</edge>
+<edge id="e56" source="CSH2_p1" target="FGFR2_p10">
+<data key="key_weight">16.597984</data>
+</edge>
+<edge id="e57" source="TPM2_p1" target="PTK2B_p1">
+<data key="key_weight">7.920298</data>
+</edge>
+<edge id="e58" source="EDNRB_p1" target="216431_at">
+<data key="key_weight">8.286315</data>
+</edge>
+<edge id="e59" source="TMEM186_p1" target="HLCS_p2">
+<data key="key_weight">3.000873</data>
+</edge>
+<edge id="e60" source="TMEM186_p1" target="PIGO_p2">
+<data key="key_weight">1.297803</data>
+</edge>
+<edge id="e61" source="TMEM186_p1" target="ETFDH_p2">
+<data key="key_weight">4.474415</data>
+</edge>
+<edge id="e62" source="MYL5_p1" target="TBC1D13_p2">
+<data key="key_weight">14.379190</data>
+</edge>
+<edge id="e63" source="GTPBP1_p3" target="GOLGA1_p1">
+<data key="key_weight">3.746190</data>
+</edge>
+<edge id="e64" source="GTPBP1_p3" target="DHRS2_p2">
+<data key="key_weight">1.226894</data>
+</edge>
+<edge id="e65" source="STEAP1_p1" target="AP1AR_p1">
+<data key="key_weight">13.375856</data>
+</edge>
+<edge id="e66" source="DUS4L_p1" target="AKAP13_p1">
+<data key="key_weight">4.156667</data>
+</edge>
+<edge id="e67" source="FMO5_p1" target="RAD51C_p2">
+<data key="key_weight">6.481567</data>
+</edge>
+<edge id="e68" source="FMO5_p1" target="ALS2CR8_p1">
+<data key="key_weight">5.979658</data>
+</edge>
+<edge id="e69" source="ITGA9_p1" target="ANGPTL7_p1">
+<data key="key_weight">0.997258</data>
+</edge>
+<edge id="e70" source="ITGA9_p1" target="PRRG3_p1">
+<data key="key_weight">8.165529</data>
+</edge>
+<edge id="e71" source="GNB3_p1" target="DNAJC9_p2">
+<data key="key_weight">1.962460</data>
+</edge>
+<edge id="e72" source="GNB3_p1" target="SOCS1_p4">
+<data key="key_weight">3.671844</data>
+</edge>
+<edge id="e73" source="RTEL1_p1" target="CC2D1A_p2">
+<data key="key_weight">2.992806</data>
+</edge>
+<edge id="e74" source="FUT1_p1" target="LUC7L2_p1">
+<data key="key_weight">5.477269</data>
+</edge>
+<edge id="e75" source="AMPD1_p1" target="SOCS1_p4">
+<data key="key_weight">5.610534</data>
+</edge>
+<edge id="e76" source="AMPD1_p1" target="216455_at">
+<data key="key_weight">14.081549</data>
+</edge>
+<edge id="e77" source="AMPD1_p1" target="NT5DC3_p1">
+<data key="key_weight">12.674399</data>
+</edge>
+<edge id="e78" source="AMPD1_p1" target="PURG_p1">
+<data key="key_weight">4.239032</data>
+</edge>
+<edge id="e79" source="CPA2_p1" target="FMOD_p1">
+<data key="key_weight">20.505361</data>
+</edge>
+<edge id="e80" source="CPA2_p1" target="DPEP1_p1">
+<data key="key_weight">12.882456</data>
+</edge>
+<edge id="e81" source="CPA2_p1" target="GPR4_p2">
+<data key="key_weight">6.362083</data>
+</edge>
+<edge id="e82" source="CPA2_p1" target="WWC1_p2">
+<data key="key_weight">5.668951</data>
+</edge>
+<edge id="e83" source="CPA2_p1" target="AZGP1P1_p1">
+<data key="key_weight">13.176932</data>
+</edge>
+<edge id="e84" source="CPA2_p1" target="GON4L_p1">
+<data key="key_weight">7.508503</data>
+</edge>
+<edge id="e85" source="CYP4F12_p1" target="PURG_p1">
+<data key="key_weight">1.439449</data>
+</edge>
+<edge id="e86" source="THUMPD1_p1" target="MED1_p1">
+<data key="key_weight">28.179093</data>
+</edge>
+<edge id="e87" source="THUMPD1_p1" target="CLN8_p2">
+<data key="key_weight">18.521584</data>
+</edge>
+<edge id="e88" source="PTPN6_p1" target="EPS8_p1">
+<data key="key_weight">3.060129</data>
+</edge>
+<edge id="e89" source="PTPN6_p1" target="GOSR1_p3">
+<data key="key_weight">6.715045</data>
+</edge>
+<edge id="e90" source="PTPN6_p1" target="ZNF329_p1">
+<data key="key_weight">10.357775</data>
+</edge>
+<edge id="e91" source="PTPN6_p1" target="COL5A2_p1">
+<data key="key_weight">7.190700</data>
+</edge>
+<edge id="e92" source="ACCN1_p1" target="SLC16A1_p4">
+<data key="key_weight">5.214019</data>
+</edge>
+<edge id="e93" source="NR1I3_p1" target="213972_at">
+<data key="key_weight">3.435770</data>
+</edge>
+<edge id="e94" source="HTATIP2_p1" target="ACIN1_p1">
+<data key="key_weight">3.624434</data>
+</edge>
+<edge id="e95" source="BRS3_p1" target="STEAP1_p1">
+<data key="key_weight">7.830438</data>
+</edge>
+<edge id="e96" source="SNUPN_p1" target="NFYA_p2">
+<data key="key_weight">11.425875</data>
+</edge>
+<edge id="e97" source="SNUPN_p1" target="ZDHHC4_p1">
+<data key="key_weight">22.424466</data>
+</edge>
+<edge id="e98" source="POU4F2_p1" target="FMO5_p1">
+<data key="key_weight">2.250797</data>
+</edge>
+<edge id="e99" source="HMGA2_p1" target="GNB3_p1">
+<data key="key_weight">2.664074</data>
+</edge>
+<edge id="e100" source="HMGA2_p1" target="SLC19A2_p1">
+<data key="key_weight">3.252007</data>
+</edge>
+<edge id="e101" source="HMGA2_p1" target="MAP2K2_p2">
+<data key="key_weight">4.846656</data>
+</edge>
+<edge id="e102" source="HMGA2_p1" target="PIGO_p2">
+<data key="key_weight">9.986422</data>
+</edge>
+<edge id="e103" source="HMGA2_p1" target="FLJ23519 /// RNH1_p1">
+<data key="key_weight">2.146896</data>
+</edge>
+<edge id="e104" source="AVPR1B_p1" target="KIF22_p2">
+<data key="key_weight">2.034982</data>
+</edge>
+<edge id="e105" source="INPP4A_p4" target="SMR3A /// SMR3B_p1">
+<data key="key_weight">2.691167</data>
+</edge>
+<edge id="e106" source="BAZ1B_p1" target="OSBPL3_p2">
+<data key="key_weight">13.716952</data>
+</edge>
+<edge id="e107" source="C10orf10_p2" target="DHRS2_p2">
+<data key="key_weight">1.475779</data>
+</edge>
+<edge id="e108" source="C10orf10_p2" target="MPPED2_p2">
+<data key="key_weight">6.813107</data>
+</edge>
+<edge id="e109" source="MFSD10_p1" target="SMARCA4_p8">
+<data key="key_weight">14.146238</data>
+</edge>
+<edge id="e110" source="SMC3_p1" target="SRSF2IP_p2">
+<data key="key_weight">49.210543</data>
+</edge>
+<edge id="e111" source="SMC3_p1" target="CAPN10_p1">
+<data key="key_weight">9.711627</data>
+</edge>
+<edge id="e112" source="SRSF2IP_p2" target="EPRS_p2">
+<data key="key_weight">47.729712</data>
+</edge>
+<edge id="e113" source="SRSF2IP_p2" target="USP1_p1">
+<data key="key_weight">37.858622</data>
+</edge>
+<edge id="e114" source="SRSF2IP_p2" target="SFSWAP_p2">
+<data key="key_weight">34.471361</data>
+</edge>
+<edge id="e115" source="SRSF2IP_p2" target="THUMPD1_p1">
+<data key="key_weight">48.701470</data>
+</edge>
+<edge id="e116" source="SRSF2IP_p2" target="AKAP13_p1">
+<data key="key_weight">24.859223</data>
+</edge>
+<edge id="e117" source="OSBPL3_p2" target="SMARCC1_p4">
+<data key="key_weight">16.400974</data>
+</edge>
+<edge id="e118" source="OSBPL3_p2" target="MCAM_p4">
+<data key="key_weight">17.598791</data>
+</edge>
+<edge id="e119" source="SLC19A2_p1" target="LYPLA2 /// LYPLA2P1_p1">
+<data key="key_weight">3.442197</data>
+</edge>
+<edge id="e120" source="SLC19A2_p1" target="ZFAND5_p3">
+<data key="key_weight">16.287068</data>
+</edge>
+<edge id="e121" source="RAD51C_p2" target="TNXA /// TNXB_p4">
+<data key="key_weight">4.517384</data>
+</edge>
+<edge id="e122" source="TNNC1_p1" target="P4HTM_p1">
+<data key="key_weight">5.451340</data>
+</edge>
+<edge id="e123" source="CACNB1_p2" target="INPP4A_p4">
+<data key="key_weight">2.839193</data>
+</edge>
+<edge id="e124" source="GRIN2C_p1" target="SLC6A2_p2">
+<data key="key_weight">8.603929</data>
+</edge>
+<edge id="e125" source="GRIN2C_p1" target="SLC37A1_p1">
+<data key="key_weight">9.625009</data>
+</edge>
+<edge id="e126" source="GRIN2C_p1" target="PGPEP1_p1">
+<data key="key_weight">8.608224</data>
+</edge>
+<edge id="e127" source="GRIN2C_p1" target="NCR2_p3">
+<data key="key_weight">13.304133</data>
+</edge>
+<edge id="e128" source="TRIP11_p2" target="GPR4_p2">
+<data key="key_weight">1.956640</data>
+</edge>
+<edge id="e129" source="NCR3_p1" target="HLCS_p2">
+<data key="key_weight">5.404378</data>
+</edge>
+<edge id="e130" source="NCR3_p1" target="RAD51C_p2">
+<data key="key_weight">8.409029</data>
+</edge>
+<edge id="e131" source="MCAM_p4" target="SNUPN_p1">
+<data key="key_weight">13.091148</data>
+</edge>
+<edge id="e132" source="CD84_p5" target="CACNB1_p2">
+<data key="key_weight">9.832662</data>
+</edge>
+<edge id="e133" source="CD84_p5" target="POU4F1_p2">
+<data key="key_weight">10.209468</data>
+</edge>
+<edge id="e134" source="CD84_p5" target="ARHGEF4_p2">
+<data key="key_weight">12.400343</data>
+</edge>
+<edge id="e135" source="CD84_p5" target="DIXDC1_p1">
+<data key="key_weight">7.530677</data>
+</edge>
+<edge id="e136" source="CD84_p5" target="KDM4B_p5">
+<data key="key_weight">7.631384</data>
+</edge>
+<edge id="e137" source="GPR4_p2" target="AZGP1P1_p1">
+<data key="key_weight">0.519425</data>
+</edge>
+<edge id="e138" source="POU4F1_p2" target="RTEL1_p1">
+<data key="key_weight">9.877419</data>
+</edge>
+<edge id="e139" source="POU4F1_p2" target="NRIP2_p1">
+<data key="key_weight">6.736691</data>
+</edge>
+<edge id="e140" source="POU4F1_p2" target="VPS13D_p4">
+<data key="key_weight">6.845054</data>
+</edge>
+<edge id="e141" source="POU4F1_p2" target="AMBRA1_p2">
+<data key="key_weight">6.464014</data>
+</edge>
+<edge id="e142" source="FGFR2_p10" target="LAT2_p1">
+<data key="key_weight">18.544284</data>
+</edge>
+<edge id="e143" source="LAT2_p1" target="PMS2P11_p1">
+<data key="key_weight">9.352580</data>
+</edge>
+<edge id="e144" source="LAT2_p1" target="CSNK2B_p1">
+<data key="key_weight">13.419312</data>
+</edge>
+<edge id="e145" source="LAT2_p1" target="FUT1_p1">
+<data key="key_weight">12.341983</data>
+</edge>
+<edge id="e146" source="LAT2_p1" target="CPA2_p1">
+<data key="key_weight">23.047176</data>
+</edge>
+<edge id="e147" source="LAT2_p1" target="BRS3_p1">
+<data key="key_weight">10.970127</data>
+</edge>
+<edge id="e148" source="LAT2_p1" target="POU4F2_p1">
+<data key="key_weight">13.165333</data>
+</edge>
+<edge id="e149" source="LAT2_p1" target="MAGEA3_p1">
+<data key="key_weight">14.214917</data>
+</edge>
+<edge id="e150" source="LAT2_p1" target="SDC2_p2">
+<data key="key_weight">11.360937</data>
+</edge>
+<edge id="e151" source="LAT2_p1" target="TUBB4_p1">
+<data key="key_weight">15.389001</data>
+</edge>
+<edge id="e152" source="LAT2_p1" target="EXOSC7_p2">
+<data key="key_weight">11.241998</data>
+</edge>
+<edge id="e153" source="LAT2_p1" target="215206_at">
+<data key="key_weight">12.659726</data>
+</edge>
+<edge id="e154" source="LAT2_p1" target="216732_at">
+<data key="key_weight">12.659944</data>
+</edge>
+<edge id="e155" source="LAT2_p1" target="ADAMTS13_p1">
+<data key="key_weight">18.459314</data>
+</edge>
+<edge id="e156" source="ARHGEF4_p2" target="AVPR1B_p1">
+<data key="key_weight">0.682178</data>
+</edge>
+<edge id="e157" source="SDC2_p2" target="C10orf10_p2">
+<data key="key_weight">9.371383</data>
+</edge>
+<edge id="e158" source="SDC2_p2" target="IQCA1_p1">
+<data key="key_weight">2.245771</data>
+</edge>
+<edge id="e159" source="MAPK1IP1L_p3" target="PTPN6_p1">
+<data key="key_weight">14.988188</data>
+</edge>
+<edge id="e160" source="MAPK1IP1L_p3" target="CAMTA2_p1">
+<data key="key_weight">2.689601</data>
+</edge>
+<edge id="e161" source="MAPK1IP1L_p3" target="LYPLA2 /// LYPLA2P1_p1">
+<data key="key_weight">13.458550</data>
+</edge>
+<edge id="e162" source="TUBB4_p1" target="ELL2_p1">
+<data key="key_weight">7.690677</data>
+</edge>
+<edge id="e163" source="PPP1R14B_p1" target="AMPD1_p1">
+<data key="key_weight">6.092193</data>
+</edge>
+<edge id="e164" source="PPP1R14B_p1" target="GAGE1 /// GAGE12F /// GAGE12G /// GAGE12I /// GAGE12J /// GAGE4 /// GAGE5 /// GAGE6 /// GAGE7_p1">
+<data key="key_weight">4.056275</data>
+</edge>
+<edge id="e165" source="CAMTA2_p1" target="PAM_p3">
+<data key="key_weight">1.538791</data>
+</edge>
+<edge id="e166" source="CAMTA2_p1" target="MYH7_p1">
+<data key="key_weight">3.648984</data>
+</edge>
+<edge id="e167" source="GOSR1_p3" target="ZFAND5_p3">
+<data key="key_weight">4.885448</data>
+</edge>
+<edge id="e168" source="SOCS1_p4" target="USP1_p1">
+<data key="key_weight">2.018764</data>
+</edge>
+<edge id="e169" source="ARL3_p2" target="TG_p1">
+<data key="key_weight">2.222948</data>
+</edge>
+<edge id="e170" source="ARL3_p2" target="VPS13D_p4">
+<data key="key_weight">3.446374</data>
+</edge>
+<edge id="e171" source="MAP2K2_p2" target="TCAP_p1">
+<data key="key_weight">0.804935</data>
+</edge>
+<edge id="e172" source="MAP2K2_p2" target="CENPT_p1">
+<data key="key_weight">1.517713</data>
+</edge>
+<edge id="e173" source="MAP2K2_p2" target="MGC2752_p1">
+<data key="key_weight">3.798636</data>
+</edge>
+<edge id="e174" source="EXOSC7_p2" target="EPRS_p2">
+<data key="key_weight">3.908060</data>
+</edge>
+<edge id="e175" source="EXOSC7_p2" target="ACIN1_p1">
+<data key="key_weight">6.868371</data>
+</edge>
+<edge id="e176" source="EXOSC7_p2" target="ARL3_p2">
+<data key="key_weight">4.605010</data>
+</edge>
+<edge id="e177" source="EXOSC7_p2" target="C19orf29_p3">
+<data key="key_weight">7.833296</data>
+</edge>
+<edge id="e178" source="213972_at" target="SMR3A /// SMR3B_p1">
+<data key="key_weight">13.984237</data>
+</edge>
+<edge id="e179" source="ELL2_p1" target="SLC19A2_p1">
+<data key="key_weight">7.612057</data>
+</edge>
+<edge id="e180" source="SMR3A /// SMR3B_p1" target="216455_at">
+<data key="key_weight">3.451665</data>
+</edge>
+<edge id="e181" source="PAM_p3" target="ITSN1_p4">
+<data key="key_weight">2.657025</data>
+</edge>
+<edge id="e182" source="PAM_p3" target="NCR3_p1">
+<data key="key_weight">1.074019</data>
+</edge>
+<edge id="e183" source="NFASC_p2" target="KDM4B_p5">
+<data key="key_weight">2.846694</data>
+</edge>
+<edge id="e184" source="NFASC_p2" target="CD320_p1">
+<data key="key_weight">2.279553</data>
+</edge>
+<edge id="e185" source="PIGO_p2" target="215206_at">
+<data key="key_weight">1.972906</data>
+</edge>
+<edge id="e186" source="NRIP2_p1" target="ZNF302_p1">
+<data key="key_weight">6.539108</data>
+</edge>
+<edge id="e187" source="215206_at" target="ITGA9_p1">
+<data key="key_weight">8.958412</data>
+</edge>
+<edge id="e188" source="MPPED2_p2" target="NFASC_p2">
+<data key="key_weight">2.610968</data>
+</edge>
+<edge id="e189" source="MPPED2_p2" target="PRRG3_p1">
+<data key="key_weight">3.746365</data>
+</edge>
+<edge id="e190" source="SMARCA4_p8" target="CPSF1_p2">
+<data key="key_weight">12.418856</data>
+</edge>
+<edge id="e191" source="SMARCA4_p8" target="NCR3_p1">
+<data key="key_weight">10.785941</data>
+</edge>
+<edge id="e192" source="SMARCA4_p8" target="FLJ23519 /// RNH1_p1">
+<data key="key_weight">7.515389</data>
+</edge>
+<edge id="e193" source="SMARCA4_p8" target="CLN8_p2">
+<data key="key_weight">7.027799</data>
+</edge>
+<edge id="e194" source="SMARCA4_p8" target="CC2D1A_p2">
+<data key="key_weight">6.625191</data>
+</edge>
+<edge id="e195" source="CD72_p1" target="ITGA9_p1">
+<data key="key_weight">9.386965</data>
+</edge>
+<edge id="e196" source="C19orf29_p3" target="GTPBP1_p3">
+<data key="key_weight">6.939886</data>
+</edge>
+<edge id="e197" source="C19orf29_p3" target="FUT1_p1">
+<data key="key_weight">3.722526</data>
+</edge>
+<edge id="e198" source="KDM4B_p5" target="CYP4F12_p1">
+<data key="key_weight">2.137353</data>
+</edge>
+<edge id="e199" source="KDM4B_p5" target="NRG2_p1">
+<data key="key_weight">5.763135</data>
+</edge>
+<edge id="e200" source="KDM4B_p5" target="OGN_p1">
+<data key="key_weight">2.064600</data>
+</edge>
+<edge id="e201" source="WWC1_p2" target="HTATIP2_p1">
+<data key="key_weight">3.596879</data>
+</edge>
+<edge id="e202" source="TNXA /// TNXB_p4" target="MPPED2_p2">
+<data key="key_weight">1.231267</data>
+</edge>
+<edge id="e203" source="216431_at" target="ACCN1_p1">
+<data key="key_weight">2.021437</data>
+</edge>
+<edge id="e204" source="216431_at" target="SYCP1_p2">
+<data key="key_weight">1.529378</data>
+</edge>
+<edge id="e205" source="216455_at" target="PDK2_p1">
+<data key="key_weight">6.704278</data>
+</edge>
+<edge id="e206" source="216455_at" target="SLC37A1_p1">
+<data key="key_weight">3.592725</data>
+</edge>
+<edge id="e207" source="216732_at" target="MED1_p1">
+<data key="key_weight">7.083031</data>
+</edge>
+<edge id="e208" source="216732_at" target="NCR1_p3">
+<data key="key_weight">5.204262</data>
+</edge>
+<edge id="e209" source="FLJ23519 /// RNH1_p1" target="OGN_p1">
+<data key="key_weight">2.136634</data>
+</edge>
+<edge id="e210" source="GDF11_p1" target="CSH2_p1">
+<data key="key_weight">10.357012</data>
+</edge>
+<edge id="e211" source="GDF11_p1" target="ACCN1_p1">
+<data key="key_weight">16.141148</data>
+</edge>
+<edge id="e212" source="GDF11_p1" target="MAP2K2_p2">
+<data key="key_weight">11.020694</data>
+</edge>
+<edge id="e213" source="KIF22_p2" target="C19orf29_p3">
+<data key="key_weight">7.995572</data>
+</edge>
+<edge id="e214" source="KIF22_p2" target="OR7E37P_p1">
+<data key="key_weight">5.100589</data>
+</edge>
+<edge id="e215" source="AZGP1P1_p1" target="DIXDC1_p1">
+<data key="key_weight">2.185627</data>
+</edge>
+<edge id="e216" source="NCR1_p3" target="MAGEA3_p1">
+<data key="key_weight">1.522416</data>
+</edge>
+<edge id="e217" source="N4BP2L1_p6" target="EPS8_p1">
+<data key="key_weight">1.252700</data>
+</edge>
+<edge id="e218" source="N4BP2L1_p6" target="NFYC_p4">
+<data key="key_weight">1.549397</data>
+</edge>
+<edge id="e219" source="N4BP2L1_p6" target="ETFDH_p2">
+<data key="key_weight">9.927724</data>
+</edge>
+<edge id="e220" source="ZFAND5_p3" target="DUS4L_p1">
+<data key="key_weight">7.561017</data>
+</edge>
+<edge id="e221" source="LUC7L2_p1" target="NCR1_p3">
+<data key="key_weight">1.406248</data>
+</edge>
+<edge id="e222" source="LUC7L2_p1" target="LGR4_p1">
+<data key="key_weight">0.917578</data>
+</edge>
+<edge id="e223" source="LUC7L2_p1" target="ZNF329_p1">
+<data key="key_weight">4.657777</data>
+</edge>
+<edge id="e224" source="LUC7L2_p1" target="CST8_p1">
+<data key="key_weight">0.242281</data>
+</edge>
+<edge id="e225" source="CENPT_p1" target="TUBG1_p1">
+<data key="key_weight">4.721120</data>
+</edge>
+<edge id="e226" source="LGR4_p1" target="DNAJC9_p2">
+<data key="key_weight">4.305960</data>
+</edge>
+<edge id="e227" source="PHC1_p1" target="PMS2P11_p1">
+<data key="key_weight">3.084405</data>
+</edge>
+<edge id="e228" source="PHC1_p1" target="GAGE1 /// GAGE12F /// GAGE12G /// GAGE12I /// GAGE12J /// GAGE4 /// GAGE5 /// GAGE6 /// GAGE7_p1">
+<data key="key_weight">3.765284</data>
+</edge>
+<edge id="e229" source="PHC1_p1" target="MYH7_p1">
+<data key="key_weight">3.489722</data>
+</edge>
+<edge id="e230" source="ZNF302_p1" target="GOLGA1_p1">
+<data key="key_weight">5.958359</data>
+</edge>
+<edge id="e231" source="ZNF302_p1" target="LINS_p1">
+<data key="key_weight">14.602511</data>
+</edge>
+<edge id="e232" source="CD320_p1" target="EDNRB_p1">
+<data key="key_weight">1.577265</data>
+</edge>
+<edge id="e233" source="CD320_p1" target="NRG2_p1">
+<data key="key_weight">0.907630</data>
+</edge>
+<edge id="e234" source="CD320_p1" target="MGC2752_p1">
+<data key="key_weight">4.075205</data>
+</edge>
+<edge id="e235" source="NT5DC3_p1" target="ARHGEF4_p2">
+<data key="key_weight">2.765336</data>
+</edge>
+<edge id="e236" source="NT5DC3_p1" target="SLC6A2_p2">
+<data key="key_weight">1.305985</data>
+</edge>
+<edge id="e237" source="NT5DC3_p1" target="CD72_p1">
+<data key="key_weight">1.758441</data>
+</edge>
+<edge id="e238" source="NT5DC3_p1" target="LGR4_p1">
+<data key="key_weight">1.604117</data>
+</edge>
+<edge id="e239" source="GON4L_p1" target="MAPK1IP1L_p3">
+<data key="key_weight">6.309495</data>
+</edge>
+<edge id="e240" source="GON4L_p1" target="MYBBP1A_p1">
+<data key="key_weight">6.866159</data>
+</edge>
+<edge id="e241" source="GON4L_p1" target="P4HTM_p1">
+<data key="key_weight">12.150137</data>
+</edge>
+<edge id="e242" source="SLC37A1_p1" target="LUC7L2_p1">
+<data key="key_weight">9.339376</data>
+</edge>
+<edge id="e243" source="FBXL15_p1" target="FMOD_p1">
+<data key="key_weight">4.535756</data>
+</edge>
+<edge id="e244" source="FBXL15_p1" target="GNB3_p1">
+<data key="key_weight">8.473819</data>
+</edge>
+<edge id="e245" source="FBXL15_p1" target="INPP4A_p4">
+<data key="key_weight">5.817974</data>
+</edge>
+<edge id="e246" source="AP1AR_p1" target="C10orf10_p2">
+<data key="key_weight">4.834381</data>
+</edge>
+<edge id="e247" source="AP1AR_p1" target="CD72_p1">
+<data key="key_weight">11.420926</data>
+</edge>
+<edge id="e248" source="ZNF576_p1" target="GRIN2C_p1">
+<data key="key_weight">4.174826</data>
+</edge>
+<edge id="e249" source="CAPN10_p1" target="MFSD10_p1">
+<data key="key_weight">7.492473</data>
+</edge>
+<edge id="e250" source="CAPN10_p1" target="ELL2_p1">
+<data key="key_weight">4.175779</data>
+</edge>
+<edge id="e251" source="CLN8_p2" target="NR1I3_p1">
+<data key="key_weight">6.828768</data>
+</edge>
+<edge id="e252" source="CLN8_p2" target="GABBR2_p2">
+<data key="key_weight">3.777263</data>
+</edge>
+<edge id="e253" source="NUDT18_p1" target="FBXL15_p1">
+<data key="key_weight">11.891732</data>
+</edge>
+<edge id="e254" source="ZNF329_p1" target="SLC16A1_p4">
+<data key="key_weight">9.303906</data>
+</edge>
+<edge id="e255" source="ALS2CR8_p1" target="PGPEP1_p1">
+<data key="key_weight">3.725390</data>
+</edge>
+<edge id="e256" source="PGPEP1_p1" target="AVPR1B_p1">
+<data key="key_weight">3.752299</data>
+</edge>
+<edge id="e257" source="PGPEP1_p1" target="ITSN1_p4">
+<data key="key_weight">5.089941</data>
+</edge>
+<edge id="e258" source="PGPEP1_p1" target="SDC2_p2">
+<data key="key_weight">4.156525</data>
+</edge>
+<edge id="e259" source="PGPEP1_p1" target="TUBB4_p1">
+<data key="key_weight">2.661339</data>
+</edge>
+<edge id="e260" source="PGPEP1_p1" target="CAMTA2_p1">
+<data key="key_weight">7.704789</data>
+</edge>
+<edge id="e261" source="LINS_p1" target="TMEM186_p1">
+<data key="key_weight">8.566362</data>
+</edge>
+<edge id="e262" source="LINS_p1" target="KIF22_p2">
+<data key="key_weight">11.537363</data>
+</edge>
+<edge id="e263" source="LINS_p1" target="RFWD3_p1">
+<data key="key_weight">8.546199</data>
+</edge>
+<edge id="e264" source="ADAMTS13_p1" target="HMGA2_p1">
+<data key="key_weight">12.482990</data>
+</edge>
+<edge id="e265" source="ADAMTS13_p1" target="CD84_p5">
+<data key="key_weight">18.047059</data>
+</edge>
+<edge id="e266" source="ADAMTS13_p1" target="OR7E37P_p1">
+<data key="key_weight">11.496324</data>
+</edge>
+<edge id="e267" source="ADAMTS13_p1" target="SCLY_p3">
+<data key="key_weight">15.125919</data>
+</edge>
+<edge id="e268" source="ZDHHC4_p1" target="WWC1_p2">
+<data key="key_weight">18.516039</data>
+</edge>
+<edge id="e269" source="ZDHHC4_p1" target="GDF11_p1">
+<data key="key_weight">16.296657</data>
+</edge>
+<edge id="e270" source="ZDHHC4_p1" target="FBXL15_p1">
+<data key="key_weight">21.392078</data>
+</edge>
+<edge id="e271" source="ZDHHC4_p1" target="CALHM2_p1">
+<data key="key_weight">19.197906</data>
+</edge>
+<edge id="e272" source="PRRG3_p1" target="CST8_p1">
+<data key="key_weight">7.609680</data>
+</edge>
+<edge id="e273" source="SLC17A5_p1" target="EDNRB_p1">
+<data key="key_weight">4.955680</data>
+</edge>
+<edge id="e274" source="SLC17A5_p1" target="MFSD10_p1">
+<data key="key_weight">9.759051</data>
+</edge>
+<edge id="e275" source="NCR2_p3" target="213972_at">
+<data key="key_weight">9.377422</data>
+</edge>
+<edge id="e276" source="CALHM2_p1" target="GTPBP1_p3">
+<data key="key_weight">3.165201</data>
+</edge>
+<edge id="e277" source="CALHM2_p1" target="NFYC_p4">
+<data key="key_weight">17.504757</data>
+</edge>
+<edge id="e278" source="CALHM2_p1" target="N4BP2L1_p6">
+<data key="key_weight">16.395396</data>
+</edge>
+<edge id="e279" source="CALHM2_p1" target="COX16_p1">
+<data key="key_weight">16.083778</data>
+</edge>
+<edge id="e280" source="PEX16_p2" target="POU4F2_p1">
+<data key="key_weight">3.815826</data>
+</edge>
+<edge id="e281" source="PEX16_p2" target="TBC1D13_p2">
+<data key="key_weight">4.162217</data>
+</edge>
+<edge id="e282" source="P4HTM_p1" target="CPSF1_p2">
+<data key="key_weight">4.754267</data>
+</edge>
+<edge id="e283" source="P4HTM_p1" target="CENPT_p1">
+<data key="key_weight">6.529175</data>
+</edge>
+<edge id="e284" source="P4HTM_p1" target="ZNF302_p1">
+<data key="key_weight">11.082927</data>
+</edge>
+<edge id="e285" source="TBC1D13_p2" target="TOR1A_p2">
+<data key="key_weight">8.257173</data>
+</edge>
+<edge id="e286" source="TBC1D13_p2" target="GOSR1_p3">
+<data key="key_weight">3.832924</data>
+</edge>
+<edge id="e287" source="SCLY_p3" target="TRIP11_p2">
+<data key="key_weight">3.127378</data>
+</edge>
+<edge id="e288" source="SCLY_p3" target="SYCP1_p2">
+<data key="key_weight">8.635146</data>
+</edge>
+<edge id="e289" source="SCLY_p3" target="PEX16_p2">
+<data key="key_weight">10.035560</data>
+</edge>
+</graph>
+</graphml>

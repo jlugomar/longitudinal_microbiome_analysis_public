@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+http://graphml.graphdrawing.org/xmlns/1.1/graphml.xsd">
+<key id="key_weight" for="edge" attr.name="weight" attr.type="double"/>
+<graph id="GMLTest1" edgedefault="directed">
+<node id="phenols"/>
+<node id="flavanoids"/>
+<node id="color"/>
+<node id="hue"/>
+<node id="od280od315"/>
+<node id="class"/>
+<edge id="e1" source="phenols" target="flavanoids">
+<data key="key_weight">103.572086</data>
+</edge>
+<edge id="e2" source="phenols" target="color">
+<data key="key_weight">2.278618</data>
+</edge>
+<edge id="e3" source="phenols" target="od280od315">
+<data key="key_weight">50.891394</data>
+</edge>
+<edge id="e4" source="flavanoids" target="color">
+<data key="key_weight">38.158763</data>
+</edge>
+<edge id="e5" source="hue" target="phenols">
+<data key="key_weight">4.110945</data>
+</edge>
+<edge id="e6" source="hue" target="od280od315">
+<data key="key_weight">1.371623</data>
+</edge>
+<edge id="e7" source="od280od315" target="flavanoids">
+<data key="key_weight">0.006410</data>
+</edge>
+<edge id="e8" source="class" target="phenols">
+<data key="key_weight">25.300475</data>
+</edge>
+<edge id="e9" source="class" target="flavanoids">
+<data key="key_weight">35.597824</data>
+</edge>
+<edge id="e10" source="class" target="color">
+<data key="key_weight">87.471959</data>
+</edge>
+<edge id="e11" source="class" target="hue">
+<data key="key_weight">4.120815</data>
+</edge>
+<edge id="e12" source="class" target="od280od315">
+<data key="key_weight">15.060039</data>
+</edge>
+</graph>
+</graphml>

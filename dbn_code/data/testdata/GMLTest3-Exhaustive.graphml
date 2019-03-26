@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+http://graphml.graphdrawing.org/xmlns/1.1/graphml.xsd">
+<key id="key_weight" for="edge" attr.name="weight" attr.type="double"/>
+<graph id="GMLTest3-Exhaustive" edgedefault="directed">
+<node id="class"/>
+<node id="malicacid"/>
+<node id="flavanoids"/>
+<node id="proanthocyanins"/>
+<node id="color"/>
+<node id="od280od315"/>
+<node id="proline"/>
+<edge id="e1" source="class" target="malicacid">
+<data key="key_weight">23.335547</data>
+</edge>
+<edge id="e2" source="od280od315" target="malicacid">
+<data key="key_weight">3.545030</data>
+</edge>
+<edge id="e3" source="flavanoids" target="proanthocyanins">
+<data key="key_weight">34.880253</data>
+</edge>
+<edge id="e4" source="class" target="color">
+<data key="key_weight">87.471959</data>
+</edge>
+<edge id="e5" source="flavanoids" target="color">
+<data key="key_weight">38.158763</data>
+</edge>
+<edge id="e6" source="proanthocyanins" target="color">
+<data key="key_weight">12.639348</data>
+</edge>
+<edge id="e7" source="flavanoids" target="od280od315">
+<data key="key_weight">66.289578</data>
+</edge>
+<edge id="e8" source="color" target="od280od315">
+<data key="key_weight">7.408880</data>
+</edge>
+<edge id="e9" source="class" target="proline">
+<data key="key_weight">102.788577</data>
+</edge>
+<edge id="e10" source="color" target="proline">
+<data key="key_weight">20.700925</data>
+</edge>
+<edge id="e11" source="od280od315" target="proline">
+<data key="key_weight">3.073896</data>
+</edge>
+</graph>
+</graphml>

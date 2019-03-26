@@ -1,0 +1,56 @@
+bactin-gapdh 5' 3' ratio	link	bactin-gapdh 5' 3' ratio
+bactin-gapdh 5' 3' ratio	link	HDAC5_p1
+bactin-gapdh 5' 3' ratio	link	VPREB3_p1
+ratio of monocytes to lymphocytes  whole blood	link	ratio of monocytes to lymphocytes  whole blood
+ratio of monocytes to lymphocytes  whole blood	link	ALDH3A2_p2
+ratio of monocytes to lymphocytes  whole blood	link	POLE2_p1
+ratio of monocytes to lymphocytes  whole blood	link	USP39_p1
+ratio of monocytes to lymphocytes  whole blood	link	UBL4A_p1
+HDAC5_p1	link	POLE2_p1
+ADK_p2	link	UBL4A_p1
+USP39_p1	link	STX12_p1
+USP21_p1	link	RUNX1_p1
+USP21_p1	link	GAGE1 /// GAGE12F /// GAGE12G /// GAGE12I /// GAGE12J /// GAGE4 /// GAGE5 /// GAGE6 /// GAGE7_p1
+fasting status	link	PPM1G_p1
+fasting status	link	COPE_p1
+fasting status	link	GGT1 /// GGT2 /// GGT3P /// GGTLC2 /// GGTLC3_p1
+fasting status	link	USP21_p1
+fasting status	link	fasting status
+atopy status	link	POLE2_p1
+atopy status	link	GGT1 /// GGT2 /// GGT3P /// GGTLC2 /// GGTLC3_p1
+atopy status	link	CTAG2_p2
+atopy status	link	MBTPS1_p2
+atopy status	link	UBL4A_p1
+atopy status	link	atopy status
+maximum steroid exposure  4=systemic  3=inhaled  2=intranasal  1	link	ALDH3A2_p2
+maximum steroid exposure  4=systemic  3=inhaled  2=intranasal  1	link	PPIE_p1
+maximum steroid exposure  4=systemic  3=inhaled  2=intranasal  1	link	GAGE1 /// GAGE12F /// GAGE12G /// GAGE12I /// GAGE12J /// GAGE4 /// GAGE5 /// GAGE6 /// GAGE7_p1
+maximum steroid exposure  4=systemic  3=inhaled  2=intranasal  1	link	CTAG2_p2
+maximum steroid exposure  4=systemic  3=inhaled  2=intranasal  1	link	maximum steroid exposure  4=systemic  3=inhaled  2=intranasal  1
+baseline severity nih guideline	link	ratio of monocytes to lymphocytes  whole blood
+baseline severity nih guideline	link	COPE_p1
+baseline severity nih guideline	link	ADK_p2
+baseline severity nih guideline	link	USP21_p1
+baseline severity nih guideline	link	baseline severity nih guideline
+race	link	ratio of monocytes to lymphocytes  whole blood
+race	link	PPIE_p1
+race	link	UCK2_p1
+race	link	STX12_p1
+race	link	LPIN1_p1
+race	link	USP39_p1
+race	link	FAF1_p1
+race	link	ZDHHC4_p1
+race	link	baseline severity nih guideline
+race	link	race
+Exacerbation	link	bactin-gapdh 5' 3' ratio
+Exacerbation	link	PPM1G_p1
+Exacerbation	link	FZD7_p1
+Exacerbation	link	UCK2_p1
+Exacerbation	link	LPIN1_p1
+Exacerbation	link	race
+Exacerbation	link	Exacerbation
+NPY5R_p1
+C18orf1_p1
+HMG20B_p1
+SLC30A5_p2
+NUS1P3_p1

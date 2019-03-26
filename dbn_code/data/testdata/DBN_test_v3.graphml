@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+http://graphml.graphdrawing.org/xmlns/1.1/graphml.xsd">
+<key id="key_weight" for="edge" attr.name="weight" attr.type="double"/>
+<graph id="DBN_test_v3" edgedefault="directed">
+<node id="Day of life sample obtained"/>
+<node id="Gestational age at birth - weeks"/>
+<node id="postconceptional age when sample obtained"/>
+<node id="days of antibiotics"/>
+<node id="Actinobacteria"/>
+<node id="Alphaproteobacteria"/>
+<node id="Bacilli"/>
+<node id="Bacteroidia"/>
+<node id="Betaproteobacteria"/>
+<node id="Clostridia"/>
+<node id="Cyanobacteria"/>
+<node id="Epsilonproteobacteria"/>
+<node id="Erysipelotrichi"/>
+<node id="Flavobacteria"/>
+<node id="Fusobacteria"/>
+<node id="Gammaproteobacteria"/>
+<node id="Mollicutes"/>
+<node id="Bacteroidetes_no_class"/>
+<node id="Sphingobacteria"/>
+<node id="Deltaproteobacteria"/>
+<node id="OD1_no_class"/>
+<node id="TM7_no_class"/>
+<node id="Thermomicrobia"/>
+<node id="Deinococci"/>
+<node id="OP11_no_class"/>
+<node id="Verrucomicrobiae"/>
+<node id="Acidobacteria_Gp6"/>
+<node id="Nitrospira"/>
+<node id="Subdivision3"/>
+<node id="Gemmatimonadetes"/>
+<node id="Opitutae"/>
+<node id="Holophagae"/>
+<node id="unclassified"/>
+<node id="openroom"/>
+<edge id="e1" source="Day of life sample obtained" target="Day of life sample obtained">
+<data key="key_weight">1427.351590</data>
+</edge>
+<edge id="e2" source="Betaproteobacteria" target="Day of life sample obtained">
+<data key="key_weight">0.104921</data>
+</edge>
+<edge id="e3" source="Flavobacteria" target="Day of life sample obtained">
+<data key="key_weight">0.008285</data>
+</edge>
+<edge id="e4" source="Fusobacteria" target="Day of life sample obtained">
+<data key="key_weight">0.325373</data>
+</edge>
+<edge id="e5" source="Gestational age at birth - weeks" target="Gestational age at birth - weeks">
+<data key="key_weight">2710.332374</data>
+</edge>
+<edge id="e6" source="Gestational age at birth - weeks" target="postconceptional age when sample obtained">
+<data key="key_weight">1.498341</data>
+</edge>
+<edge id="e7" source="postconceptional age when sample obtained" target="postconceptional age when sample obtained">
+<data key="key_weight">1532.906518</data>
+</edge>
+<edge id="e8" source="Clostridia" target="postconceptional age when sample obtained">
+<data key="key_weight">0.109654</data>
+</edge>
+<edge id="e9" source="Fusobacteria" target="postconceptional age when sample obtained">
+<data key="key_weight">0.322985</data>
+</edge>
+<edge id="e10" source="Day of life sample obtained" target="days of antibiotics">
+<data key="key_weight">7.592617</data>
+</edge>
+<edge id="e11" source="days of antibiotics" target="days of antibiotics">
+<data key="key_weight">1412.745247</data>
+</edge>
+<edge id="e12" source="Betaproteobacteria" target="days of antibiotics">
+<data key="key_weight">2.030867</data>
+</edge>
+<edge id="e13" source="Flavobacteria" target="days of antibiotics">
+<data key="key_weight">0.053661</data>
+</edge>
+<edge id="e14" source="Actinobacteria" target="Actinobacteria">
+<data key="key_weight">8.774408</data>
+</edge>
+<edge id="e15" source="Holophagae" target="Actinobacteria">
+<data key="key_weight">0.000000</data>
+</edge>
+<edge id="e16" source="Actinobacteria" target="Bacilli">
+<data key="key_weight">0.178421</data>
+</edge>
+<edge id="e17" source="Alphaproteobacteria" target="Bacilli">
+<data key="key_weight">0.010612</data>
+</edge>
+<edge id="e18" source="Bacilli" target="Bacilli">
+<data key="key_weight">253.151631</data>
+</edge>
+<edge id="e19" source="Clostridia" target="Bacilli">
+<data key="key_weight">0.295481</data>
+</edge>
+<edge id="e20" source="Actinobacteria" target="Bacteroidia">
+<data key="key_weight">0.919700</data>
+</edge>
+<edge id="e21" source="Bacteroidia" target="Bacteroidia">
+<data key="key_weight">354.410967</data>
+</edge>
+<edge id="e22" source="Cyanobacteria" target="Bacteroidia">
+<data key="key_weight">0.003101</data>
+</edge>
+<edge id="e23" source="openroom" target="Bacteroidia">
+<data key="key_weight">14.246372</data>
+</edge>
+<edge id="e24" source="Betaproteobacteria" target="Betaproteobacteria">
+<data key="key_weight">0.797951</data>
+</edge>
+<edge id="e25" source="Epsilonproteobacteria" target="Betaproteobacteria">
+<data key="key_weight">0.000079</data>
+</edge>
+<edge id="e26" source="Flavobacteria" target="Betaproteobacteria">
+<data key="key_weight">0.011484</data>
+</edge>
+<edge id="e27" source="Deltaproteobacteria" target="Betaproteobacteria">
+<data key="key_weight">0.000008</data>
+</edge>
+<edge id="e28" source="postconceptional age when sample obtained" target="Clostridia">
+<data key="key_weight">7.935693</data>
+</edge>
+<edge id="e29" source="Alphaproteobacteria" target="Clostridia">
+<data key="key_weight">0.116150</data>
+</edge>
+<edge id="e30" source="Clostridia" target="Clostridia">
+<data key="key_weight">205.618431</data>
+</edge>
+<edge id="e31" source="Fusobacteria" target="Clostridia">
+<data key="key_weight">0.651850</data>
+</edge>
+<edge id="e32" source="Erysipelotrichi" target="Erysipelotrichi">
+<data key="key_weight">0.026964</data>
+</edge>
+<edge id="e33" source="Fusobacteria" target="Fusobacteria">
+<data key="key_weight">1.080773</data>
+</edge>
+<edge id="e34" source="Bacilli" target="Gammaproteobacteria">
+<data key="key_weight">2.508990</data>
+</edge>
+<edge id="e35" source="Betaproteobacteria" target="Gammaproteobacteria">
+<data key="key_weight">0.422689</data>
+</edge>
+<edge id="e36" source="Gammaproteobacteria" target="Gammaproteobacteria">
+<data key="key_weight">326.327791</data>
+</edge>
+<edge id="e37" source="unclassified" target="Gammaproteobacteria">
+<data key="key_weight">0.647018</data>
+</edge>
+<edge id="e38" source="unclassified" target="unclassified">
+<data key="key_weight">0.188288</data>
+</edge>
+<edge id="e39" source="openroom" target="openroom">
+<data key="key_weight">574.355486</data>
+</edge>
+</graph>
+</graphml>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+http://graphml.graphdrawing.org/xmlns/1.1/graphml.xsd">
+<key id="key_weight" for="edge" attr.name="weight" attr.type="double"/>
+<graph id="CompDvG-Discrete1" edgedefault="directed">
+<node id="1"/>
+<node id="6"/>
+<node id="11"/>
+<node id="13"/>
+<node id="15"/>
+<node id="17"/>
+<node id="18"/>
+<node id="19"/>
+<node id="20"/>
+<edge id="e1" source="1" target="6">
+<data key="key_weight">0.513732</data>
+</edge>
+<edge id="e2" source="1" target="11">
+<data key="key_weight">0.757508</data>
+</edge>
+<edge id="e3" source="1" target="13">
+<data key="key_weight">4.597384</data>
+</edge>
+<edge id="e4" source="1" target="17">
+<data key="key_weight">1.060033</data>
+</edge>
+<edge id="e5" source="1" target="20">
+<data key="key_weight">2.034928</data>
+</edge>
+<edge id="e6" source="13" target="6">
+<data key="key_weight">3.755917</data>
+</edge>
+<edge id="e7" source="15" target="11">
+<data key="key_weight">0.415187</data>
+</edge>
+<edge id="e8" source="18" target="13">
+<data key="key_weight">1.968736</data>
+</edge>
+<edge id="e9" source="18" target="15">
+<data key="key_weight">13.751135</data>
+</edge>
+<edge id="e10" source="19" target="13">
+<data key="key_weight">5.760030</data>
+</edge>
+<edge id="e11" source="19" target="17">
+<data key="key_weight">1.166474</data>
+</edge>
+<edge id="e12" source="19" target="18">
+<data key="key_weight">11.886036</data>
+</edge>
+<edge id="e13" source="20" target="19">
+<data key="key_weight">5.834188</data>
+</edge>
+</graph>
+</graphml>

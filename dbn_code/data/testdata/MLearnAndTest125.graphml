@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+http://graphml.graphdrawing.org/xmlns/1.1/graphml.xsd">
+<key id="key_weight" for="edge" attr.name="weight" attr.type="double"/>
+<graph id="MLearnAndTest125" edgedefault="directed">
+<node id="Steroid Exacerbator"/>
+<node id="RPS3A_p1"/>
+<node id="JUP_p1"/>
+<node id="201205_at"/>
+<node id="SORD_p2"/>
+<node id="VAMP4_p1"/>
+<node id="PCSK6_p1"/>
+<node id="ZBP1_p1"/>
+<node id="YPEL1_p1"/>
+<node id="LARP4_p2"/>
+<node id="LUC7L2_p1"/>
+<node id="C8orf4_p1"/>
+<node id="CLEC5A_p1"/>
+<node id="ALOXE3_p2"/>
+<node id="ACACB_p3"/>
+<edge id="e1" source="Steroid Exacerbator" target="SORD_p2">
+<data key="key_weight">1.332712</data>
+</edge>
+<edge id="e2" source="Steroid Exacerbator" target="VAMP4_p1">
+<data key="key_weight">1.130966</data>
+</edge>
+<edge id="e3" source="Steroid Exacerbator" target="PCSK6_p1">
+<data key="key_weight">0.644083</data>
+</edge>
+<edge id="e4" source="Steroid Exacerbator" target="ZBP1_p1">
+<data key="key_weight">1.417027</data>
+</edge>
+<edge id="e5" source="Steroid Exacerbator" target="LARP4_p2">
+<data key="key_weight">1.527468</data>
+</edge>
+<edge id="e6" source="Steroid Exacerbator" target="LUC7L2_p1">
+<data key="key_weight">7.551549</data>
+</edge>
+<edge id="e7" source="Steroid Exacerbator" target="C8orf4_p1">
+<data key="key_weight">0.560510</data>
+</edge>
+<edge id="e8" source="Steroid Exacerbator" target="ALOXE3_p2">
+<data key="key_weight">0.420530</data>
+</edge>
+<edge id="e9" source="RPS3A_p1" target="C8orf4_p1">
+<data key="key_weight">0.521084</data>
+</edge>
+<edge id="e10" source="JUP_p1" target="ALOXE3_p2">
+<data key="key_weight">1.123170</data>
+</edge>
+<edge id="e11" source="201205_at" target="VAMP4_p1">
+<data key="key_weight">6.582511</data>
+</edge>
+<edge id="e12" source="YPEL1_p1" target="LARP4_p2">
+<data key="key_weight">1.139635</data>
+</edge>
+<edge id="e13" source="CLEC5A_p1" target="ZBP1_p1">
+<data key="key_weight">1.209327</data>
+</edge>
+<edge id="e14" source="ACACB_p3" target="LUC7L2_p1">
+<data key="key_weight">13.129759</data>
+</edge>
+</graph>
+</graphml>

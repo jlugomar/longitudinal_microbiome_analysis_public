@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+http://graphml.graphdrawing.org/xmlns/1.1/graphml.xsd">
+<key id="key_weight" for="edge" attr.name="weight" attr.type="double"/>
+<graph id="Stochastic Search Procedures-net" edgedefault="directed">
+<node id="Muscle loss"/>
+<node id="1,6-Anhydro-beta-D-glucose"/>
+<node id="1-Methylnicotinamide"/>
+<node id="2-Aminobutyrate"/>
+<node id="2-Hydroxyisobutyrate"/>
+<node id="2-Oxoglutarate"/>
+<node id="3-Aminoisobutyrate"/>
+<node id="3-Hydroxybutyrate"/>
+<node id="3-Hydroxyisovalerate"/>
+<node id="3-Indoxylsulfate"/>
+<node id="4-Hydroxyphenylacetate"/>
+<node id="Acetate"/>
+<node id="Acetone"/>
+<node id="Adipate"/>
+<node id="Alanine"/>
+<node id="Asparagine"/>
+<node id="Betaine"/>
+<node id="Carnitine"/>
+<node id="Citrate"/>
+<node id="Creatine"/>
+<node id="Creatinine"/>
+<node id="Dimethylamine"/>
+<node id="Ethanolamine"/>
+<node id="Formate"/>
+<node id="Fucose"/>
+<node id="Fumarate"/>
+<node id="Glucose"/>
+<node id="Glutamine"/>
+<node id="Glycine"/>
+<node id="Glycolate"/>
+<node id="Guanidoacetate"/>
+<node id="Hippurate"/>
+<node id="Histidine"/>
+<node id="Hypoxanthine"/>
+<node id="Isoleucine"/>
+<node id="Lactate"/>
+<node id="Leucine"/>
+<node id="Lysine"/>
+<node id="Methylamine"/>
+<node id="Methylguanidine"/>
+<node id="N,N-Dimethylglycine"/>
+<node id="O-Acetylcarnitine"/>
+<node id="Pantothenate"/>
+<node id="Pyroglutamate"/>
+<node id="Pyruvate"/>
+<node id="Quinolinate"/>
+<node id="Serine"/>
+<node id="Succinate"/>
+<node id="Sucrose"/>
+<node id="Tartrate"/>
+<node id="Taurine"/>
+<node id="Threonine"/>
+<node id="Trigonelline"/>
+<node id="Trimethylamine N-oxide"/>
+<node id="Tryptophan"/>
+<node id="Tyrosine"/>
+<node id="Uracil"/>
+<node id="Valine"/>
+<node id="Xylose"/>
+<node id="cis-Aconitate"/>
+<node id="myo-Inositol"/>
+<node id="trans-Aconitate"/>
+<node id="pi-Methylhistidine"/>
+<node id="tau-Methylhistidine"/>
+<edge id="e1" source="Muscle loss" target="Methylamine">
+<data key="key_weight">2.261539</data>
+</edge>
+<edge id="e2" source="1,6-Anhydro-beta-D-glucose" target="trans-Aconitate">
+<data key="key_weight">2.805875</data>
+</edge>
+<edge id="e3" source="1-Methylnicotinamide" target="O-Acetylcarnitine">
+<data key="key_weight">2.608155</data>
+</edge>
+<edge id="e4" source="2-Aminobutyrate" target="Methylguanidine">
+<data key="key_weight">2.063937</data>
+</edge>
+<edge id="e5" source="2-Aminobutyrate" target="Tartrate">
+<data key="key_weight">0.645902</data>
+</edge>
+<edge id="e6" source="2-Hydroxyisobutyrate" target="Citrate">
+<data key="key_weight">4.311446</data>
+</edge>
+<edge id="e7" source="2-Hydroxyisobutyrate" target="Ethanolamine">
+<data key="key_weight">11.148739</data>
+</edge>
+<edge id="e8" source="2-Oxoglutarate" target="myo-Inositol">
+<data key="key_weight">4.998564</data>
+</edge>
+<edge id="e9" source="2-Oxoglutarate" target="tau-Methylhistidine">
+<data key="key_weight">-0.709271</data>
+</edge>
+<edge id="e10" source="3-Aminoisobutyrate" target="Citrate">
+<data key="key_weight">0.547194</data>
+</edge>
+<edge id="e11" source="3-Hydroxybutyrate" target="Quinolinate">
+<data key="key_weight">4.570782</data>
+</edge>
+<edge id="e12" source="3-Hydroxyisovalerate" target="Tryptophan">
+<data key="key_weight">-0.083119</data>
+</edge>
+<edge id="e13" source="3-Indoxylsulfate" target="Trigonelline">
+<data key="key_weight">1.071120</data>
+</edge>
+<edge id="e14" source="4-Hydroxyphenylacetate" target="Fumarate">
+<data key="key_weight">1.829115</data>
+</edge>
+<edge id="e15" source="Acetate" target="myo-Inositol">
+<data key="key_weight">2.459408</data>
+</edge>
+<edge id="e16" source="Adipate" target="Fucose">
+<data key="key_weight">2.286515</data>
+</edge>
+<edge id="e17" source="Alanine" target="Glutamine">
+<data key="key_weight">54.002185</data>
+</edge>
+<edge id="e18" source="Alanine" target="Tyrosine">
+<data key="key_weight">42.959257</data>
+</edge>
+<edge id="e19" source="Asparagine" target="3-Aminoisobutyrate">
+<data key="key_weight">2.290588</data>
+</edge>
+<edge id="e20" source="Asparagine" target="Dimethylamine">
+<data key="key_weight">4.503937</data>
+</edge>
+<edge id="e21" source="Betaine" target="Fumarate">
+<data key="key_weight">2.514166</data>
+</edge>
+<edge id="e22" source="Betaine" target="Tryptophan">
+<data key="key_weight">2.716500</data>
+</edge>
+<edge id="e23" source="Carnitine" target="Acetone">
+<data key="key_weight">0.488874</data>
+</edge>
+<edge id="e24" source="Carnitine" target="Creatine">
+<data key="key_weight">2.020269</data>
+</edge>
+<edge id="e25" source="Citrate" target="Uracil">
+<data key="key_weight">3.376059</data>
+</edge>
+<edge id="e26" source="Creatine" target="trans-Aconitate">
+<data key="key_weight">10.871112</data>
+</edge>
+<edge id="e27" source="Creatinine" target="Pyroglutamate">
+<data key="key_weight">52.447579</data>
+</edge>
+<edge id="e28" source="Creatinine" target="cis-Aconitate">
+<data key="key_weight">50.543030</data>
+</edge>
+<edge id="e29" source="Dimethylamine" target="Hypoxanthine">
+<data key="key_weight">24.940213</data>
+</edge>
+<edge id="e30" source="Ethanolamine" target="1-Methylnicotinamide">
+<data key="key_weight">-1.004975</data>
+</edge>
+<edge id="e31" source="Ethanolamine" target="3-Hydroxybutyrate">
+<data key="key_weight">6.421314</data>
+</edge>
+<edge id="e32" source="Formate" target="Glucose">
+<data key="key_weight">0.305233</data>
+</edge>
+<edge id="e33" source="Fucose" target="4-Hydroxyphenylacetate">
+<data key="key_weight">5.552551</data>
+</edge>
+<edge id="e34" source="Fucose" target="Ethanolamine">
+<data key="key_weight">7.330825</data>
+</edge>
+<edge id="e35" source="Fumarate" target="Isoleucine">
+<data key="key_weight">0.980942</data>
+</edge>
+<edge id="e36" source="Glucose" target="Xylose">
+<data key="key_weight">1.950527</data>
+</edge>
+<edge id="e37" source="Glutamine" target="Asparagine">
+<data key="key_weight">46.297936</data>
+</edge>
+<edge id="e38" source="Glutamine" target="Serine">
+<data key="key_weight">45.085987</data>
+</edge>
+<edge id="e39" source="Glycine" target="N,N-Dimethylglycine">
+<data key="key_weight">7.196986</data>
+</edge>
+<edge id="e40" source="Glycolate" target="Histidine">
+<data key="key_weight">5.508241</data>
+</edge>
+<edge id="e41" source="Guanidoacetate" target="Threonine">
+<data key="key_weight">4.594586</data>
+</edge>
+<edge id="e42" source="Hippurate" target="Pantothenate">
+<data key="key_weight">2.809429</data>
+</edge>
+<edge id="e43" source="Histidine" target="Formate">
+<data key="key_weight">4.925898</data>
+</edge>
+<edge id="e44" source="Hypoxanthine" target="Pyruvate">
+<data key="key_weight">3.030030</data>
+</edge>
+<edge id="e45" source="Isoleucine" target="Lactate">
+<data key="key_weight">4.246867</data>
+</edge>
+<edge id="e46" source="Lactate" target="3-Indoxylsulfate">
+<data key="key_weight">0.629904</data>
+</edge>
+<edge id="e47" source="Leucine" target="Valine">
+<data key="key_weight">54.567956</data>
+</edge>
+<edge id="e48" source="Lysine" target="2-Aminobutyrate">
+<data key="key_weight">1.868506</data>
+</edge>
+<edge id="e49" source="Methylamine" target="Pantothenate">
+<data key="key_weight">1.715975</data>
+</edge>
+<edge id="e50" source="Methylguanidine" target="Methylamine">
+<data key="key_weight">-0.623853</data>
+</edge>
+<edge id="e51" source="N,N-Dimethylglycine" target="2-Hydroxyisobutyrate">
+<data key="key_weight">-0.393935</data>
+</edge>
+<edge id="e52" source="O-Acetylcarnitine" target="Trigonelline">
+<data key="key_weight">1.979015</data>
+</edge>
+<edge id="e53" source="O-Acetylcarnitine" target="myo-Inositol">
+<data key="key_weight">0.356689</data>
+</edge>
+<edge id="e54" source="Pantothenate" target="Tartrate">
+<data key="key_weight">0.136354</data>
+</edge>
+<edge id="e55" source="Pyroglutamate" target="Succinate">
+<data key="key_weight">0.927077</data>
+</edge>
+<edge id="e56" source="Pyroglutamate" target="Sucrose">
+<data key="key_weight">0.133551</data>
+</edge>
+<edge id="e57" source="Pyroglutamate" target="Trimethylamine N-oxide">
+<data key="key_weight">5.306597</data>
+</edge>
+<edge id="e58" source="Pyruvate" target="Creatine">
+<data key="key_weight">1.079813</data>
+</edge>
+<edge id="e59" source="Pyruvate" target="Methylguanidine">
+<data key="key_weight">1.290382</data>
+</edge>
+<edge id="e60" source="Quinolinate" target="1,6-Anhydro-beta-D-glucose">
+<data key="key_weight">-0.462439</data>
+</edge>
+<edge id="e61" source="Quinolinate" target="Acetate">
+<data key="key_weight">12.558381</data>
+</edge>
+<edge id="e62" source="Serine" target="Creatinine">
+<data key="key_weight">7.923519</data>
+</edge>
+<edge id="e63" source="Succinate" target="Adipate">
+<data key="key_weight">2.120761</data>
+</edge>
+<edge id="e64" source="Sucrose" target="3-Hydroxybutyrate">
+<data key="key_weight">5.107379</data>
+</edge>
+<edge id="e65" source="Taurine" target="tau-Methylhistidine">
+<data key="key_weight">0.563805</data>
+</edge>
+<edge id="e66" source="Threonine" target="3-Hydroxyisovalerate">
+<data key="key_weight">1.411631</data>
+</edge>
+<edge id="e67" source="Threonine" target="Lysine">
+<data key="key_weight">4.168677</data>
+</edge>
+<edge id="e68" source="Threonine" target="Taurine">
+<data key="key_weight">-0.167926</data>
+</edge>
+<edge id="e69" source="Trigonelline" target="Hippurate">
+<data key="key_weight">0.617790</data>
+</edge>
+<edge id="e70" source="Trimethylamine N-oxide" target="Fucose">
+<data key="key_weight">4.839601</data>
+</edge>
+<edge id="e71" source="Tryptophan" target="Isoleucine">
+<data key="key_weight">-0.434773</data>
+</edge>
+<edge id="e72" source="Tryptophan" target="pi-Methylhistidine">
+<data key="key_weight">1.014443</data>
+</edge>
+<edge id="e73" source="Tyrosine" target="Guanidoacetate">
+<data key="key_weight">0.145596</data>
+</edge>
+<edge id="e74" source="Uracil" target="Methylamine">
+<data key="key_weight">2.552069</data>
+</edge>
+<edge id="e75" source="Valine" target="Alanine">
+<data key="key_weight">50.904815</data>
+</edge>
+<edge id="e76" source="Xylose" target="Betaine">
+<data key="key_weight">2.106610</data>
+</edge>
+<edge id="e77" source="cis-Aconitate" target="2-Oxoglutarate">
+<data key="key_weight">3.062396</data>
+</edge>
+<edge id="e78" source="cis-Aconitate" target="Quinolinate">
+<data key="key_weight">10.167241</data>
+</edge>
+<edge id="e79" source="myo-Inositol" target="Hippurate">
+<data key="key_weight">0.450230</data>
+</edge>
+<edge id="e80" source="trans-Aconitate" target="Lactate">
+<data key="key_weight">15.960511</data>
+</edge>
+<edge id="e81" source="pi-Methylhistidine" target="Uracil">
+<data key="key_weight">1.390960</data>
+</edge>
+<edge id="e82" source="tau-Methylhistidine" target="2-Aminobutyrate">
+<data key="key_weight">2.894836</data>
+</edge>
+</graph>
+</graphml>

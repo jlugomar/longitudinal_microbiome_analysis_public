@@ -1,0 +1,757 @@
+
+Loading and processing GSE190301 differential expression data
+Normalizing continuous data columns
+Computing Bayes Factors for all 22288 variables
+Found 3033 variables with positive Bayes Factor
+Building PhenoCentric BN over 167 variables
+Learn nodes with pheno as parent!
+Done Building PhenoCentric BN in 30.49 seconds
+Building K2 BN over 167 variables
+Start sorting the nodes likelihood of independence from other nodes
+!Done filtering and reordering nodes by independence from other nodes!
+Start learning Bayesian network structure!
+!Done learning Bayesian network!
+Done Building K2 BN in  5.81 seconds
+Building Exhaustive BN over 167 variables
+Start learning Bayesian network!
+!Done learning Bayesian network!
+Done Building Exhaustive BN in 37.35 seconds
+Start sorting the nodes likelihood of independence from other nodes
+!Done filtering and reordering nodes by independence from other nodes!
+Start learning Bayesian network structure!
+!Done learning Bayesian network!
+	 Identified 23 variables for predicting Steroid Exacerbator.
+Learning Network Parameters
+Prediction on Training Data:
+Prediction on Testing Data:
+	Prediction AUC: 1 [NaN,NaN], and convex-hull AUC: 1 [NaN,NaN].
+	Prediction AUC: 0.77318 [0.65495,0.89141], and convex-hull AUC: 0.8208 [0.70257,0.93903].
+
+Computing Bayes Factors
+Found 9 variables with BF > 6.000000
+Learning Markov Blanket Bayesian Network for Prediction of Steroid Exacerbator with K2
+Start sorting the nodes likelihood of independence from other nodes
+!Done filtering and reordering nodes by independence from other nodes!
+Start learning Bayesian network structure!
+!Done learning Bayesian network!
+Done learning Bayesian network!
+Start predicting root node (Steroid Exacerbator) by the learned Bayesian network!
+Done Learning Conditional Distributions!
+	Prediction accuracy (raw 	Prediction AUC: 0.89559 [0.84081,0.95037], and convex-hull AUC: 0.91147 [0.85669,0.96625].
+Computing Bayes Factors
+Found 9 variables with BF > 6.000000
+Learning Pheno-centric Bayesian Network
+Learn nodes with pheno as parent!
+Done learning Bayesian network!
+Start predicting root node (Steroid Exacerbator) by the learned Bayesian network!
+Done Learning Conditional Distributions!
+	Prediction accuracy (raw 	Prediction AUC: 0.91618 [0.86704,0.96532], and convex-hull AUC: 0.92941 [0.88027,0.97855].
+Computing Bayes Factors
+Found 9 variables with BF > 6.000000
+Learning Full Bayesian Network w Exhaustive Greedy Search
+Start learning Bayesian network!
+!Done learning Bayesian network!
+Done learning Bayesian network!
+Start predicting root node (Steroid Exacerbator) by the learned Bayesian network!
+Done Learning Conditional Distributions!
+	Prediction accuracy (raw 	Prediction AUC: 0.88647 [0.82884,0.9441], and convex-hull AUC: 0.90515 [0.84752,0.96277].
+
+	Prediction AUC: 1 [NaN,NaN], and convex-hull AUC: 1 [NaN,NaN].
+	Prediction AUC: 0.77444 [0.65531,0.89357], and convex-hull AUC: 0.81454 [0.69541,0.93367].
+Do CV building of K2 algorithm
+Starting Fold 1!
+Start sorting the nodes likelihood of independence from other nodes
+!Done filtering and reordering nodes by independence from other nodes!
+Start learning Bayesian network structure!
+!Done learning Bayesian network!
+Learning Network Parameters
+Predicting on Training Data
+	 prediction for example 1 is : 1 with confidence 0.96  right!
+	 prediction for example 2 is : 1 with confidence 0.58  right!
+	 prediction for example 3 is : 1 with confidence 0.98  right!
+	 prediction for example 4 is : 0 with confidence 0.91  right!
+	 prediction for example 5 is : 1 with confidence 0.81  right!
+	 prediction for example 6 is : 1 with confidence 0.91  right!
+	 prediction for example 7 is : 1 with confidence 0.97  right!
+	 prediction for example 8 is : 1 with confidence 0.58  wrong!
+	 prediction for example 9 is : 0 with confidence 0.81  right!
+	 prediction for example 10 is : 0 with confidence 0.56  wrong!
+	 prediction for example 11 is : 1 with confidence 0.97  right!
+	 prediction for example 12 is : 0 with confidence 0.98  right!
+Starting Fold 2!
+Start sorting the nodes likelihood of independence from other nodes
+!Done filtering and reordering nodes by independence from other nodes!
+Start learning Bayesian network structure!
+!Done learning Bayesian network!
+Learning Network Parameters
+Predicting on Training Data
+	 prediction for example 1 is : 0 with confidence 0.74  wrong!
+	 prediction for example 2 is : 1 with confidence 0.58  right!
+	 prediction for example 3 is : 0 with confidence 1.00  right!
+	 prediction for example 4 is : 0 with confidence 1.00  wrong!
+	 prediction for example 5 is : 1 with confidence 0.91  wrong!
+	 prediction for example 6 is : 0 with confidence 1.00  right!
+	 prediction for example 7 is : 1 with confidence 0.87  right!
+	 prediction for example 8 is : 0 with confidence 1.00  wrong!
+	 prediction for example 9 is : 0 with confidence 1.00  right!
+	 prediction for example 10 is : 1 with confidence 1.00  right!
+	 prediction for example 11 is : 0 with confidence 0.99  right!
+	 prediction for example 12 is : 1 with confidence 0.99  right!
+Starting Fold 3!
+Start sorting the nodes likelihood of independence from other nodes
+!Done filtering and reordering nodes by independence from other nodes!
+Start learning Bayesian network structure!
+!Done learning Bayesian network!
+Learning Network Parameters
+Predicting on Training Data
+	 prediction for example 1 is : 1 with confidence 1.00  wrong!
+	 prediction for example 2 is : 0 with confidence 1.00  wrong!
+	 prediction for example 3 is : 1 with confidence 1.00  right!
+	 prediction for example 4 is : 0 with confidence 0.82  wrong!
+	 prediction for example 5 is : 1 with confidence 1.00  right!
+	 prediction for example 6 is : 0 with confidence 1.00  right!
+	 prediction for example 7 is : 1 with confidence 0.74  wrong!
+	 prediction for example 8 is : 1 with confidence 1.00  right!
+	 prediction for example 9 is : 0 with confidence 0.98  right!
+	 prediction for example 10 is : 0 with confidence 1.00  wrong!
+	 prediction for example 11 is : 1 with confidence 1.00  wrong!
+	 prediction for example 12 is : 1 with confidence 0.70  right!
+Starting Fold 4!
+Start sorting the nodes likelihood of independence from other nodes
+!Done filtering and reordering nodes by independence from other nodes!
+Start learning Bayesian network structure!
+!Done learning Bayesian network!
+Learning Network Parameters
+Predicting on Training Data
+	 prediction for example 1 is : 0 with confidence 1.00  right!
+	 prediction for example 2 is : 1 with confidence 1.00  right!
+	 prediction for example 3 is : 0 with confidence 1.00  right!
+	 prediction for example 4 is : 1 with confidence 1.00  right!
+	 prediction for example 5 is : 1 with confidence 0.94  wrong!
+	 prediction for example 6 is : 0 with confidence 0.69  right!
+	 prediction for example 7 is : 0 with confidence 1.00  right!
+	 prediction for example 8 is : 1 with confidence 1.00  wrong!
+	 prediction for example 9 is : 1 with confidence 1.00  wrong!
+	 prediction for example 10 is : 1 with confidence 1.00  right!
+	 prediction for example 11 is : 1 with confidence 1.00  wrong!
+	 prediction for example 12 is : 1 with confidence 0.82  wrong!
+Starting Fold 5!
+Start sorting the nodes likelihood of independence from other nodes
+!Done filtering and reordering nodes by independence from other nodes!
+Start learning Bayesian network structure!
+!Done learning Bayesian network!
+Learning Network Parameters
+Predicting on Training Data
+	 prediction for example 1 is : 0 with confidence 1.00  right!
+	 prediction for example 2 is : 0 with confidence 1.00  right!
+	 prediction for example 3 is : 0 with confidence 1.00  right!
+	 prediction for example 4 is : 0 with confidence 1.00  right!
+	 prediction for example 5 is : 0 with confidence 0.81  right!
+	 prediction for example 6 is : 0 with confidence 1.00  right!
+	 prediction for example 7 is : 0 with confidence 1.00  right!
+	 prediction for example 8 is : 0 with confidence 1.00  wrong!
+	 prediction for example 9 is : 0 with confidence 1.00  wrong!
+	 prediction for example 10 is : 0 with confidence 1.00  wrong!
+	 prediction for example 11 is : 0 with confidence 1.00  wrong!
+	Prediction AUC: 0.66092 [0.51904,0.8028], and convex-hull AUC: 0.71552 [0.57364,0.8574].
+total K2 CV AUC : 71.55172
+Do CV on paramters from K2 network
+total K2 network CV (params) AUC : 97.70115
+Do Bootstrap building of K2 network
+Starting Boot No. 1
+Starting Boot No. 2
+Starting Boot No. 3
+Starting Boot No. 4
+Starting Boot No. 5
+	Prediction AUC: 0.57644 [0.41588,0.737], and convex-hull AUC: 0.62531 [0.46475,0.78587].
+	Prediction AUC: 0.599 [0.4488,0.74919], and convex-hull AUC: 0.66165 [0.51146,0.81185].
+	Prediction AUC: 0.59398 [0.44285,0.74512], and convex-hull AUC: 0.65038 [0.49924,0.80151].
+	Prediction AUC: 0.61779 [0.4666,0.76899], and convex-hull AUC: 0.66541 [0.51422,0.81661].
+	Prediction AUC: 0.57769 [0.42808,0.72731], and convex-hull AUC: 0.65789 [0.50828,0.80751].
+	Prediction AUC: 0.56767 [0.41508,0.72026], and convex-hull AUC: 0.64662 [0.49403,0.7992].
+	Prediction AUC: 0.59023 [0.44067,0.73979], and convex-hull AUC: 0.64724 [0.49768,0.7968].
+	Prediction AUC: 0.59148 [0.44173,0.74123], and convex-hull AUC: 0.67168 [0.52193,0.82143].
+	Prediction AUC: 0.5802 [0.42619,0.73421], and convex-hull AUC: 0.64286 [0.48884,0.79687].
+	Prediction AUC: 0.58271 [0.43056,0.73486], and convex-hull AUC: 0.63471 [0.48256,0.78686].
+	Prediction AUC: 0.62281 [0.47545,0.77016], and convex-hull AUC: 0.68797 [0.54062,0.83532].
+	Prediction AUC: 0.62782 [0.48054,0.7751], and convex-hull AUC: 0.71115 [0.56387,0.85844].
+	Prediction AUC: 0.68045 [0.53609,0.82481], and convex-hull AUC: 0.75689 [0.61253,0.90125].
+	Prediction AUC: 0.69298 [0.54571,0.84026], and convex-hull AUC: 0.75313 [0.60586,0.90041].
+	Prediction AUC: 0.68672 [0.53856,0.83487], and convex-hull AUC: 0.74499 [0.59683,0.89314].
+	Prediction AUC: 0.69925 [0.55695,0.84155], and convex-hull AUC: 0.77005 [0.62775,0.91235].
+	Prediction AUC: 0.71429 [0.57354,0.85504], and convex-hull AUC: 0.77945 [0.6387,0.9202].
+	Prediction AUC: 0.72556 [0.58773,0.8634], and convex-hull AUC: 0.79135 [0.65352,0.92919].
+	Prediction AUC: 0.73684 [0.60557,0.86812], and convex-hull AUC: 0.78258 [0.65131,0.91385].
+	Prediction AUC: 1 [NaN,NaN], and convex-hull AUC: 1 [NaN,NaN].
+	Prediction AUC: 0.87594 [0.79819,0.95369], and convex-hull AUC: 0.90539 [0.82764,0.98314].
+Do CV building of PhenoCentric algorithm
+Starting Fold 1!
+Learn nodes with pheno as parent!
+Learning Network Parameters
+Predicting on Training Data
+	 prediction for example 1 is : 1 with confidence 1.00  right!
+	 prediction for example 2 is : 1 with confidence 1.00  right!
+	 prediction for example 3 is : 0 with confidence 0.72  wrong!
+	 prediction for example 4 is : 1 with confidence 1.00  wrong!
+	 prediction for example 5 is : 1 with confidence 1.00  right!
+	 prediction for example 6 is : 1 with confidence 0.96  right!
+	 prediction for example 7 is : 1 with confidence 1.00  right!
+	 prediction for example 8 is : 1 with confidence 0.99  wrong!
+	 prediction for example 9 is : 0 with confidence 1.00  right!
+	 prediction for example 10 is : 1 with confidence 1.00  right!
+	 prediction for example 11 is : 1 with confidence 1.00  right!
+	 prediction for example 12 is : 0 with confidence 1.00  right!
+Starting Fold 2!
+Learn nodes with pheno as parent!
+Learning Network Parameters
+Predicting on Training Data
+	 prediction for example 1 is : 1 with confidence 1.00  right!
+	 prediction for example 2 is : 1 with confidence 1.00  right!
+	 prediction for example 3 is : 0 with confidence 1.00  right!
+	 prediction for example 4 is : 1 with confidence 1.00  right!
+	 prediction for example 5 is : 1 with confidence 1.00  wrong!
+	 prediction for example 6 is : 0 with confidence 1.00  right!
+	 prediction for example 7 is : 1 with confidence 1.00  right!
+	 prediction for example 8 is : 0 with confidence 1.00  wrong!
+	 prediction for example 9 is : 0 with confidence 1.00  right!
+	 prediction for example 10 is : 1 with confidence 1.00  right!
+	 prediction for example 11 is : 1 with confidence 0.97  wrong!
+	 prediction for example 12 is : 1 with confidence 1.00  right!
+Starting Fold 3!
+Learn nodes with pheno as parent!
+Learning Network Parameters
+Predicting on Training Data
+	 prediction for example 1 is : 0 with confidence 1.00  right!
+	 prediction for example 2 is : 1 with confidence 1.00  right!
+	 prediction for example 3 is : 1 with confidence 1.00  right!
+	 prediction for example 4 is : 1 with confidence 1.00  right!
+	 prediction for example 5 is : 1 with confidence 1.00  right!
+	 prediction for example 6 is : 0 with confidence 1.00  right!
+	 prediction for example 7 is : 1 with confidence 1.00  wrong!
+	 prediction for example 8 is : 1 with confidence 1.00  right!
+	 prediction for example 9 is : 1 with confidence 1.00  wrong!
+	 prediction for example 10 is : 1 with confidence 1.00  right!
+	 prediction for example 11 is : 1 with confidence 1.00  wrong!
+	 prediction for example 12 is : 1 with confidence 1.00  right!
+Starting Fold 4!
+Learn nodes with pheno as parent!
+Learning Network Parameters
+Predicting on Training Data
+	 prediction for example 1 is : 0 with confidence 1.00  right!
+	 prediction for example 2 is : 1 with confidence 1.00  right!
+	 prediction for example 3 is : 0 with confidence 0.98  right!
+	 prediction for example 4 is : 1 with confidence 1.00  right!
+	 prediction for example 5 is : 0 with confidence 1.00  right!
+	 prediction for example 6 is : 0 with confidence 1.00  right!
+	 prediction for example 7 is : 1 with confidence 1.00  wrong!
+	 prediction for example 8 is : 0 with confidence 1.00  right!
+	 prediction for example 9 is : 1 with confidence 1.00  wrong!
+	 prediction for example 10 is : 1 with confidence 1.00  right!
+	 prediction for example 11 is : 1 with confidence 1.00  wrong!
+	 prediction for example 12 is : 0 with confidence 1.00  right!
+Starting Fold 5!
+Learn nodes with pheno as parent!
+Learning Network Parameters
+Predicting on Training Data
+	 prediction for example 1 is : 0 with confidence 1.00  right!
+	 prediction for example 2 is : 0 with confidence 0.99  right!
+	 prediction for example 3 is : 0 with confidence 1.00  right!
+	 prediction for example 4 is : 0 with confidence 1.00  right!
+	 prediction for example 5 is : 1 with confidence 1.00  wrong!
+	 prediction for example 6 is : 1 with confidence 1.00  wrong!
+	 prediction for example 7 is : 0 with confidence 1.00  right!
+	 prediction for example 8 is : 1 with confidence 1.00  right!
+	 prediction for example 9 is : 1 with confidence 1.00  right!
+	 prediction for example 10 is : 0 with confidence 0.99  wrong!
+	 prediction for example 11 is : 1 with confidence 1.00  right!
+	Prediction AUC: 0.88161 [0.8001,0.96312], and convex-hull AUC: 0.91149 [0.82998,0.99301].
+total PhenoCentric CV AUC : 91.14943
+Do CV on paramters from PhenoCentric network
+total PhenoCentric network CV (params) AUC : 99.42529
+Do Bootstrap building of PhenoCentric network
+Starting Boot No. 1
+Starting Boot No. 2
+Starting Boot No. 3
+Starting Boot No. 4
+Starting Boot No. 5
+	Prediction AUC: 0.6817 [0.52382,0.83959], and convex-hull AUC: 0.74248 [0.5846,0.90036].
+	Prediction AUC: 0.69549 [0.54108,0.8499], and convex-hull AUC: 0.78822 [0.63381,0.94263].
+	Prediction AUC: 0.65915 [0.50281,0.81549], and convex-hull AUC: 0.74185 [0.58552,0.89819].
+	Prediction AUC: 0.65038 [0.50108,0.79967], and convex-hull AUC: 0.7312 [0.58191,0.88049].
+	Prediction AUC: 0.71679 [0.5821,0.85149], and convex-hull AUC: 0.7594 [0.6247,0.89409].
+	Prediction AUC: 0.74436 [0.6133,0.87542], and convex-hull AUC: 0.78446 [0.6534,0.91552].
+	Prediction AUC: 0.6817 [0.53712,0.82629], and convex-hull AUC: 0.73058 [0.58599,0.87516].
+	Prediction AUC: 0.71053 [0.56623,0.85483], and convex-hull AUC: 0.76754 [0.62324,0.91184].
+	Prediction AUC: 0.70426 [0.56001,0.84851], and convex-hull AUC: 0.75689 [0.61265,0.90114].
+	Prediction AUC: 0.72306 [0.58181,0.86431], and convex-hull AUC: 0.77068 [0.62943,0.91192].
+	Prediction AUC: 0.73058 [0.58881,0.87234], and convex-hull AUC: 0.78008 [0.63831,0.92184].
+	Prediction AUC: 0.72807 [0.58355,0.87259], and convex-hull AUC: 0.80138 [0.65686,0.94589].
+	Prediction AUC: 0.71805 [0.57017,0.86592], and convex-hull AUC: 0.77757 [0.6297,0.92544].
+	Prediction AUC: 0.72055 [0.57357,0.86753], and convex-hull AUC: 0.78697 [0.63999,0.93395].
+	Prediction AUC: 0.71554 [0.5652,0.86588], and convex-hull AUC: 0.80075 [0.65041,0.95109].
+	Prediction AUC: 0.72431 [0.57843,0.87019], and convex-hull AUC: 0.79198 [0.6461,0.93786].
+	Prediction AUC: 0.71679 [0.5704,0.86319], and convex-hull AUC: 0.76817 [0.62178,0.91456].
+	Prediction AUC: 0.72055 [0.57552,0.86558], and convex-hull AUC: 0.76817 [0.62314,0.9132].
+	Prediction AUC: 0.71178 [0.56716,0.8564], and convex-hull AUC: 0.76942 [0.6248,0.91404].
+	Prediction AUC: 0.97701 [0.94758,1.0064], and convex-hull AUC: 0.98563 [0.9562,1.0151].
+	Prediction AUC: 0.87594 [0.78609,0.96579], and convex-hull AUC: 0.90414 [0.81428,0.99399].
+Do CV building of Niave Bayes algorithm
+Starting Fold 1!
+Learn nodes with pheno as parent!
+Learning Network Parameters
+Predicting on Training Data
+	 prediction for example 1 is : 1 with confidence 1.00  right!
+	 prediction for example 2 is : 1 with confidence 1.00  right!
+	 prediction for example 3 is : 1 with confidence 1.00  right!
+	 prediction for example 4 is : 1 with confidence 1.00  wrong!
+	 prediction for example 5 is : 1 with confidence 1.00  right!
+	 prediction for example 6 is : 1 with confidence 1.00  right!
+	 prediction for example 7 is : 1 with confidence 1.00  right!
+	 prediction for example 8 is : 1 with confidence 0.64  wrong!
+	 prediction for example 9 is : 0 with confidence 1.00  right!
+	 prediction for example 10 is : 1 with confidence 1.00  right!
+	 prediction for example 11 is : 1 with confidence 1.00  right!
+	 prediction for example 12 is : 0 with confidence 1.00  right!
+Starting Fold 2!
+Learn nodes with pheno as parent!
+Learning Network Parameters
+Predicting on Training Data
+	 prediction for example 1 is : 1 with confidence 1.00  right!
+	 prediction for example 2 is : 1 with confidence 1.00  right!
+	 prediction for example 3 is : 0 with confidence 1.00  right!
+	 prediction for example 4 is : 1 with confidence 1.00  right!
+	 prediction for example 5 is : 1 with confidence 0.98  wrong!
+	 prediction for example 6 is : 0 with confidence 1.00  right!
+	 prediction for example 7 is : 1 with confidence 1.00  right!
+	 prediction for example 8 is : 0 with confidence 1.00  wrong!
+	 prediction for example 9 is : 0 with confidence 1.00  right!
+	 prediction for example 10 is : 1 with confidence 0.99  right!
+	 prediction for example 11 is : 1 with confidence 1.00  wrong!
+	 prediction for example 12 is : 1 with confidence 1.00  right!
+Starting Fold 3!
+Learn nodes with pheno as parent!
+Learning Network Parameters
+Predicting on Training Data
+	 prediction for example 1 is : 1 with confidence 0.57  wrong!
+	 prediction for example 2 is : 1 with confidence 1.00  right!
+	 prediction for example 3 is : 1 with confidence 1.00  right!
+	 prediction for example 4 is : 1 with confidence 1.00  right!
+	 prediction for example 5 is : 1 with confidence 1.00  right!
+	 prediction for example 6 is : 0 with confidence 1.00  right!
+	 prediction for example 7 is : 1 with confidence 1.00  wrong!
+	 prediction for example 8 is : 1 with confidence 1.00  right!
+	 prediction for example 9 is : 0 with confidence 1.00  right!
+	 prediction for example 10 is : 1 with confidence 1.00  right!
+	 prediction for example 11 is : 1 with confidence 1.00  wrong!
+	 prediction for example 12 is : 1 with confidence 1.00  right!
+Starting Fold 4!
+Learn nodes with pheno as parent!
+Learning Network Parameters
+Predicting on Training Data
+	 prediction for example 1 is : 0 with confidence 1.00  right!
+	 prediction for example 2 is : 1 with confidence 1.00  right!
+	 prediction for example 3 is : 0 with confidence 1.00  right!
+	 prediction for example 4 is : 1 with confidence 1.00  right!
+	 prediction for example 5 is : 0 with confidence 1.00  right!
+	 prediction for example 6 is : 0 with confidence 1.00  right!
+	 prediction for example 7 is : 1 with confidence 1.00  wrong!
+	 prediction for example 8 is : 0 with confidence 1.00  right!
+	 prediction for example 9 is : 1 with confidence 1.00  wrong!
+	 prediction for example 10 is : 1 with confidence 1.00  right!
+	 prediction for example 11 is : 1 with confidence 1.00  wrong!
+	 prediction for example 12 is : 0 with confidence 1.00  right!
+Starting Fold 5!
+Learn nodes with pheno as parent!
+Learning Network Parameters
+Predicting on Training Data
+	 prediction for example 1 is : 0 with confidence 1.00  right!
+	 prediction for example 2 is : 0 with confidence 0.88  right!
+	 prediction for example 3 is : 0 with confidence 1.00  right!
+	 prediction for example 4 is : 0 with confidence 1.00  right!
+	 prediction for example 5 is : 0 with confidence 1.00  right!
+	 prediction for example 6 is : 1 with confidence 0.99  wrong!
+	 prediction for example 7 is : 0 with confidence 1.00  right!
+	 prediction for example 8 is : 1 with confidence 1.00  right!
+	 prediction for example 9 is : 0 with confidence 0.88  wrong!
+	 prediction for example 10 is : 1 with confidence 1.00  right!
+	 prediction for example 11 is : 1 with confidence 1.00  right!
+	Prediction AUC: 0.91149 [0.83982,0.98317], and convex-hull AUC: 0.93046 [0.85878,1.0021].
+total PhenoCentric CV AUC : 93.04598
+Do CV on paramters from Naive Bayes network
+total Naive Bayes network CV (params) AUC : 95.57471
+Do Bootstrap building of Naive Bayes network
+Starting Boot No. 1
+Starting Boot No. 2
+Starting Boot No. 3
+Starting Boot No. 4
+Starting Boot No. 5
+	Prediction AUC: 0.63283 [0.48605,0.77962], and convex-hull AUC: 0.69298 [0.5462,0.83977].
+	Prediction AUC: 0.65038 [0.50908,0.79168], and convex-hull AUC: 0.75564 [0.61434,0.89694].
+	Prediction AUC: 0.72431 [0.59492,0.8537], and convex-hull AUC: 0.80138 [0.67199,0.93077].
+	Prediction AUC: 0.74185 [0.61454,0.86917], and convex-hull AUC: 0.78195 [0.65464,0.90927].
+	Prediction AUC: 0.79574 [0.68038,0.91109], and convex-hull AUC: 0.83521 [0.71986,0.95057].
+	Prediction AUC: 0.81203 [0.69882,0.92524], and convex-hull AUC: 0.85088 [0.73766,0.96409].
+	Prediction AUC: 0.82832 [0.71942,0.93722], and convex-hull AUC: 0.86216 [0.75325,0.97106].
+	Prediction AUC: 0.85338 [0.75735,0.94942], and convex-hull AUC: 0.88158 [0.78555,0.97761].
+	Prediction AUC: 0.85464 [0.75797,0.9513], and convex-hull AUC: 0.88722 [0.79055,0.98388].
+	Prediction AUC: 0.83208 [0.7289,0.93526], and convex-hull AUC: 0.86717 [0.76398,0.97035].
+	Prediction AUC: 0.82581 [0.72053,0.9311], and convex-hull AUC: 0.85652 [0.75123,0.9618].
+	Prediction AUC: 0.83584 [0.73477,0.93691], and convex-hull AUC: 0.86278 [0.76171,0.96386].
+	Prediction AUC: 0.81454 [0.70487,0.9242], and convex-hull AUC: 0.84962 [0.73996,0.95929].
+	Prediction AUC: 0.81579 [0.70728,0.9243], and convex-hull AUC: 0.86278 [0.75427,0.9713].
+	Prediction AUC: 0.79323 [0.67746,0.909], and convex-hull AUC: 0.84774 [0.73198,0.96351].
+	Prediction AUC: 0.79574 [0.67999,0.91149], and convex-hull AUC: 0.849 [0.73324,0.96475].
+	Prediction AUC: 0.8208 [0.71452,0.92709], and convex-hull AUC: 0.86216 [0.75587,0.96844].
+	Prediction AUC: 0.82957 [0.72519,0.93396], and convex-hull AUC: 0.87093 [0.76654,0.97531].
+	Prediction AUC: 0.82206 [0.71607,0.92804], and convex-hull AUC: 0.85777 [0.75179,0.96375].
+Start learning Bayesian network!
+!Done learning Bayesian network!
+	Prediction AUC: 0.95747 [0.90901,1.0059], and convex-hull AUC: 0.97069 [0.92223,1.0191].
+	Prediction AUC: 0.60652 [0.45605,0.75698], and convex-hull AUC: 0.69486 [0.5444,0.84532].
+Do CV building of Full-Exhaustive algorithm
+Starting Fold 1!
+Start learning Bayesian network!
+!Done learning Bayesian network!
+Learning Network Parameters
+Predicting on Training Data
+	 prediction for example 1 is : 1 with confidence 0.81  right!
+	 prediction for example 2 is : 1 with confidence 0.81  right!
+	 prediction for example 3 is : 0 with confidence 1.00  wrong!
+	 prediction for example 4 is : 0 with confidence 0.93  right!
+	 prediction for example 5 is : 0 with confidence 0.68  wrong!
+	 prediction for example 6 is : 0 with confidence 0.67  wrong!
+	 prediction for example 7 is : 1 with confidence 0.58  right!
+	 prediction for example 8 is : 1 with confidence 0.61  wrong!
+	 prediction for example 9 is : 1 with confidence 0.66  wrong!
+	 prediction for example 10 is : 0 with confidence 0.57  wrong!
+	 prediction for example 11 is : 1 with confidence 0.77  right!
+	 prediction for example 12 is : 0 with confidence 0.83  right!
+Starting Fold 2!
+Start learning Bayesian network!
+!Done learning Bayesian network!
+Learning Network Parameters
+Predicting on Training Data
+	 prediction for example 1 is : 1 with confidence 0.58  right!
+	 prediction for example 2 is : 0 with confidence 0.51  wrong!
+	 prediction for example 3 is : 0 with confidence 1.00  right!
+	 prediction for example 4 is : 0 with confidence 1.00  wrong!
+	 prediction for example 5 is : 1 with confidence 0.66  wrong!
+	 prediction for example 6 is : 0 with confidence 0.98  right!
+	 prediction for example 7 is : 0 with confidence 0.64  wrong!
+	 prediction for example 8 is : 0 with confidence 0.98  wrong!
+	 prediction for example 9 is : 0 with confidence 0.69  right!
+	 prediction for example 10 is : 1 with confidence 0.52  right!
+	 prediction for example 11 is : 0 with confidence 0.84  right!
+	 prediction for example 12 is : 1 with confidence 0.59  right!
+Starting Fold 3!
+Start learning Bayesian network!
+!Done learning Bayesian network!
+Learning Network Parameters
+Predicting on Training Data
+	 prediction for example 1 is : 1 with confidence 0.65  wrong!
+	 prediction for example 2 is : 0 with confidence 0.64  wrong!
+	 prediction for example 3 is : 1 with confidence 0.99  right!
+	 prediction for example 4 is : 1 with confidence 0.67  right!
+	 prediction for example 5 is : 1 with confidence 0.98  right!
+	 prediction for example 6 is : 0 with confidence 1.00  right!
+	 prediction for example 7 is : 0 with confidence 0.61  right!
+	 prediction for example 8 is : 0 with confidence 0.67  wrong!
+	 prediction for example 9 is : 1 with confidence 0.59  wrong!
+	 prediction for example 10 is : 0 with confidence 0.97  wrong!
+	 prediction for example 11 is : 1 with confidence 0.65  wrong!
+	 prediction for example 12 is : 0 with confidence 0.69  wrong!
+Starting Fold 4!
+Start learning Bayesian network!
+!Done learning Bayesian network!
+Learning Network Parameters
+Predicting on Training Data
+	 prediction for example 1 is : 0 with confidence 1.00  right!
+	 prediction for example 2 is : 1 with confidence 0.50  right!
+	 prediction for example 3 is : 0 with confidence 1.00  right!
+	 prediction for example 4 is : 1 with confidence 0.84  right!
+	 prediction for example 5 is : 0 with confidence 0.90  right!
+	 prediction for example 6 is : 0 with confidence 0.70  right!
+	 prediction for example 7 is : 0 with confidence 0.97  right!
+	 prediction for example 8 is : 0 with confidence 1.00  right!
+	 prediction for example 9 is : 1 with confidence 0.98  wrong!
+	 prediction for example 10 is : 1 with confidence 0.67  right!
+	 prediction for example 11 is : 1 with confidence 0.65  wrong!
+	 prediction for example 12 is : 0 with confidence 0.89  right!
+Starting Fold 5!
+Start learning Bayesian network!
+!Done learning Bayesian network!
+Learning Network Parameters
+Predicting on Training Data
+	 prediction for example 1 is : 1 with confidence 0.62  wrong!
+	 prediction for example 2 is : 0 with confidence 0.56  right!
+	 prediction for example 3 is : 0 with confidence 0.75  right!
+	 prediction for example 4 is : 0 with confidence 1.00  right!
+	 prediction for example 5 is : 1 with confidence 0.93  wrong!
+	 prediction for example 6 is : 0 with confidence 0.73  right!
+	 prediction for example 7 is : 0 with confidence 0.75  right!
+	 prediction for example 8 is : 0 with confidence 0.94  wrong!
+	 prediction for example 9 is : 1 with confidence 0.63  right!
+	 prediction for example 10 is : 0 with confidence 0.81  wrong!
+	 prediction for example 11 is : 0 with confidence 0.68  wrong!
+	Prediction AUC: 0.64138 [0.49624,0.78652], and convex-hull AUC: 0.73736 [0.59221,0.8825].
+total PhenoCentric CV AUC : 73.73563
+Do CV on paramters from Full network
+total Full network CV (params) AUC : 94.48276
+Do Bootstrap building of Full-Exhaustive network
+Starting Boot No. 1
+Start learning Bayesian network!
+!Done learning Bayesian network!
+Starting Boot No. 2
+Start learning Bayesian network!
+!Done learning Bayesian network!
+Starting Boot No. 3
+Start learning Bayesian network!
+!Done learning Bayesian network!
+Starting Boot No. 4
+Start learning Bayesian network!
+!Done learning Bayesian network!
+Starting Boot No. 5
+Start learning Bayesian network!
+!Done learning Bayesian network!
+	Prediction AUC: 0.53509 [0.37949,0.69068], and convex-hull AUC: 0.63596 [0.48037,0.79156].
+	Prediction AUC: 0.55764 [0.40067,0.71462], and convex-hull AUC: 0.66165 [0.50468,0.81863].
+	Prediction AUC: 0.61529 [0.46158,0.76899], and convex-hull AUC: 0.68233 [0.52863,0.83603].
+	Prediction AUC: 0.65414 [0.50476,0.80351], and convex-hull AUC: 0.71241 [0.56303,0.86178].
+	Prediction AUC: 0.6015 [0.44148,0.76153], and convex-hull AUC: 0.65539 [0.49536,0.81541].
+	Prediction AUC: 0.6015 [0.44148,0.76153], and convex-hull AUC: 0.65539 [0.49536,0.81541].
+	Prediction AUC: 0.60526 [0.44383,0.7667], and convex-hull AUC: 0.67043 [0.50899,0.83186].
+	Prediction AUC: 0.56391 [0.40166,0.72615], and convex-hull AUC: 0.63847 [0.47623,0.80072].
+	Prediction AUC: 0.53759 [0.37445,0.70074], and convex-hull AUC: 0.63972 [0.47658,0.80287].
+	Prediction AUC: 0.58396 [0.41883,0.74909], and convex-hull AUC: 0.68358 [0.51846,0.84871].
+	Prediction AUC: 0.58396 [0.41883,0.74909], and convex-hull AUC: 0.68358 [0.51846,0.84871].
+	Prediction AUC: 0.59524 [0.43155,0.75893], and convex-hull AUC: 0.68484 [0.52114,0.84853].
+	Prediction AUC: 0.59524 [0.43155,0.75893], and convex-hull AUC: 0.68484 [0.52114,0.84853].
+	Prediction AUC: 0.59524 [0.43155,0.75893], and convex-hull AUC: 0.68484 [0.52114,0.84853].
+	Prediction AUC: 0.60902 [0.44328,0.77477], and convex-hull AUC: 0.70113 [0.53538,0.86687].
+	Prediction AUC: 0.60902 [0.44328,0.77477], and convex-hull AUC: 0.70113 [0.53538,0.86687].
+	Prediction AUC: 0.60902 [0.44328,0.77477], and convex-hull AUC: 0.70113 [0.53538,0.86687].
+	Prediction AUC: 0.59273 [0.42735,0.75811], and convex-hull AUC: 0.69486 [0.52948,0.86024].
+	Prediction AUC: 0.60276 [0.43971,0.7658], and convex-hull AUC: 0.69925 [0.5362,0.86229].
+
+Start sorting the nodes likelihood of independence from other nodes
+!Done filtering and reordering nodes by independence from other nodes!
+Start learning Bayesian network structure!
+!Done learning Bayesian network!
+	 Identified 23 variables for predicting Steroid Exacerbator.
+Learning Network Parameters
+Prediction on Training Data:
+Prediction on Testing Data:
+	Prediction AUC: 1 [NaN,NaN], and convex-hull AUC: 1 [NaN,NaN].
+	Prediction AUC: 0.77318 [0.65495,0.89141], and convex-hull AUC: 0.8208 [0.70257,0.93903].
+Learn nodes with pheno as parent!
+	 Identified 146 variables for predicting Steroid Exacerbator.
+Learning Network Parameters
+Prediction on Training Data:
+Prediction on Testing Data:
+	Prediction AUC: 1 [NaN,NaN], and convex-hull AUC: 1 [NaN,NaN].
+	Prediction AUC: 0.87594 [0.79884,0.95304], and convex-hull AUC: 0.90539 [0.82829,0.98249].
+Start learning Bayesian network!
+!Done learning Bayesian network!
+	 Identified 12 variables for predicting Steroid Exacerbator.
+Learning Network Parameters
+Prediction on Training Data:
+Prediction on Testing Data:
+	Prediction AUC: 0.95747 [0.90901,1.0059], and convex-hull AUC: 0.97069 [0.92223,1.0191].
+	Prediction AUC: 0.60652 [0.45605,0.75698], and convex-hull AUC: 0.69486 [0.5444,0.84532].
+
+Learning Logistic Model:
+Warning: X is ill conditioned, or the model is overparameterized, and
+some coefficients are not identifiable.  You should use caution
+in making predictions. 
+> In glmfit at 245
+  In LogFitAndTest at 65 
+Warning: Iteration limit reached. 
+> In glmfit at 357
+  In LogFitAndTest at 65 
+Warning: The estimated coefficients perfectly separate failures from successes.
+This means the theoretical best estimates are not finite. For the fitted linear
+combination XB of the predictors, the sample proportions P of Y=N in the data
+satisfy:
+   XB<-5.68434e-13: P=0
+   XB>-5.68434e-13: P=1 
+> In glmfit>diagnoseSeparation at 566
+  In glmfit at 363
+  In LogFitAndTest at 65 
+Computing Logistic Predictions on Training Data:
+	Prediction AUC: 0.65057 [NaN,NaN], and convex-hull AUC: 0.7092 [NaN,NaN].
+	Prediction AUC: 0.44737 [NaN,NaN], and convex-hull AUC: 0.54574 [NaN,NaN].
+
+ --- Testing capacity for overfitting using RandomNetworkPVal ---
+	Prediction AUC: 0.98353 [0.96806,0.99899], and convex-hull AUC: 0.98838 [0.97292,1.0038].
+	Prediction AUC: 0.69529 [0.60146,0.78913], and convex-hull AUC: 0.73779 [0.64396,0.83163].
+	Prediction AUC: 0.815 [0.73636,0.89364], and convex-hull AUC: 0.83926 [0.76063,0.9179].
+	Prediction AUC: 0.78529 [0.70481,0.86578], and convex-hull AUC: 0.82088 [0.7404,0.90136].
+	Prediction AUC: 0.73735 [0.64784,0.82686], and convex-hull AUC: 0.76206 [0.67255,0.85157].
+	Prediction AUC: 0.77794 [0.69227,0.86361], and convex-hull AUC: 0.80809 [0.72242,0.89376].
+	Prediction AUC: 0.80971 [0.73134,0.88807], and convex-hull AUC: 0.83441 [0.75605,0.91277].
+	Prediction AUC: 0.73441 [0.64465,0.82418], and convex-hull AUC: 0.76353 [0.67377,0.85329].
+	Prediction AUC: 0.79088 [0.711,0.87076], and convex-hull AUC: 0.81618 [0.73629,0.89606].
+	Prediction AUC: 0.84765 [0.77814,0.91715], and convex-hull AUC: 0.87985 [0.81035,0.94936].
+	Prediction AUC: 0.75647 [0.66743,0.84551], and convex-hull AUC: 0.78985 [0.70082,0.87889].
+Empirical p-value from label permutation testing: 0.000000
+
+Starting Boot No. 1
+Starting Boot No. 2
+Starting Boot No. 3
+Starting Boot No. 4
+Starting Boot No. 5
+Starting Boot No. 6
+Starting Boot No. 7
+Starting Boot No. 8
+Starting Boot No. 9
+Starting Boot No. 10
+Starting Boot No. 11
+Starting Boot No. 12
+Starting Boot No. 13
+Starting Boot No. 14
+Starting Boot No. 15
+Starting Boot No. 16
+Starting Boot No. 17
+Starting Boot No. 18
+Starting Boot No. 19
+Starting Boot No. 20
+Starting Boot No. 21
+Starting Boot No. 22
+Starting Boot No. 23
+Starting Boot No. 24
+Starting Boot No. 25
+Consensus network has 107 nodes
+Predicting on Training Data
+	 prediction for example 1 is : 1 with confidence 1.00  right!
+	 prediction for example 2 is : 1 with confidence 1.00  right!
+	 prediction for example 3 is : 1 with confidence 1.00  right!
+	 prediction for example 4 is : 1 with confidence 1.00  wrong!
+	 prediction for example 5 is : 1 with confidence 1.00  right!
+	 prediction for example 6 is : 1 with confidence 1.00  right!
+	 prediction for example 7 is : 1 with confidence 1.00  right!
+	 prediction for example 8 is : 0 with confidence 0.98  right!
+	 prediction for example 9 is : 0 with confidence 1.00  right!
+	 prediction for example 10 is : 1 with confidence 1.00  right!
+	 prediction for example 11 is : 1 with confidence 1.00  right!
+	 prediction for example 12 is : 0 with confidence 1.00  right!
+	 prediction for example 13 is : 1 with confidence 1.00  right!
+	 prediction for example 14 is : 1 with confidence 1.00  right!
+	 prediction for example 15 is : 0 with confidence 1.00  right!
+	 prediction for example 16 is : 1 with confidence 1.00  right!
+	 prediction for example 17 is : 0 with confidence 0.96  right!
+	 prediction for example 18 is : 0 with confidence 1.00  right!
+	 prediction for example 19 is : 1 with confidence 1.00  right!
+	 prediction for example 20 is : 0 with confidence 0.99  wrong!
+	 prediction for example 21 is : 0 with confidence 1.00  right!
+	 prediction for example 22 is : 1 with confidence 1.00  right!
+	 prediction for example 23 is : 0 with confidence 1.00  right!
+	 prediction for example 24 is : 1 with confidence 1.00  right!
+	 prediction for example 25 is : 0 with confidence 1.00  right!
+	 prediction for example 26 is : 1 with confidence 1.00  right!
+	 prediction for example 27 is : 1 with confidence 1.00  right!
+	 prediction for example 28 is : 1 with confidence 1.00  right!
+	 prediction for example 29 is : 1 with confidence 1.00  right!
+	 prediction for example 30 is : 0 with confidence 1.00  right!
+	 prediction for example 31 is : 1 with confidence 0.97  wrong!
+	 prediction for example 32 is : 1 with confidence 1.00  right!
+	 prediction for example 33 is : 0 with confidence 1.00  right!
+	 prediction for example 34 is : 1 with confidence 1.00  right!
+	 prediction for example 35 is : 1 with confidence 1.00  wrong!
+	 prediction for example 36 is : 1 with confidence 1.00  right!
+	 prediction for example 37 is : 0 with confidence 1.00  right!
+	 prediction for example 38 is : 1 with confidence 1.00  right!
+	 prediction for example 39 is : 0 with confidence 1.00  right!
+	 prediction for example 40 is : 1 with confidence 1.00  right!
+	 prediction for example 41 is : 0 with confidence 1.00  right!
+	 prediction for example 42 is : 0 with confidence 1.00  right!
+	 prediction for example 43 is : 0 with confidence 1.00  right!
+	 prediction for example 44 is : 0 with confidence 1.00  right!
+	 prediction for example 45 is : 0 with confidence 0.94  right!
+	 prediction for example 46 is : 1 with confidence 1.00  right!
+	 prediction for example 47 is : 1 with confidence 1.00  wrong!
+	 prediction for example 48 is : 0 with confidence 1.00  right!
+	 prediction for example 49 is : 0 with confidence 1.00  right!
+	 prediction for example 50 is : 0 with confidence 1.00  right!
+	 prediction for example 51 is : 0 with confidence 1.00  right!
+	 prediction for example 52 is : 0 with confidence 1.00  right!
+	 prediction for example 53 is : 0 with confidence 1.00  right!
+	 prediction for example 54 is : 0 with confidence 1.00  right!
+	 prediction for example 55 is : 0 with confidence 1.00  right!
+	 prediction for example 56 is : 1 with confidence 1.00  right!
+	 prediction for example 57 is : 1 with confidence 1.00  right!
+	 prediction for example 58 is : 1 with confidence 1.00  right!
+	 prediction for example 59 is : 1 with confidence 1.00  right!
+	Prediction AUC: 0.98046 [0.9535,1.0074], and convex-hull AUC: 0.98793 [0.96097,1.0149].
+Predicting on Testing Data
+	 prediction for example 1 is : 1 with confidence 0.80  wrong!
+	 prediction for example 2 is : 1 with confidence 0.61  right!
+	 prediction for example 3 is : 0 with confidence 0.98  right!
+	 prediction for example 4 is : 1 with confidence 1.00  right!
+	 prediction for example 5 is : 1 with confidence 1.00  wrong!
+	 prediction for example 6 is : 1 with confidence 1.00  right!
+	 prediction for example 7 is : 0 with confidence 1.00  right!
+	 prediction for example 8 is : 0 with confidence 1.00  right!
+	 prediction for example 9 is : 0 with confidence 1.00  right!
+	 prediction for example 10 is : 0 with confidence 1.00  right!
+	 prediction for example 11 is : 1 with confidence 1.00  wrong!
+	 prediction for example 12 is : 0 with confidence 1.00  right!
+	 prediction for example 13 is : 0 with confidence 0.95  right!
+	 prediction for example 14 is : 0 with confidence 1.00  right!
+	 prediction for example 15 is : 0 with confidence 1.00  wrong!
+	 prediction for example 16 is : 0 with confidence 0.98  wrong!
+	 prediction for example 17 is : 0 with confidence 1.00  right!
+	 prediction for example 18 is : 0 with confidence 1.00  right!
+	 prediction for example 19 is : 0 with confidence 0.50  wrong!
+	 prediction for example 20 is : 0 with confidence 1.00  right!
+	 prediction for example 21 is : 0 with confidence 1.00  right!
+	 prediction for example 22 is : 1 with confidence 1.00  right!
+	 prediction for example 23 is : 0 with confidence 1.00  right!
+	 prediction for example 24 is : 0 with confidence 1.00  right!
+	 prediction for example 25 is : 1 with confidence 1.00  right!
+	 prediction for example 26 is : 0 with confidence 1.00  right!
+	 prediction for example 27 is : 1 with confidence 1.00  right!
+	 prediction for example 28 is : 1 with confidence 1.00  wrong!
+	 prediction for example 29 is : 0 with confidence 1.00  right!
+	 prediction for example 30 is : 1 with confidence 1.00  wrong!
+	 prediction for example 31 is : 1 with confidence 1.00  right!
+	 prediction for example 32 is : 1 with confidence 1.00  right!
+	 prediction for example 33 is : 0 with confidence 1.00  right!
+	 prediction for example 34 is : 0 with confidence 1.00  wrong!
+	 prediction for example 35 is : 0 with confidence 0.93  right!
+	 prediction for example 36 is : 0 with confidence 1.00  right!
+	 prediction for example 37 is : 0 with confidence 1.00  right!
+	 prediction for example 38 is : 0 with confidence 1.00  right!
+	 prediction for example 39 is : 1 with confidence 1.00  right!
+	 prediction for example 40 is : 1 with confidence 1.00  right!
+	 prediction for example 41 is : 1 with confidence 1.00  right!
+	 prediction for example 42 is : 0 with confidence 0.99  right!
+	 prediction for example 43 is : 0 with confidence 1.00  right!
+	 prediction for example 44 is : 1 with confidence 1.00  right!
+	 prediction for example 45 is : 0 with confidence 1.00  right!
+	 prediction for example 46 is : 1 with confidence 0.53  right!
+	 prediction for example 47 is : 0 with confidence 0.58  right!
+	 prediction for example 48 is : 0 with confidence 1.00  right!
+	 prediction for example 49 is : 0 with confidence 1.00  right!
+	 prediction for example 50 is : 1 with confidence 1.00  wrong!
+	 prediction for example 51 is : 1 with confidence 1.00  wrong!
+	 prediction for example 52 is : 1 with confidence 0.96  wrong!
+	 prediction for example 53 is : 0 with confidence 1.00  right!
+	 prediction for example 54 is : 0 with confidence 1.00  right!
+	 prediction for example 55 is : 0 with confidence 1.00  wrong!
+	 prediction for example 56 is : 0 with confidence 1.00  right!
+	 prediction for example 57 is : 1 with confidence 1.00  right!
+	 prediction for example 58 is : 1 with confidence 0.66  right!
+	 prediction for example 59 is : 1 with confidence 1.00  right!
+	Prediction AUC: 0.88847 [0.80632,0.97062], and convex-hull AUC: 0.91604 [0.83389,0.99819].
+ --- test a 10-node Bootstrap Network 
+	Prediction AUC: 0.9069 [0.83097,0.98282], and convex-hull AUC: 0.93333 [0.85741,1.0093].
+	Prediction AUC: 0.65539 [0.5098,0.80098], and convex-hull AUC: 0.71053 [0.56493,0.85612].
+	 10-node Bootstrap Network AUC : 71.1 
+ --- test a 25-node Bootstrap Network 
+	Prediction AUC: 0.97586 [0.94476,1.007], and convex-hull AUC: 0.98276 [0.95165,1.0139].
+	Prediction AUC: 0.72682 [0.58945,0.86418], and convex-hull AUC: 0.76566 [0.6283,0.90303].
+	 25-node Bootstrap Network AUC : 76.6 
+ --- test a 100-node Bootstrap Network 
+	Prediction AUC: 0.97931 [0.95068,1.0079], and convex-hull AUC: 0.98736 [0.95873,1.016].
+	Prediction AUC: 0.84461 [0.74218,0.94704], and convex-hull AUC: 0.87093 [0.7685,0.97336].
+	 100-node Bootstrap Network AUC : 87.1 

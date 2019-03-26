@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+http://graphml.graphdrawing.org/xmlns/1.1/graphml.xsd">
+<key id="key_weight" for="edge" attr.name="weight" attr.type="double"/>
+<graph id="chess-DemoAnalysis-TestFull_full" edgedefault="directed">
+<node id="class"/>
+<node id="alcohol"/>
+<node id="malicacid"/>
+<node id="ash"/>
+<node id="alcalinity"/>
+<node id="magnesium"/>
+<node id="phenols"/>
+<node id="flavanoids"/>
+<node id="nonflavanoid"/>
+<node id="proanthocyanins"/>
+<node id="color"/>
+<node id="hue"/>
+<node id="od280od315"/>
+<node id="proline"/>
+<edge id="e1" source="ash" target="alcohol">
+<data key="key_weight">22.037242</data>
+</edge>
+<edge id="e2" source="nonflavanoid" target="malicacid">
+<data key="key_weight">3.985984</data>
+</edge>
+<edge id="e3" source="hue" target="malicacid">
+<data key="key_weight">7.804088</data>
+</edge>
+<edge id="e4" source="ash" target="alcalinity">
+<data key="key_weight">16.155540</data>
+</edge>
+<edge id="e5" source="proline" target="alcalinity">
+<data key="key_weight">11.347706</data>
+</edge>
+<edge id="e6" source="alcohol" target="magnesium">
+<data key="key_weight">19.417320</data>
+</edge>
+<edge id="e7" source="proanthocyanins" target="magnesium">
+<data key="key_weight">2.730746</data>
+</edge>
+<edge id="e8" source="proline" target="phenols">
+<data key="key_weight">16.216085</data>
+</edge>
+<edge id="e9" source="class" target="flavanoids">
+<data key="key_weight">24.844216</data>
+</edge>
+<edge id="e10" source="phenols" target="flavanoids">
+<data key="key_weight">74.659382</data>
+</edge>
+<edge id="e11" source="alcalinity" target="nonflavanoid">
+<data key="key_weight">4.974487</data>
+</edge>
+<edge id="e12" source="proanthocyanins" target="nonflavanoid">
+<data key="key_weight">1.362775</data>
+</edge>
+<edge id="e13" source="flavanoids" target="proanthocyanins">
+<data key="key_weight">32.060856</data>
+</edge>
+<edge id="e14" source="class" target="color">
+<data key="key_weight">23.536965</data>
+</edge>
+<edge id="e15" source="flavanoids" target="color">
+<data key="key_weight">23.014593</data>
+</edge>
+<edge id="e16" source="od280od315" target="hue">
+<data key="key_weight">17.766679</data>
+</edge>
+<edge id="e17" source="flavanoids" target="od280od315">
+<data key="key_weight">38.142066</data>
+</edge>
+<edge id="e18" source="color" target="od280od315">
+<data key="key_weight">3.846793</data>
+</edge>
+<edge id="e19" source="class" target="proline">
+<data key="key_weight">40.681020</data>
+</edge>
+<edge id="e20" source="alcohol" target="proline">
+<data key="key_weight">17.671209</data>
+</edge>
+</graph>
+</graphml>

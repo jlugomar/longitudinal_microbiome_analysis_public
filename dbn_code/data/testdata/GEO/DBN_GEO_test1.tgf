@@ -1,0 +1,87 @@
+1	bactin-gapdh 5' 3' ratio
+2	ratio of monocytes to lymphocytes  whole blood
+3	PPM1G_p1
+4	COPE_p1
+5	ALDH3A2_p2
+6	HDAC5_p1
+7	PPIE_p1
+8	FZD7_p1
+9	ADK_p2
+10	POLE2_p1
+11	NPY5R_p1
+12	C18orf1_p1
+13	RUNX1_p1
+14	GAGE1 /// GAGE12F /// GAGE12G /// GAGE12I /// GAGE12J /// GAGE4 /// GAGE5 /// GAGE6 /// GAGE7_p1
+15	HMG20B_p1
+16	UCK2_p1
+17	STX12_p1
+18	LPIN1_p1
+19	GGT1 /// GGT2 /// GGT3P /// GGTLC2 /// GGTLC3_p1
+20	CTAG2_p2
+21	MBTPS1_p2
+22	USP39_p1
+23	FAF1_p1
+24	USP21_p1
+25	VPREB3_p1
+26	SLC30A5_p2
+27	ZDHHC4_p1
+28	UBL4A_p1
+29	NUS1P3_p1
+30	fasting status
+31	atopy status
+32	maximum steroid exposure  4=systemic  3=inhaled  2=intranasal  1
+33	baseline severity nih guideline
+34	race
+35	Exacerbation
+#
+1	1
+1	6
+1	25
+2	2
+2	5
+2	10
+2	22
+2	28
+6	10
+9	28
+22	17
+24	13
+24	14
+30	3
+30	4
+30	19
+30	24
+30	30
+31	10
+31	19
+31	20
+31	21
+31	28
+31	31
+32	5
+32	7
+32	14
+32	20
+32	32
+33	2
+33	4
+33	9
+33	24
+33	33
+34	2
+34	7
+34	16
+34	17
+34	18
+34	22
+34	23
+34	27
+34	33
+34	34
+35	1
+35	3
+35	8
+35	16
+35	18
+35	34
+35	35

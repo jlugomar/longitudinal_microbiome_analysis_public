@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+http://graphml.graphdrawing.org/xmlns/1.1/graphml.xsd">
+<key id="key_weight" for="edge" attr.name="weight" attr.type="double"/>
+<graph id="MetabsK21" edgedefault="directed">
+<node id="class"/>
+<node id="alcohol"/>
+<node id="ash"/>
+<node id="alcalinity"/>
+<node id="phenols"/>
+<node id="flavanoids"/>
+<node id="color"/>
+<node id="proline"/>
+<edge id="e1" source="class" target="alcalinity">
+<data key="key_weight">6.719138</data>
+</edge>
+<edge id="e2" source="class" target="flavanoids">
+<data key="key_weight">18.250402</data>
+</edge>
+<edge id="e3" source="class" target="color">
+<data key="key_weight">27.153321</data>
+</edge>
+<edge id="e4" source="class" target="proline">
+<data key="key_weight">33.518060</data>
+</edge>
+<edge id="e5" source="alcohol" target="proline">
+<data key="key_weight">16.756719</data>
+</edge>
+<edge id="e6" source="ash" target="alcohol">
+<data key="key_weight">19.280601</data>
+</edge>
+<edge id="e7" source="ash" target="alcalinity">
+<data key="key_weight">24.017411</data>
+</edge>
+<edge id="e8" source="phenols" target="alcohol">
+<data key="key_weight">2.232755</data>
+</edge>
+<edge id="e9" source="phenols" target="flavanoids">
+<data key="key_weight">52.749671</data>
+</edge>
+<edge id="e10" source="flavanoids" target="color">
+<data key="key_weight">16.934421</data>
+</edge>
+</graph>
+</graphml>

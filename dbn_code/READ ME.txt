@@ -1,0 +1,70 @@
+CGBayesNets READ ME
+ 
+This CGBayesNets, the Hybrid Discrete/Continuous Bayesian net implementation by Michael McGeachie and Hsun-Hsien Chang.  This is Open Source software, available for free under the MIT License as described in cgbayesnets_license.txt.  If you use this in your research, please cite the following paper: 
+
+Chang HH, McGeachie MJ. Phenotype prediction by integrative network analysis of SNP and gene expression microarrays. In: 33rd Annual Intl Conf of the IEEE EMBS. Boston, MA, USA.; 2011:6849-52
+
+Contact: 
+
+For more information, see the website at www.cgbayesnets.com or email Michael McGeachie at mmcgeach@csail.mit.edu
+
+
+
+Installation:
+
+Unzip the HybridBayesNets.zip file to its own folder.  Add this folder to your MATLAB path.  When starting MATLAB, run the file /bnpathscript.m first.  This initializes the MATLAB path with all the necessary folders for running CGBayesNets.  There are two places that use the topological sorting routine from the MATLAB Bioinformatics Toolbox.  If you wish to disable these calls because you do not have access to this Toolbox, open the files /inference/internal/ElimOrdering.m and /inference/internal/PropagateCGRegression.m and change the line, near the top from: useBioinfToolbox = true; to useBioinfToolbox = false;
+ 
+Suggestions for use:
+ 
+There are several important folders and files for performing different functions with the Bayesian system.  These are listed in the file FileExplanations.csv.  Therein, each file is listed and given one or more of the following designations:
+
+STARTING POINT: these few files should be studied first.  They can help you understand how to generate and test Bayesian Networks using this CGBayesNets package. 
+COPY & EDIT: these files represent good places to start your analysis.  You could copy this file and then edit it to suit your own application.
+API: this is a file that is suitable for advanced MATLAB users to call using their own function to create and manipulate Bayesian Networks.
+BETA: this function is under developement.  DO NOT USE.
+INTERNAL: this function is part of the internal workings of the Bayes Net algorithms' implementation.  It is not suggested to edit or call these directly; instead work with files designated "API".  Advanced Bayesian programmers may want to edit or check these files.
+PATH: this file adds all of the necessary folders to the MATLAB path.  You may find it necessary to run this before starting computation.
+ 
+
+Below we give a little tour of the folders and files in this package.  We assume you extract the CGBayesNets zip file into a folder called "CGBN/"
+
+CGBN/
+
+This directory has a script that adds the other directories to the MATLAB path, bnpathscript.m, and a function that demonstrates how to simply read a file, learn a Bayes Net, and measure the accuracy of that BN by predicting on the training data: HybridBN.m. To begin your own analysis, start with HybridBN.m, it should work well on matrix-formatted data of moderate size.
+
+CGBN/data/testdata
+ 
+This folder contains files for running tests of the software on various types of data.  Running TestSuite.m will verify your installation of this package by building and executing various Bayesian Networks.  Output should match quite closely to the file testsuite_output.txt.  Note there is a bug in MATLAB 2011b that makes inference fail in some cases.  We suggest upgrading to the latest version. Other tests of CGBayesNets can be found in AnalyzeCachexia.m and output should match closely to AnalyzeCachexia_output.txt.
+
+
+CGBN/data/testdata/GEO
+ 
+This folder contains a couple files for deomstrating CGBayesNets functions on gene expression data from GEO.  Output of TestDiffEx.m should match geo_output.txt.
+
+CGBN/data
+
+Functions for testing performance in several ways.  Some functions for performing crossvalidation; some for performing logistic regression, which can be a good baseline to compare performance against; and some functions for simulating data and testing the Bayesian network upon that data. DemoAnalysis() function will try four different network learning methods on any dataset provided.
+
+CGBN/auctools
+
+The AUC (Area Under the receiver-operator characteristic Curve) is the primary metric of prediction used in our BN package.  We recommend the paper by Lasko(1) for its comprehensive coverage of all topics AUC.
+
+CGBN/utils
+
+These are utilities that have been useful for the BN package.  Many deal with file I/O.  Others deal with p-values and permutation testing.  Included is the exact Fisher test code for 2x2 and 2x3 matrices written by Giuseppe Cardillo.
+
+CGBN/inference
+
+This folder implements the inference algorithm of Cowell(2) for determining the most likely phenotype from a data set using a Conditional Gaussian Bayesian Network.  The files provided in this section take a (Conditional Gaussian) Bayesian network and will learn the parameters of the network from data; and then will also predict the head node from data.  This can be done on the same dataset to test the fit of the network to the data, or done on different datasets to test the generalizability of the network to other datasets.
+
+CGBN/netlearning
+
+This folder contains the files for learning the most likely network structure using Bayesian statistics and the K2 structure learning algorithm. These functions will output a description of the Bayes net in Trivial-Graph Format (.tgf), which can then be read into a graph visualization program such as the freely-available yEd.  Three strcuture learning algorithms are provided.  These are good starting points. FullBNLearn.m, BFFilterBNLearn.m and LearnPhenoCentric.m.  The first will use an exhaustive search procedure to learn a network over all the variables.  This can be quite time consuming and shouldn't be attempted on a large number of variables.  BFFilterBNLearn.m will filter out variables that do not meet a specific Bayes Factor threshold, and then learn a K2-style network with a stepwise search procedure.  LearnPhenoCentric.m will learn a smaller network based around a phenotype node that includes only the variables required to predict the phenotype variable. This is generally fast and results in small networks with high predictive accuracy.
+
+
+REFERENCES:
+
+1.	Lasko TA, Bhagwat JG, Zou KH, Ohno-Machado L. The use of receiver operating characteristic curves in biomedical informatics. J Biomed Inform 2005;38:404-15.
+2.	Cowell RG. Local Propagation in Conditional Gaussian Bayesian Networks. Machine Learninig Research 2005;6:1517-50.
+
+

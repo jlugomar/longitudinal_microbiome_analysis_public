@@ -1,0 +1,70 @@
+
+function map for Hybrid Bayesian network inference
+
+
+
+BWDHybridInference(bwfilename, datafile, predvar, mbfile)
+1   net1 = bdnread(bwfilename);
+2   mb = bdnmarkovblanket(net1,predvar);
+3   bwfilename = bdnmbwrite(bwfilename, mb, predvar);
+4   [acc,p] = PredictPheno(mbnodes, datafile, predvar);
+
+
+PredictPheno(nodesketch, filename, pheno)
+1   [data,cols] = ReadHeaderDataFile(filename);
+2   bn = nodetree(nodesketch);
+3   eo = ElimOrdering(bn);
+    1   AdjMatrixNodes()
+4   nodes = Moralize(bn);
+    1   addedge()
+5   nodes = Triangulate(nodes, eo);
+    1   addedge()
+6   cs = FormClusterSets(nodes, eo);
+    1   ClusterSetTree() % initialization of ClusterSetTree()
+        1   CondProbTable();
+        2   LPPotential()
+        3   [v, vinds] = ValueIncrement(obj.dvalues, []);
+        4   [allinds] = allvaluesindex(noncondinds, vallengths, obj.cpt.stepsize,...
+                    thiscondinds, condvals);
+            1   bvec = bitincbasevec(bvec,vallengths(unassigned));
+7   cs = ElimTree(cs, eo);
+8   tree = SemiElimTree(cs, eo);
+9   tree = InitClusterPotential(tree, nodes, eo, data, cols);
+    1   tree(j).cpt = InitDiscreteFactor(tree(j),nodes(i),nodes,data,cols);
+        1   CondProbTable(); % initalization of CondProbTables
+    2   newcpt = joindisjointcpts(newcpt,tree(j).cpt);
+    3   tree(j) = InitContFactor(tree(j), nodes(i), nodes, data, cols);
+        1   [v, vinds, numvalcombos] = ValueIncrement(disvalues, []);
+        2   xpot = LPPotential(node.index, contmembers, b(2:end), b(1), var(y), ...
+                dismembers, vinds);
+        3   ClusterSetTree().AddToLPPotential(xpot);
+10  tree = PropagateCGRegression(tree, eo, bn);
+    1   AdjMatrixNodes(bn);
+    2   [newlp, R] = Exchange(newlp, R);
+    3   ClusterSetTree().AddToLPPotential(R);
+    4   ClusterSetTree().AddToPostbags(R);
+11  tree = PushEvidence(tree, j, data(i,colinds(j)));
+    1   LPPotential().AddEvidence(var, varval);
+    2   ClusterSetTree().AddToPostbags(R);
+    3   [newlp, R] = Exchange(newlp, R);
+    4   LPPotential().MakeWeight();
+12  tree = HybridDiscreteEvidence(tree, nodes(j).self, data(i,colinds(j)));
+    1   [vals, vind] = ValueIncrement(cst(n).dvalues, [], []);
+    2   ClusterSetTree().AddToCPT(cst(n).weighttable(i), cst(n).dmembers, vind);
+    3   [parent.cpt, cst(n)] = factorreduceworker(parent.cpt, varnames, evvals, cst(n));
+        1	inds = allvaluesindex(unassigned, vallengths, cst.dvalstepsize, evvars, evvarinds);
+13  fprod = DiscreteEvidence(tree, cols, data(i,:), phenoname);
+    1   freds = factorreduce(cpts(cptindex),allvarnames,evidence);
+        1   newfs(i) = factorreduceworker(cpts(i), varnames, evidence);
+    2   fprod = factorproduct(freds, prodvar);
+        1   newfactor = factorproductworker(newfactor,temp(i),newind,findices(i));
+            1   inds1 = sparsefactorinds(f1, ind1, v);
+
+
+
+HybridBayesInferenceTests  (illustrates associated data files)
+1   mesatest1
+2   [acc,p] = PredictPheno(mesa1, 'mesa100.txt', 'pheno');
+3   [acc,p] = PredictPheno(mesa2, 'mesasimple.txt', 'pheno');
+4   [acc,p] = BWDHybridInference('EUACHN.bdn','EUACHN.txt');
+
