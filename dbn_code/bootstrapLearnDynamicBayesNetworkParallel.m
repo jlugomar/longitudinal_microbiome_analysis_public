@@ -1,4 +1,4 @@
-function DBN = bootstrapLearnDynamicBayesNetwork(filename, pheno, nboots, edgeThreshold, cols2learn, maxParents, localNetStruc, intraEdges, mle, nu, alpha, sigma2, BFTHRESH, MAXDISCVALS, verbose)
+function DBN = bootstrapLearnDynamicBayesNetworkParallel(filename, pheno, nboots, edgeThreshold, cols2learn, maxParents, localNetStruc, intraEdges, mle, nu, alpha, sigma2, BFTHRESH, MAXDISCVALS, verbose)
 %DBN = bootstrapLearnDynamicBayesNetwork(filename, pheno, nboots, edgeThreshold, maxParents, localNetStruc, intraEdges, mle, nu, alpha, sigma2, BFTHRESH, MAXDISCVALS, verbose)
 %
 % Function to use bootstrapping to generate multiple datasets and learn on
@@ -106,41 +106,42 @@ function DBN = bootstrapLearnDynamicBayesNetwork(filename, pheno, nboots, edgeTh
     priorPrecision.maxParents = maxParents;
     priorPrecision.mle = mle;
     
+    
+    DBNArray = BayesNet.empty(5,0);
+    
+    
+     subjects = unique(subjectIDs);
+    % Create a sample with replacement from all subjectsIDs 
+    % Note that we need to sample all timeppoints for a given subjectID
+    rindex = randi(size(subjects,1), size(subjectIDs, 1), 1);
+    sids = subjects(rindex, :);
+    sampleData = [];
+    sampleSubjectIDs = [];
+
+    for j = 1:length(sids)
+        sj = subjectIDs == sids(j);
+        ds = data(sj, :);
+        sidarray = sids(j) * ones(size(ds(:, 1)));
+        sidarray = sidarray + i*10000; %Making sure every iteration of the loop yield different ids
+        sampleData = [sampleData; ds];
+        sampleSubjectIDs = [sampleSubjectIDs; sidarray];
+    end
+        
+            
     %% Generate a bootstrap data realizations
-    for b = 1:nboots
+    parfor b = 1:nboots
         fprintf(1, 'Starting Boot Sample No. %d\n',b);
         
         currFilename = [filename, '_boot', num2str(b)];
-        subjects = unique(subjectIDs);
-        % Create a sample with replacement from all subjectsIDs 
-        % Note that we need to sample all timeppoints for a given subjectID
-        rindex = randi(size(subjects,1), size(subjectIDs, 1), 1);
-        sids = subjects(rindex, :);
-        sampleData = [];
-        sampleSubjectIDs = [];
-        for i = 1:length(sids)
-            si = subjectIDs == sids(i);
-            ds = data(si, :);
-            sidarray = sids(i) * ones(size(ds(:, 1)));
-            sidarray = sidarray + i*10000; %Making sure every iteration of the loop yield different ids
-            sampleData = [sampleData; ds];
-            sampleSubjectIDs = [sampleSubjectIDs; sidarray];
-        end
+       
         
         %% Take sample data and split into two (overlapping) time points
-        [d0, dn, nsids] = MakeTSBNData(sampleData, sampleSubjectIDs);
-        searchParameter.d0 = d0;
-        searchParameter.dn = dn;
-        searchParameter.DBN = true;
-        searchParameter.nophenotype = true;
-        searchParameter.annealing = false;
-        searchParameter.local = localNetStruc;
-        searchParameter.bic = mle;
-        searchParameter.unwrapped = false;
+        [d0, dn, ~] = MakeTSBNData(sampleData, sampleSubjectIDs);
+        searchParameter = struct('d0',d0,'dn',dn,'DBN',true,'nophenotype',true,'annealing',false,'local',localNetStruc,'bic',mle,'unwrapped',false); 
         
         if (~intraEdges)
             % FullBNLearn() will write current TSBN to GML and TGF if verbose is TRUE
-            [BNet, outstats] = FullBNLearn(sampleData, cols, pheno, BFTHRESH, filename, ...
+            [BNet, ~] = FullBNLearn(sampleData, cols, pheno, BFTHRESH, filename, ...
                                priorPrecision, disc, verbose, searchParameter, targetCols);
 
             % Convert TSBN into DBN:
@@ -158,13 +159,15 @@ function DBN = bootstrapLearnDynamicBayesNetwork(filename, pheno, nboots, edgeTh
         else
             % Adding suffix _dbn to properly label DBN
             dbn_filename = [currFilename, '_dbnIntra'];
-
+            
             searchParameter.unwrapped = true;
             % FullBNLearn() will write DBN directly to GML and TGF if verbose is TRUE
-            [DBN, outstats] = FullBNLearn(sampleData, cols, pheno, BFTHRESH, dbn_filename, ...
+            [DBN, ~] = FullBNLearn(sampleData, cols, pheno, BFTHRESH, dbn_filename, ...
                               priorPrecision, disc, verbose, searchParameter, targetCols);  
         end
 
+        DBNArray(b) = DBN
+        
         % Update global adjacency matrix
         adjmat = adjmat + DBN.adjmat;
         % Update global weight matrix
@@ -178,6 +181,12 @@ function DBN = bootstrapLearnDynamicBayesNetwork(filename, pheno, nboots, edgeTh
     weightMatrix(adjmat < edgeThreshold) = 0;
     adjmat(adjmat < edgeThreshold) = 0;
     adjmat(adjmat >= edgeThreshold) = 1;
+    
+    
+    %DBN = BayesNet(nodes, title, adjmat, weightMatrix, mb, isMB, disc, data, cols, pheno, priorPrecision, discvals, tree,bootStrapMatrix)
+            
+    DBN = DBNArray(nboots);        
+            
     DBN.adjmat = adjmat;
     DBN.weightMatrix = weightMatrix;
     DBN.bootStrapMatrix = bootScore; %To output the bootstrap score instead of the weightmatrix
@@ -188,6 +197,8 @@ function DBN = bootstrapLearnDynamicBayesNetwork(filename, pheno, nboots, edgeTh
         dbn_filename = [filename, '_dbnBoot'];
     end
     
+    
+    sum(sum(DBN.bootStrapMatrix))
     %% Write final bootstrapped DBN to GML and TGF
     DBN.WriteToGML(dbn_filename);
 %    DBN.WriteToTGF(dbn_filename);
