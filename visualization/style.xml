@@ -1,0 +1,1268 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<vizmap documentVersion="3.0" id="VizMap-2018_03_04-23_32">
+    <visualStyle name="DBNsStyle">
+        <network>
+            <visualProperty name="NETWORK_CENTER_Y_LOCATION" default="0.0"/>
+            <visualProperty name="NETWORK_NODE_SELECTION" default="true"/>
+            <visualProperty name="NETWORK_CENTER_Z_LOCATION" default="0.0"/>
+            <visualProperty name="NETWORK_SCALE_FACTOR" default="1.0"/>
+            <visualProperty name="NETWORK_BACKGROUND_PAINT" default="#FFFFFF"/>
+            <visualProperty name="NETWORK_EDGE_SELECTION" default="true"/>
+            <visualProperty name="NETWORK_TITLE" default=""/>
+            <visualProperty name="NETWORK_HEIGHT" default="400.0"/>
+            <visualProperty name="NETWORK_WIDTH" default="550.0"/>
+            <visualProperty name="NETWORK_CENTER_X_LOCATION" default="0.0"/>
+            <visualProperty name="NETWORK_DEPTH" default="0.0"/>
+        </network>
+        <node>
+            <dependency name="nodeCustomGraphicsSizeSync" value="true"/>
+            <dependency name="nodeSizeLocked" value="true"/>
+            <visualProperty name="NODE_FILL_COLOR" default="#ff9232">
+                <discreteMapping attributeType="string" attributeName="name">
+                    <discreteMappingEntry value="#4d93a8" attributeValue="Day of life sample obtained_ti+1"/>
+                    <discreteMappingEntry value="#4d93a8" attributeValue="Gestational age at birth_ti+1"/>
+                    <discreteMappingEntry value="#4d93a8" attributeValue="Postconceptional age sample obtained_ti+1"/>
+                    <discreteMappingEntry value="#4d93a8" attributeValue="Gender_ti+1"/>
+                    <discreteMappingEntry value="#4d93a8" attributeValue="Mode of birth_ti+1"/>
+                    <discreteMappingEntry value="#4d93a8" attributeValue="Room type_ti+1"/>
+                    <discreteMappingEntry value="#4d93a8" attributeValue="Human milk used_ti+1"/>
+                    <discreteMappingEntry value="#4d93a8" attributeValue="Days of antibiotics_ti+1"/>
+                    <discreteMappingEntry value="#4d93a8" attributeValue="Actinobacteria_ti+1"/>
+                    <discreteMappingEntry value="#4d93a8" attributeValue="Alphaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="#4d93a8" attributeValue="Bacilli_ti+1"/>
+                    <discreteMappingEntry value="#4d93a8" attributeValue="Bacteroidia_ti+1"/>
+                    <discreteMappingEntry value="#4d93a8" attributeValue="Betaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="#4d93a8" attributeValue="Clostridia_ti+1"/>
+                    <discreteMappingEntry value="#4d93a8" attributeValue="Cyanobacteria_ti+1"/>
+                    <discreteMappingEntry value="#4d93a8" attributeValue="Epsilonproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="#4d93a8" attributeValue="Erysipelotrichi_ti+1"/>
+                    <discreteMappingEntry value="#4d93a8" attributeValue="Flavobacteria_ti+1"/>
+                    <discreteMappingEntry value="#4d93a8" attributeValue="Fusobacteria_ti+1"/>
+                    <discreteMappingEntry value="#4d93a8" attributeValue="Gammaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="#4d93a8" attributeValue="Holophagae_ti+1"/>
+                    <discreteMappingEntry value="#4d93a8" attributeValue="Unclassified_ti+1"/>
+                </discreteMapping>
+            </visualProperty>
+            <visualProperty name="NODE_SIZE" default="40">
+                <discreteMapping attributeType="string" attributeName="name">
+                    <discreteMappingEntry value="40" attributeValue="Day of life sample obtained_ti"/>
+                    <discreteMappingEntry value="40" attributeValue="Day of life sample obtained_ti+1"/>
+                    <discreteMappingEntry value="40" attributeValue="Gestational age at birth_ti"/>
+                    <discreteMappingEntry value="40" attributeValue="Gestational age at birth_ti+1"/>
+                    <discreteMappingEntry value="40" attributeValue="Postconceptional age sample obtained_ti"/>
+                    <discreteMappingEntry value="40" attributeValue="Postconceptional age sample obtained_ti+1"/>
+                    <discreteMappingEntry value="40" attributeValue="Gender_ti"/>
+                    <discreteMappingEntry value="40" attributeValue="Gender_ti+1"/>
+                    <discreteMappingEntry value="40" attributeValue="Mode of birth_ti"/>
+                    <discreteMappingEntry value="40" attributeValue="Mode of birth_ti+1"/>
+                    <discreteMappingEntry value="40" attributeValue="Room type_ti"/>
+                    <discreteMappingEntry value="40" attributeValue="Room type_ti+1"/>
+                    <discreteMappingEntry value="40" attributeValue="Human milk used_ti"/>
+                    <discreteMappingEntry value="40" attributeValue="Human milk used_ti+1"/>
+                    <discreteMappingEntry value="40" attributeValue="Days of antibiotics_ti"/>
+                    <discreteMappingEntry value="40" attributeValue="Days of antibiotics_ti+1"/>
+                    <discreteMappingEntry value="40" attributeValue="Actinobacteria_ti"/>
+                    <discreteMappingEntry value="100" attributeValue="Actinobacteria_ti+1"/>
+                    <discreteMappingEntry value="40" attributeValue="Alphaproteobacteria_ti"/>
+                    <discreteMappingEntry value="100" attributeValue="Alphaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="40" attributeValue="Bacilli_ti"/>
+                    <discreteMappingEntry value="100" attributeValue="Bacilli_ti+1"/>
+                    <discreteMappingEntry value="40" attributeValue="Bacteroidia_ti"/>
+                    <discreteMappingEntry value="100" attributeValue="Bacteroidia_ti+1"/>
+                    <discreteMappingEntry value="40" attributeValue="Betaproteobacteria_ti"/>
+                    <discreteMappingEntry value="100" attributeValue="Betaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="40" attributeValue="Clostridia_ti"/>
+                    <discreteMappingEntry value="100" attributeValue="Clostridia_ti+1"/>
+                    <discreteMappingEntry value="40" attributeValue="Cyanobacteria_ti"/>
+                    <discreteMappingEntry value="100" attributeValue="Cyanobacteria_ti+1"/>
+                    <discreteMappingEntry value="40" attributeValue="Epsilonproteobacteria_ti"/>
+                    <discreteMappingEntry value="100" attributeValue="Epsilonproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="40" attributeValue="Erysipelotrichi_ti"/>
+                    <discreteMappingEntry value="100" attributeValue="Erysipelotrichi_ti+1"/>
+                    <discreteMappingEntry value="40" attributeValue="Flavobacteria_ti"/>
+                    <discreteMappingEntry value="100" attributeValue="Flavobacteria_ti+1"/>
+                    <discreteMappingEntry value="40" attributeValue="Fusobacteria_ti"/>
+                    <discreteMappingEntry value="100" attributeValue="Fusobacteria_ti+1"/>
+                    <discreteMappingEntry value="40" attributeValue="Gammaproteobacteria_ti"/>
+                    <discreteMappingEntry value="80" attributeValue="Gammaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="40" attributeValue="Holophagae_ti"/>
+                    <discreteMappingEntry value="100" attributeValue="Holophagae_ti+1"/>
+                    <discreteMappingEntry value="40" attributeValue="Unclassified_ti"/>
+                    <discreteMappingEntry value="100" attributeValue="Unclassified_ti+1"/>
+                </discreteMapping>
+            </visualProperty>
+            <visualProperty name="NODE_TRANSPARENCY" default="255">
+                <discreteMapping attributeType="string" attributeName="name">
+                    <discreteMappingEntry value="200" attributeValue="Day of life sample obtained_ti"/>
+                    <discreteMappingEntry value="200" attributeValue="Day of life sample obtained_ti+1"/>
+                    <discreteMappingEntry value="200" attributeValue="Gestational age at birth_ti"/>
+                    <discreteMappingEntry value="200" attributeValue="Gestational age at birth_ti+1"/>
+                    <discreteMappingEntry value="200" attributeValue="Postconceptional age sample obtained_ti"/>
+                    <discreteMappingEntry value="200" attributeValue="Postconceptional age sample obtained_ti+1"/>
+                    <discreteMappingEntry value="200" attributeValue="Gender_ti"/>
+                    <discreteMappingEntry value="200" attributeValue="Gender_ti+1"/>
+                    <discreteMappingEntry value="200" attributeValue="Mode of birth_ti"/>
+                    <discreteMappingEntry value="200" attributeValue="Mode of birth_ti+1"/>
+                    <discreteMappingEntry value="200" attributeValue="Room type_ti"/>
+                    <discreteMappingEntry value="200" attributeValue="Room type_ti+1"/>
+                    <discreteMappingEntry value="200" attributeValue="Human milk used_ti"/>
+                    <discreteMappingEntry value="200" attributeValue="Human milk used_ti+1"/>
+                    <discreteMappingEntry value="200" attributeValue="Days of antibiotics_ti"/>
+                    <discreteMappingEntry value="200" attributeValue="Days of antibiotics_ti+1"/>
+                    <discreteMappingEntry value="200" attributeValue="Actinobacteria_ti"/>
+                    <discreteMappingEntry value="200" attributeValue="Actinobacteria_ti+1"/>
+                    <discreteMappingEntry value="96.9" attributeValue="Alphaproteobacteria_ti"/>
+                    <discreteMappingEntry value="96.9" attributeValue="Alphaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="90.3" attributeValue="Bacilli_ti"/>
+                    <discreteMappingEntry value="90.3" attributeValue="Bacilli_ti+1"/>
+                    <discreteMappingEntry value="182.8" attributeValue="Bacteroidia_ti"/>
+                    <discreteMappingEntry value="182.8" attributeValue="Bacteroidia_ti+1"/>
+                    <discreteMappingEntry value="95.2" attributeValue="Betaproteobacteria_ti"/>
+                    <discreteMappingEntry value="95.2" attributeValue="Betaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="91.9" attributeValue="Clostridia_ti"/>
+                    <discreteMappingEntry value="91.9" attributeValue="Clostridia_ti+1"/>
+                    <discreteMappingEntry value="135.9" attributeValue="Cyanobacteria_ti"/>
+                    <discreteMappingEntry value="135.9" attributeValue="Cyanobacteria_ti+1"/>
+                    <discreteMappingEntry value="90.1" attributeValue="Epsilonproteobacteria_ti"/>
+                    <discreteMappingEntry value="90.1" attributeValue="Epsilonproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="90" attributeValue="Erysipelotrichi_ti"/>
+                    <discreteMappingEntry value="90" attributeValue="Erysipelotrichi_ti+1"/>
+                    <discreteMappingEntry value="90" attributeValue="Flavobacteria_ti"/>
+                    <discreteMappingEntry value="90" attributeValue="Flavobacteria_ti+1"/>
+                    <discreteMappingEntry value="90.4" attributeValue="Fusobacteria_ti"/>
+                    <discreteMappingEntry value="90.4" attributeValue="Fusobacteria_ti+1"/>
+                    <discreteMappingEntry value="90.1" attributeValue="Gammaproteobacteria_ti"/>
+                    <discreteMappingEntry value="90.1" attributeValue="Gammaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="255" attributeValue="Holophagae_ti"/>
+                    <discreteMappingEntry value="255" attributeValue="Holophagae_ti+1"/>
+                    <discreteMappingEntry value="90" attributeValue="Unclassified_ti"/>
+                    <discreteMappingEntry value="90" attributeValue="Unclassified_ti+1"/>
+                </discreteMapping>
+            </visualProperty>
+            <visualProperty name="NODE_SHAPE" default="ELLIPSE">
+                <discreteMapping attributeType="string" attributeName="name">
+                    <discreteMappingEntry value="DIAMOND" attributeValue="Subject_ti"/>
+                    <discreteMappingEntry value="DIAMOND" attributeValue="Subject_ti+1"/>
+                    <discreteMappingEntry value="DIAMOND" attributeValue="Day of life sample obtained_ti"/>
+                    <discreteMappingEntry value="DIAMOND" attributeValue="Day of life sample obtained_ti+1"/>
+                    <discreteMappingEntry value="DIAMOND" attributeValue="Gestational age at birth_ti"/>
+                    <discreteMappingEntry value="DIAMOND" attributeValue="Gestational age at birth_ti+1"/>
+                    <discreteMappingEntry value="DIAMOND" attributeValue="Postconceptional age sample obtained_ti"/>
+                    <discreteMappingEntry value="DIAMOND" attributeValue="Postconceptional age sample obtained_ti+1"/>
+                    <discreteMappingEntry value="DIAMOND" attributeValue="Gender_ti"/>
+                    <discreteMappingEntry value="DIAMOND" attributeValue="Gender_ti+1"/>
+                    <discreteMappingEntry value="DIAMOND" attributeValue="Mode of birth_ti"/>
+                    <discreteMappingEntry value="DIAMOND" attributeValue="Mode of birth_ti+1"/>
+                    <discreteMappingEntry value="DIAMOND" attributeValue="Room type_ti"/>
+                    <discreteMappingEntry value="DIAMOND" attributeValue="Room type_ti+1"/>
+                    <discreteMappingEntry value="DIAMOND" attributeValue="Human milk used_ti"/>
+                    <discreteMappingEntry value="DIAMOND" attributeValue="Human milk used_ti+1"/>
+                    <discreteMappingEntry value="DIAMOND" attributeValue="Days of antibiotics_ti"/>
+                    <discreteMappingEntry value="DIAMOND" attributeValue="Days of antibiotics_ti+1"/>
+                </discreteMapping>
+            </visualProperty>
+            <visualProperty name="NODE_CUSTOMGRAPHICS_SIZE_9" default="0.0"/>
+            <visualProperty name="NODE_CUSTOMGRAPHICS_POSITION_4" default="C,C,c,0.00,0.00"/>
+            <visualProperty name="NODE_CUSTOMGRAPHICS_POSITION_7" default="C,C,c,0.00,0.00"/>
+            <visualProperty name="NODE_CUSTOMGRAPHICS_SIZE_4" default="0.0"/>
+            <visualProperty name="NODE_CUSTOMGRAPHICS_SIZE_7" default="0.0"/>
+            <visualProperty name="NODE_CUSTOMGRAPHICS_POSITION_5" default="C,C,c,0.00,0.00"/>
+            <visualProperty name="NODE_BORDER_WIDTH" default="7.0"/>
+            <visualProperty name="COMPOUND_NODE_SHAPE" default="ROUND_RECTANGLE"/>
+            <visualProperty name="NODE_CUSTOMGRAPHICS_POSITION_3" default="C,C,c,0.00,0.00"/>
+            <visualProperty name="NODE_CUSTOMGRAPHICS_SIZE_5" default="0.0"/>
+            <visualProperty name="NODE_BORDER_PAINT" default="#FFFFFF"/>
+            <visualProperty name="NODE_LABEL_COLOR" default="#000000"/>
+            <visualProperty name="NODE_LABEL_POSITION" default="S,N,c,0.00,0.00"/>
+            <visualProperty name="NODE_CUSTOMGRAPHICS_6" default="org.cytoscape.ding.customgraphics.NullCustomGraphics,0,[ Remove Graphics ],"/>
+            <visualProperty name="NODE_SELECTED_PAINT" default="#FFFF00"/>
+            <visualProperty name="NODE_CUSTOMGRAPHICS_SIZE_1" default="0.0"/>
+            <visualProperty name="NODE_NESTED_NETWORK_IMAGE_VISIBLE" default="true"/>
+            <visualProperty name="NODE_BORDER_STROKE" default="SOLID"/>
+            <visualProperty name="NODE_CUSTOMGRAPHICS_3" default="org.cytoscape.ding.customgraphics.NullCustomGraphics,0,[ Remove Graphics ],"/>
+            <visualProperty name="NODE_CUSTOMGRAPHICS_SIZE_6" default="0.0"/>
+            <visualProperty name="NODE_Y_LOCATION" default="0.0"/>
+            <visualProperty name="NODE_LABEL_FONT_SIZE" default="20"/>
+            <visualProperty name="NODE_HEIGHT" default="40.0"/>
+            <visualProperty name="NODE_CUSTOMGRAPHICS_9" default="org.cytoscape.ding.customgraphics.NullCustomGraphics,0,[ Remove Graphics ],"/>
+            <visualProperty name="NODE_CUSTOMGRAPHICS_8" default="org.cytoscape.ding.customgraphics.NullCustomGraphics,0,[ Remove Graphics ],"/>
+            <visualProperty name="NODE_CUSTOMGRAPHICS_POSITION_1" default="C,C,c,0.00,0.00"/>
+            <visualProperty name="NODE_CUSTOMGRAPHICS_2" default="org.cytoscape.ding.customgraphics.NullCustomGraphics,0,[ Remove Graphics ],"/>
+            <visualProperty name="NODE_CUSTOMGRAPHICS_5" default="org.cytoscape.ding.customgraphics.NullCustomGraphics,0,[ Remove Graphics ],"/>
+            <visualProperty name="NODE_VISIBLE" default="true"/>
+            <visualProperty name="NODE_BORDER_TRANSPARENCY" default="255"/>
+            <visualProperty name="NODE_TOOLTIP" default=""/>
+            <visualProperty name="NODE_SELECTED" default="false"/>
+            <visualProperty name="NODE_CUSTOMGRAPHICS_SIZE_8" default="0.0"/>
+            <visualProperty name="NODE_CUSTOMGRAPHICS_SIZE_3" default="0.0"/>
+            <visualProperty name="NODE_WIDTH" default="60.0"/>
+            <visualProperty name="NODE_CUSTOMGRAPHICS_7" default="org.cytoscape.ding.customgraphics.NullCustomGraphics,0,[ Remove Graphics ],"/>
+            <visualProperty name="NODE_CUSTOMGRAPHICS_POSITION_8" default="C,C,c,0.00,0.00"/>
+            <visualProperty name="NODE_LABEL" default="">
+                <passthroughMapping attributeType="string" attributeName="name"/>
+            </visualProperty>
+            <visualProperty name="NODE_DEPTH" default="0.0"/>
+            <visualProperty name="NODE_LABEL_TRANSPARENCY" default="255"/>
+            <visualProperty name="NODE_CUSTOMGRAPHICS_POSITION_2" default="C,C,c,0.00,0.00"/>
+            <visualProperty name="NODE_CUSTOMGRAPHICS_4" default="org.cytoscape.ding.customgraphics.NullCustomGraphics,0,[ Remove Graphics ],"/>
+            <visualProperty name="NODE_CUSTOMGRAPHICS_POSITION_6" default="C,C,c,0.00,0.00"/>
+            <visualProperty name="NODE_Z_LOCATION" default="0.0"/>
+            <visualProperty name="NODE_LABEL_FONT_FACE" default="SansSerif.plain,plain,12"/>
+            <visualProperty name="NODE_CUSTOMGRAPHICS_SIZE_2" default="0.0"/>
+            <visualProperty name="COMPOUND_NODE_PADDING" default="10.0"/>
+            <visualProperty name="NODE_CUSTOMGRAPHICS_POSITION_9" default="C,C,c,0.00,0.00"/>
+            <visualProperty name="NODE_LABEL_WIDTH" default="200.0"/>
+            <visualProperty name="NODE_X_LOCATION" default="0.0"/>
+            <visualProperty name="NODE_CUSTOMGRAPHICS_1" default="org.cytoscape.ding.customgraphics.NullCustomGraphics,0,[ Remove Graphics ],"/>
+        </node>
+        <edge>
+            <dependency name="arrowColorMatchesEdge" value="false"/>
+            <visualProperty name="EDGE_LINE_TYPE" default="SOLID">
+                <discreteMapping attributeType="string" attributeName="shared name">
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti+1 (-) Day of life sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti (-) Day of life sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti+1 (-) Gestational age at birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti (-) Gestational age at birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti+1 (-) Postconceptional age sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti (-) Postconceptional age sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti+1 (-) Gender_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti (-) Gender_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti+1 (-) Mode of birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti (-) Mode of birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti+1 (-) Room type_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti (-) Room type_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti+1 (-) Human milk used_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti (-) Human milk used_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti+1 (-) Days of antibiotics_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti (-) Days of antibiotics_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti+1 (-) Actinobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti (-) Actinobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti+1 (-) Alphaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti (-) Alphaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti+1 (-) Bacilli_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti (-) Bacilli_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti+1 (-) Bacteroidia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti (-) Bacteroidia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti+1 (-) Betaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti (-) Betaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti+1 (-) Clostridia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti (-) Clostridia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti+1 (-) Cyanobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti (-) Cyanobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti+1 (-) Epsilonproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti (-) Epsilonproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti+1 (-) Erysipelotrichi_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti (-) Erysipelotrichi_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti+1 (-) Flavobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti (-) Flavobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti+1 (-) Fusobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti (-) Fusobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti+1 (-) Gammaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti (-) Gammaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti+1 (-) Holophagae_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti (-) Holophagae_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti+1 (-) Unclassified_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Day of life sample obtained_ti (-) Unclassified_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti+1 (-) Day of life sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti (-) Day of life sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti+1 (-) Gestational age at birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti (-) Gestational age at birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti+1 (-) Postconceptional age sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti (-) Postconceptional age sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti+1 (-) Gender_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti (-) Gender_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti+1 (-) Mode of birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti (-) Mode of birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti+1 (-) Room type_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti (-) Room type_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti+1 (-) Human milk used_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti (-) Human milk used_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti+1 (-) Days of antibiotics_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti (-) Days of antibiotics_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti+1 (-) Actinobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti (-) Actinobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti+1 (-) Alphaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti (-) Alphaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti+1 (-) Bacilli_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti (-) Bacilli_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti+1 (-) Bacteroidia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti (-) Bacteroidia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti+1 (-) Betaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti (-) Betaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti+1 (-) Clostridia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti (-) Clostridia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti+1 (-) Cyanobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti (-) Cyanobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti+1 (-) Epsilonproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti (-) Epsilonproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti+1 (-) Erysipelotrichi_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti (-) Erysipelotrichi_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti+1 (-) Flavobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti (-) Flavobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti+1 (-) Fusobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti (-) Fusobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti+1 (-) Gammaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti (-) Gammaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti+1 (-) Holophagae_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti (-) Holophagae_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti+1 (-) Unclassified_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gestational age at birth_ti (-) Unclassified_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti+1 (-) Day of life sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti (-) Day of life sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti+1 (-) Gestational age at birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti (-) Gestational age at birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti+1 (-) Postconceptional age sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti (-) Postconceptional age sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti+1 (-) Gender_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti (-) Gender_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti+1 (-) Mode of birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti (-) Mode of birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti+1 (-) Room type_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti (-) Room type_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti+1 (-) Human milk used_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti (-) Human milk used_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti+1 (-) Days of antibiotics_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti (-) Days of antibiotics_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti+1 (-) Actinobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti (-) Actinobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti+1 (-) Alphaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti (-) Alphaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti+1 (-) Bacilli_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti (-) Bacilli_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti+1 (-) Bacteroidia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti (-) Bacteroidia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti+1 (-) Betaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti (-) Betaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti+1 (-) Clostridia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti (-) Clostridia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti+1 (-) Cyanobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti (-) Cyanobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti+1 (-) Epsilonproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti (-) Epsilonproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti+1 (-) Erysipelotrichi_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti (-) Erysipelotrichi_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti+1 (-) Flavobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti (-) Flavobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti+1 (-) Fusobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti (-) Fusobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti+1 (-) Gammaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti (-) Gammaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti+1 (-) Holophagae_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti (-) Holophagae_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti+1 (-) Unclassified_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Postconceptional age sample obtained_ti (-) Unclassified_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti+1 (-) Day of life sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti (-) Day of life sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti+1 (-) Gestational age at birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti (-) Gestational age at birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti+1 (-) Postconceptional age sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti (-) Postconceptional age sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti+1 (-) Gender_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti (-) Gender_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti+1 (-) Mode of birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti (-) Mode of birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti+1 (-) Room type_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti (-) Room type_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti+1 (-) Human milk used_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti (-) Human milk used_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti+1 (-) Days of antibiotics_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti (-) Days of antibiotics_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti+1 (-) Actinobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti (-) Actinobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti+1 (-) Alphaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti (-) Alphaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti+1 (-) Bacilli_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti (-) Bacilli_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti+1 (-) Bacteroidia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti (-) Bacteroidia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti+1 (-) Betaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti (-) Betaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti+1 (-) Clostridia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti (-) Clostridia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti+1 (-) Cyanobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti (-) Cyanobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti+1 (-) Epsilonproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti (-) Epsilonproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti+1 (-) Erysipelotrichi_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti (-) Erysipelotrichi_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti+1 (-) Flavobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti (-) Flavobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti+1 (-) Fusobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti (-) Fusobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti+1 (-) Gammaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti (-) Gammaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti+1 (-) Holophagae_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti (-) Holophagae_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti+1 (-) Unclassified_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gender_ti (-) Unclassified_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti+1 (-) Day of life sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti (-) Day of life sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti+1 (-) Gestational age at birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti (-) Gestational age at birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti+1 (-) Postconceptional age sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti (-) Postconceptional age sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti+1 (-) Gender_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti (-) Gender_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti+1 (-) Mode of birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti (-) Mode of birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti+1 (-) Room type_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti (-) Room type_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti+1 (-) Human milk used_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti (-) Human milk used_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti+1 (-) Days of antibiotics_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti (-) Days of antibiotics_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti+1 (-) Actinobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti (-) Actinobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti+1 (-) Alphaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti (-) Alphaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti+1 (-) Bacilli_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti (-) Bacilli_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti+1 (-) Bacteroidia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti (-) Bacteroidia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti+1 (-) Betaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti (-) Betaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti+1 (-) Clostridia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti (-) Clostridia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti+1 (-) Cyanobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti (-) Cyanobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti+1 (-) Epsilonproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti (-) Epsilonproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti+1 (-) Erysipelotrichi_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti (-) Erysipelotrichi_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti+1 (-) Flavobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti (-) Flavobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti+1 (-) Fusobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti (-) Fusobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti+1 (-) Gammaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti (-) Gammaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti+1 (-) Holophagae_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti (-) Holophagae_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti+1 (-) Unclassified_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Mode of birth_ti (-) Unclassified_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti+1 (-) Day of life sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti (-) Day of life sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti+1 (-) Gestational age at birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti (-) Gestational age at birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti+1 (-) Postconceptional age sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti (-) Postconceptional age sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti+1 (-) Gender_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti (-) Gender_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti+1 (-) Mode of birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti (-) Mode of birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti+1 (-) Room type_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti (-) Room type_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti+1 (-) Human milk used_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti (-) Human milk used_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti+1 (-) Days of antibiotics_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti (-) Days of antibiotics_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti+1 (-) Actinobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti (-) Actinobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti+1 (-) Alphaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti (-) Alphaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti+1 (-) Bacilli_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti (-) Bacilli_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti+1 (-) Bacteroidia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti (-) Bacteroidia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti+1 (-) Betaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti (-) Betaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti+1 (-) Clostridia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti (-) Clostridia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti+1 (-) Cyanobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti (-) Cyanobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti+1 (-) Epsilonproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti (-) Epsilonproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti+1 (-) Erysipelotrichi_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti (-) Erysipelotrichi_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti+1 (-) Flavobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti (-) Flavobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti+1 (-) Fusobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti (-) Fusobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti+1 (-) Gammaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti (-) Gammaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti+1 (-) Holophagae_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti (-) Holophagae_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti+1 (-) Unclassified_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Room type_ti (-) Unclassified_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti+1 (-) Day of life sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti (-) Day of life sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti+1 (-) Gestational age at birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti (-) Gestational age at birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti+1 (-) Postconceptional age sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti (-) Postconceptional age sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti+1 (-) Gender_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti (-) Gender_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti+1 (-) Mode of birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti (-) Mode of birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti+1 (-) Room type_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti (-) Room type_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti+1 (-) Human milk used_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti (-) Human milk used_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti+1 (-) Days of antibiotics_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti (-) Days of antibiotics_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti+1 (-) Actinobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti (-) Actinobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti+1 (-) Alphaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti (-) Alphaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti+1 (-) Bacilli_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti (-) Bacilli_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti+1 (-) Bacteroidia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti (-) Bacteroidia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti+1 (-) Betaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti (-) Betaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti+1 (-) Clostridia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti (-) Clostridia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti+1 (-) Cyanobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti (-) Cyanobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti+1 (-) Epsilonproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti (-) Epsilonproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti+1 (-) Erysipelotrichi_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti (-) Erysipelotrichi_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti+1 (-) Flavobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti (-) Flavobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti+1 (-) Fusobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti (-) Fusobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti+1 (-) Gammaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti (-) Gammaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti+1 (-) Holophagae_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti (-) Holophagae_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti+1 (-) Unclassified_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Human milk used_ti (-) Unclassified_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti+1 (-) Day of life sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti (-) Day of life sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti+1 (-) Gestational age at birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti (-) Gestational age at birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti+1 (-) Postconceptional age sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti (-) Postconceptional age sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti+1 (-) Gender_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti (-) Gender_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti+1 (-) Mode of birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti (-) Mode of birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti+1 (-) Room type_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti (-) Room type_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti+1 (-) Human milk used_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti (-) Human milk used_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti+1 (-) Days of antibiotics_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti (-) Days of antibiotics_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti+1 (-) Actinobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti (-) Actinobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti+1 (-) Alphaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti (-) Alphaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti+1 (-) Bacilli_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti (-) Bacilli_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti+1 (-) Bacteroidia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti (-) Bacteroidia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti+1 (-) Betaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti (-) Betaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti+1 (-) Clostridia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti (-) Clostridia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti+1 (-) Cyanobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti (-) Cyanobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti+1 (-) Epsilonproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti (-) Epsilonproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti+1 (-) Erysipelotrichi_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti (-) Erysipelotrichi_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti+1 (-) Flavobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti (-) Flavobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti+1 (-) Fusobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti (-) Fusobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti+1 (-) Gammaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti (-) Gammaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti+1 (-) Holophagae_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti (-) Holophagae_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti+1 (-) Unclassified_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Days of antibiotics_ti (-) Unclassified_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti+1 (-) Day of life sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti (-) Day of life sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti+1 (-) Gestational age at birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti (-) Gestational age at birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti+1 (-) Postconceptional age sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti (-) Postconceptional age sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti+1 (-) Gender_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti (-) Gender_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti+1 (-) Mode of birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti (-) Mode of birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti+1 (-) Room type_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti (-) Room type_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti+1 (-) Human milk used_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti (-) Human milk used_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti+1 (-) Days of antibiotics_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti (-) Days of antibiotics_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti+1 (-) Actinobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti (-) Actinobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti+1 (-) Alphaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti (-) Alphaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti+1 (-) Bacilli_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti (-) Bacilli_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti+1 (-) Bacteroidia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti (-) Bacteroidia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti+1 (-) Betaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti (-) Betaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti+1 (-) Clostridia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti (-) Clostridia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti+1 (-) Cyanobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti (-) Cyanobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti+1 (-) Epsilonproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti (-) Epsilonproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti+1 (-) Erysipelotrichi_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti (-) Erysipelotrichi_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti+1 (-) Flavobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti (-) Flavobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti+1 (-) Fusobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti (-) Fusobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti+1 (-) Gammaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti (-) Gammaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti+1 (-) Holophagae_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti (-) Holophagae_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti+1 (-) Unclassified_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Actinobacteria_ti (-) Unclassified_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti+1 (-) Day of life sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti (-) Day of life sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti+1 (-) Gestational age at birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti (-) Gestational age at birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti+1 (-) Postconceptional age sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti (-) Postconceptional age sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti+1 (-) Gender_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti (-) Gender_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti+1 (-) Mode of birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti (-) Mode of birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti+1 (-) Room type_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti (-) Room type_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti+1 (-) Human milk used_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti (-) Human milk used_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti+1 (-) Days of antibiotics_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti (-) Days of antibiotics_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti+1 (-) Actinobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti (-) Actinobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti+1 (-) Alphaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti (-) Alphaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti+1 (-) Bacilli_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti (-) Bacilli_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti+1 (-) Bacteroidia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti (-) Bacteroidia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti+1 (-) Betaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti (-) Betaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti+1 (-) Clostridia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti (-) Clostridia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti+1 (-) Cyanobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti (-) Cyanobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti+1 (-) Epsilonproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti (-) Epsilonproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti+1 (-) Erysipelotrichi_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti (-) Erysipelotrichi_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti+1 (-) Flavobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti (-) Flavobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti+1 (-) Fusobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti (-) Fusobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti+1 (-) Gammaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti (-) Gammaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti+1 (-) Holophagae_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti (-) Holophagae_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti+1 (-) Unclassified_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Alphaproteobacteria_ti (-) Unclassified_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti+1 (-) Day of life sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti (-) Day of life sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti+1 (-) Gestational age at birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti (-) Gestational age at birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti+1 (-) Postconceptional age sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti (-) Postconceptional age sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti+1 (-) Gender_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti (-) Gender_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti+1 (-) Mode of birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti (-) Mode of birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti+1 (-) Room type_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti (-) Room type_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti+1 (-) Human milk used_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti (-) Human milk used_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti+1 (-) Days of antibiotics_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti (-) Days of antibiotics_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti+1 (-) Actinobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti (-) Actinobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti+1 (-) Alphaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti (-) Alphaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti+1 (-) Bacilli_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti (-) Bacilli_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti+1 (-) Bacteroidia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti (-) Bacteroidia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti+1 (-) Betaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti (-) Betaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti+1 (-) Clostridia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti (-) Clostridia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti+1 (-) Cyanobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti (-) Cyanobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti+1 (-) Epsilonproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti (-) Epsilonproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti+1 (-) Erysipelotrichi_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti (-) Erysipelotrichi_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti+1 (-) Flavobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti (-) Flavobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti+1 (-) Fusobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti (-) Fusobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti+1 (-) Gammaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti (-) Gammaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti+1 (-) Holophagae_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti (-) Holophagae_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti+1 (-) Unclassified_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacilli_ti (-) Unclassified_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti+1 (-) Day of life sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti (-) Day of life sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti+1 (-) Gestational age at birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti (-) Gestational age at birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti+1 (-) Postconceptional age sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti (-) Postconceptional age sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti+1 (-) Gender_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti (-) Gender_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti+1 (-) Mode of birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti (-) Mode of birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti+1 (-) Room type_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti (-) Room type_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti+1 (-) Human milk used_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti (-) Human milk used_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti+1 (-) Days of antibiotics_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti (-) Days of antibiotics_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti+1 (-) Actinobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti (-) Actinobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti+1 (-) Alphaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti (-) Alphaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti+1 (-) Bacilli_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti (-) Bacilli_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti+1 (-) Bacteroidia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti (-) Bacteroidia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti+1 (-) Betaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti (-) Betaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti+1 (-) Clostridia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti (-) Clostridia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti+1 (-) Cyanobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti (-) Cyanobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti+1 (-) Epsilonproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti (-) Epsilonproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti+1 (-) Erysipelotrichi_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti (-) Erysipelotrichi_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti+1 (-) Flavobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti (-) Flavobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti+1 (-) Fusobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti (-) Fusobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti+1 (-) Gammaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti (-) Gammaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti+1 (-) Holophagae_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti (-) Holophagae_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti+1 (-) Unclassified_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Bacteroidia_ti (-) Unclassified_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti+1 (-) Day of life sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti (-) Day of life sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti+1 (-) Gestational age at birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti (-) Gestational age at birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti+1 (-) Postconceptional age sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti (-) Postconceptional age sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti+1 (-) Gender_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti (-) Gender_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti+1 (-) Mode of birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti (-) Mode of birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti+1 (-) Room type_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti (-) Room type_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti+1 (-) Human milk used_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti (-) Human milk used_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti+1 (-) Days of antibiotics_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti (-) Days of antibiotics_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti+1 (-) Actinobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti (-) Actinobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti+1 (-) Alphaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti (-) Alphaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti+1 (-) Bacilli_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti (-) Bacilli_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti+1 (-) Bacteroidia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti (-) Bacteroidia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti+1 (-) Betaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti (-) Betaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti+1 (-) Clostridia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti (-) Clostridia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti+1 (-) Cyanobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti (-) Cyanobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti+1 (-) Epsilonproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti (-) Epsilonproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti+1 (-) Erysipelotrichi_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti (-) Erysipelotrichi_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti+1 (-) Flavobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti (-) Flavobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti+1 (-) Fusobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti (-) Fusobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti+1 (-) Gammaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti (-) Gammaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti+1 (-) Holophagae_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti (-) Holophagae_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti+1 (-) Unclassified_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Betaproteobacteria_ti (-) Unclassified_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti+1 (-) Day of life sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti (-) Day of life sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti+1 (-) Gestational age at birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti (-) Gestational age at birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti+1 (-) Postconceptional age sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti (-) Postconceptional age sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti+1 (-) Gender_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti (-) Gender_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti+1 (-) Mode of birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti (-) Mode of birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti+1 (-) Room type_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti (-) Room type_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti+1 (-) Human milk used_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti (-) Human milk used_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti+1 (-) Days of antibiotics_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti (-) Days of antibiotics_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti+1 (-) Actinobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti (-) Actinobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti+1 (-) Alphaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti (-) Alphaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti+1 (-) Bacilli_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti (-) Bacilli_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti+1 (-) Bacteroidia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti (-) Bacteroidia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti+1 (-) Betaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti (-) Betaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti+1 (-) Clostridia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti (-) Clostridia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti+1 (-) Cyanobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti (-) Cyanobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti+1 (-) Epsilonproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti (-) Epsilonproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti+1 (-) Erysipelotrichi_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti (-) Erysipelotrichi_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti+1 (-) Flavobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti (-) Flavobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti+1 (-) Fusobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti (-) Fusobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti+1 (-) Gammaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti (-) Gammaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti+1 (-) Holophagae_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti (-) Holophagae_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti+1 (-) Unclassified_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Clostridia_ti (-) Unclassified_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti+1 (-) Day of life sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti (-) Day of life sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti+1 (-) Gestational age at birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti (-) Gestational age at birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti+1 (-) Postconceptional age sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti (-) Postconceptional age sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti+1 (-) Gender_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti (-) Gender_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti+1 (-) Mode of birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti (-) Mode of birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti+1 (-) Room type_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti (-) Room type_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti+1 (-) Human milk used_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti (-) Human milk used_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti+1 (-) Days of antibiotics_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti (-) Days of antibiotics_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti+1 (-) Actinobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti (-) Actinobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti+1 (-) Alphaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti (-) Alphaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti+1 (-) Bacilli_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti (-) Bacilli_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti+1 (-) Bacteroidia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti (-) Bacteroidia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti+1 (-) Betaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti (-) Betaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti+1 (-) Clostridia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti (-) Clostridia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti+1 (-) Cyanobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti (-) Cyanobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti+1 (-) Epsilonproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti (-) Epsilonproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti+1 (-) Erysipelotrichi_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti (-) Erysipelotrichi_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti+1 (-) Flavobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti (-) Flavobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti+1 (-) Fusobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti (-) Fusobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti+1 (-) Gammaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti (-) Gammaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti+1 (-) Holophagae_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti (-) Holophagae_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti+1 (-) Unclassified_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Cyanobacteria_ti (-) Unclassified_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti+1 (-) Day of life sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti (-) Day of life sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti+1 (-) Gestational age at birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti (-) Gestational age at birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti+1 (-) Postconceptional age sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti (-) Postconceptional age sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti+1 (-) Gender_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti (-) Gender_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti+1 (-) Mode of birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti (-) Mode of birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti+1 (-) Room type_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti (-) Room type_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti+1 (-) Human milk used_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti (-) Human milk used_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti+1 (-) Days of antibiotics_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti (-) Days of antibiotics_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti+1 (-) Actinobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti (-) Actinobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti+1 (-) Alphaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti (-) Alphaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti+1 (-) Bacilli_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti (-) Bacilli_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti+1 (-) Bacteroidia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti (-) Bacteroidia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti+1 (-) Betaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti (-) Betaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti+1 (-) Clostridia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti (-) Clostridia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti+1 (-) Cyanobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti (-) Cyanobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti+1 (-) Epsilonproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti (-) Epsilonproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti+1 (-) Erysipelotrichi_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti (-) Erysipelotrichi_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti+1 (-) Flavobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti (-) Flavobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti+1 (-) Fusobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti (-) Fusobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti+1 (-) Gammaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti (-) Gammaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti+1 (-) Holophagae_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti (-) Holophagae_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti+1 (-) Unclassified_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Epsilonproteobacteria_ti (-) Unclassified_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti+1 (-) Day of life sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti (-) Day of life sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti+1 (-) Gestational age at birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti (-) Gestational age at birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti+1 (-) Postconceptional age sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti (-) Postconceptional age sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti+1 (-) Gender_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti (-) Gender_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti+1 (-) Mode of birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti (-) Mode of birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti+1 (-) Room type_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti (-) Room type_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti+1 (-) Human milk used_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti (-) Human milk used_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti+1 (-) Days of antibiotics_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti (-) Days of antibiotics_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti+1 (-) Actinobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti (-) Actinobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti+1 (-) Alphaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti (-) Alphaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti+1 (-) Bacilli_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti (-) Bacilli_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti+1 (-) Bacteroidia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti (-) Bacteroidia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti+1 (-) Betaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti (-) Betaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti+1 (-) Clostridia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti (-) Clostridia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti+1 (-) Cyanobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti (-) Cyanobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti+1 (-) Epsilonproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti (-) Epsilonproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti+1 (-) Erysipelotrichi_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti (-) Erysipelotrichi_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti+1 (-) Flavobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti (-) Flavobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti+1 (-) Fusobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti (-) Fusobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti+1 (-) Gammaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti (-) Gammaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti+1 (-) Holophagae_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti (-) Holophagae_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti+1 (-) Unclassified_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Erysipelotrichi_ti (-) Unclassified_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti+1 (-) Day of life sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti (-) Day of life sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti+1 (-) Gestational age at birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti (-) Gestational age at birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti+1 (-) Postconceptional age sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti (-) Postconceptional age sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti+1 (-) Gender_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti (-) Gender_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti+1 (-) Mode of birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti (-) Mode of birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti+1 (-) Room type_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti (-) Room type_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti+1 (-) Human milk used_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti (-) Human milk used_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti+1 (-) Days of antibiotics_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti (-) Days of antibiotics_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti+1 (-) Actinobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti (-) Actinobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti+1 (-) Alphaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti (-) Alphaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti+1 (-) Bacilli_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti (-) Bacilli_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti+1 (-) Bacteroidia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti (-) Bacteroidia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti+1 (-) Betaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti (-) Betaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti+1 (-) Clostridia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti (-) Clostridia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti+1 (-) Cyanobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti (-) Cyanobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti+1 (-) Epsilonproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti (-) Epsilonproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti+1 (-) Erysipelotrichi_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti (-) Erysipelotrichi_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti+1 (-) Flavobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti (-) Flavobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti+1 (-) Fusobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti (-) Fusobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti+1 (-) Gammaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti (-) Gammaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti+1 (-) Holophagae_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti (-) Holophagae_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti+1 (-) Unclassified_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Flavobacteria_ti (-) Unclassified_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti+1 (-) Day of life sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti (-) Day of life sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti+1 (-) Gestational age at birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti (-) Gestational age at birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti+1 (-) Postconceptional age sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti (-) Postconceptional age sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti+1 (-) Gender_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti (-) Gender_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti+1 (-) Mode of birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti (-) Mode of birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti+1 (-) Room type_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti (-) Room type_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti+1 (-) Human milk used_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti (-) Human milk used_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti+1 (-) Days of antibiotics_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti (-) Days of antibiotics_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti+1 (-) Actinobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti (-) Actinobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti+1 (-) Alphaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti (-) Alphaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti+1 (-) Bacilli_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti (-) Bacilli_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti+1 (-) Bacteroidia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti (-) Bacteroidia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti+1 (-) Betaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti (-) Betaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti+1 (-) Clostridia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti (-) Clostridia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti+1 (-) Cyanobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti (-) Cyanobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti+1 (-) Epsilonproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti (-) Epsilonproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti+1 (-) Erysipelotrichi_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti (-) Erysipelotrichi_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti+1 (-) Flavobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti (-) Flavobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti+1 (-) Fusobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti (-) Fusobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti+1 (-) Gammaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti (-) Gammaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti+1 (-) Holophagae_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti (-) Holophagae_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti+1 (-) Unclassified_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Fusobacteria_ti (-) Unclassified_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti+1 (-) Day of life sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti (-) Day of life sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti+1 (-) Gestational age at birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti (-) Gestational age at birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti+1 (-) Postconceptional age sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti (-) Postconceptional age sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti+1 (-) Gender_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti (-) Gender_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti+1 (-) Mode of birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti (-) Mode of birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti+1 (-) Room type_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti (-) Room type_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti+1 (-) Human milk used_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti (-) Human milk used_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti+1 (-) Days of antibiotics_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti (-) Days of antibiotics_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti+1 (-) Actinobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti (-) Actinobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti+1 (-) Alphaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti (-) Alphaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti+1 (-) Bacilli_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti (-) Bacilli_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti+1 (-) Bacteroidia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti (-) Bacteroidia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti+1 (-) Betaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti (-) Betaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti+1 (-) Clostridia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti (-) Clostridia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti+1 (-) Cyanobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti (-) Cyanobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti+1 (-) Epsilonproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti (-) Epsilonproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti+1 (-) Erysipelotrichi_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti (-) Erysipelotrichi_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti+1 (-) Flavobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti (-) Flavobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti+1 (-) Fusobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti (-) Fusobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti+1 (-) Gammaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti (-) Gammaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti+1 (-) Holophagae_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti (-) Holophagae_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti+1 (-) Unclassified_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Gammaproteobacteria_ti (-) Unclassified_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti+1 (-) Day of life sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti (-) Day of life sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti+1 (-) Gestational age at birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti (-) Gestational age at birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti+1 (-) Postconceptional age sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti (-) Postconceptional age sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti+1 (-) Gender_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti (-) Gender_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti+1 (-) Mode of birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti (-) Mode of birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti+1 (-) Room type_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti (-) Room type_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti+1 (-) Human milk used_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti (-) Human milk used_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti+1 (-) Days of antibiotics_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti (-) Days of antibiotics_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti+1 (-) Actinobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti (-) Actinobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti+1 (-) Alphaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti (-) Alphaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti+1 (-) Bacilli_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti (-) Bacilli_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti+1 (-) Bacteroidia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti (-) Bacteroidia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti+1 (-) Betaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti (-) Betaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti+1 (-) Clostridia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti (-) Clostridia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti+1 (-) Cyanobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti (-) Cyanobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti+1 (-) Epsilonproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti (-) Epsilonproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti+1 (-) Erysipelotrichi_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti (-) Erysipelotrichi_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti+1 (-) Flavobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti (-) Flavobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti+1 (-) Fusobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti (-) Fusobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti+1 (-) Gammaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti (-) Gammaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti+1 (-) Holophagae_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti (-) Holophagae_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti+1 (-) Unclassified_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Holophagae_ti (-) Unclassified_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti+1 (-) Day of life sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti (-) Day of life sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti+1 (-) Gestational age at birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti (-) Gestational age at birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti+1 (-) Postconceptional age sample obtained_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti (-) Postconceptional age sample obtained_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti+1 (-) Gender_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti (-) Gender_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti+1 (-) Mode of birth_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti (-) Mode of birth_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti+1 (-) Room type_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti (-) Room type_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti+1 (-) Human milk used_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti (-) Human milk used_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti+1 (-) Days of antibiotics_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti (-) Days of antibiotics_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti+1 (-) Actinobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti (-) Actinobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti+1 (-) Alphaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti (-) Alphaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti+1 (-) Bacilli_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti (-) Bacilli_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti+1 (-) Bacteroidia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti (-) Bacteroidia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti+1 (-) Betaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti (-) Betaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti+1 (-) Clostridia_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti (-) Clostridia_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti+1 (-) Cyanobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti (-) Cyanobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti+1 (-) Epsilonproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti (-) Epsilonproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti+1 (-) Erysipelotrichi_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti (-) Erysipelotrichi_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti+1 (-) Flavobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti (-) Flavobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti+1 (-) Fusobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti (-) Fusobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti+1 (-) Gammaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti (-) Gammaproteobacteria_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti+1 (-) Holophagae_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti (-) Holophagae_ti"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti+1 (-) Unclassified_ti+1"/>
+                    <discreteMappingEntry value="EQUAL_DASH" attributeValue="Unclassified_ti (-) Unclassified_ti"/>
+                </discreteMapping>
+            </visualProperty>
+            <visualProperty name="EDGE_TRANSPARENCY" default="255">
+                <discreteMapping attributeType="string" attributeName="name">
+                    <discreteMappingEntry value="70" attributeValue="Day of life sample obtained_ti (-) Day of life sample obtained_ti+1"/>
+                    <discreteMappingEntry value="70" attributeValue="Gestational age at birth_ti (-) Gestational age at birth_ti+1"/>
+                    <discreteMappingEntry value="70" attributeValue="Postconceptional age sample obtained_ti (-) Postconceptional age sample obtained_ti+1"/>
+                    <discreteMappingEntry value="70" attributeValue="Gender_ti (-) Gender_ti+1"/>
+                    <discreteMappingEntry value="70" attributeValue="Mode of birth_ti (-) Mode of birth_ti+1"/>
+                    <discreteMappingEntry value="70" attributeValue="Room type_ti (-) Room type_ti+1"/>
+                    <discreteMappingEntry value="70" attributeValue="Human milk used_ti (-) Human milk used_ti+1"/>
+                    <discreteMappingEntry value="70" attributeValue="Days of antibiotics_ti (-) Days of antibiotics_ti+1"/>
+                    <discreteMappingEntry value="70" attributeValue="Actinobacteria_ti (-) Actinobacteria_ti+1"/>
+                    <discreteMappingEntry value="70" attributeValue="Alphaproteobacteria_ti (-) Alphaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="70" attributeValue="Bacilli_ti (-) Bacilli_ti+1"/>
+                    <discreteMappingEntry value="70" attributeValue="Bacteroidia_ti (-) Bacteroidia_ti+1"/>
+                    <discreteMappingEntry value="70" attributeValue="Betaproteobacteria_ti (-) Betaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="70" attributeValue="Clostridia_ti (-) Clostridia_ti+1"/>
+                    <discreteMappingEntry value="70" attributeValue="Cyanobacteria_ti (-) Cyanobacteria_ti+1"/>
+                    <discreteMappingEntry value="70" attributeValue="Epsilonproteobacteria_ti (-) Epsilonproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="70" attributeValue="Erysipelotrichi_ti (-) Erysipelotrichi_ti+1"/>
+                    <discreteMappingEntry value="70" attributeValue="Flavobacteria_ti (-) Flavobacteria_ti+1"/>
+                    <discreteMappingEntry value="70" attributeValue="Fusobacteria_ti (-) Fusobacteria_ti+1"/>
+                    <discreteMappingEntry value="70" attributeValue="Gammaproteobacteria_ti (-) Gammaproteobacteria_ti+1"/>
+                    <discreteMappingEntry value="70" attributeValue="Holophagae_ti (-) Holophagae_ti+1"/>
+                    <discreteMappingEntry value="70" attributeValue="Unclassified_ti (-) Unclassified_ti+1"/>
+                </discreteMapping>
+            </visualProperty> 
+<visualProperty name="EDGE_TRANSPARENCY" default="2.0">
+   <continuousMapping attributeType="float" attributeName="bootScore">
+  <continuousMappingPoint lesserValue="130.0" greaterValue="130.0" equalValue="130.0" attrValue="0.614"/>
+  <continuousMappingPoint lesserValue="130.0" greaterValue="255.0" equalValue="255.0" attrValue="1"/>
+   </continuousMapping>
+   </visualProperty>
+ 
+<visualProperty name="EDGE_WIDTH" default="2.0">
+   <continuousMapping attributeType="float" attributeName="weight">
+  <continuousMappingPoint lesserValue="15.0" greaterValue="15.0" equalValue="15.0" attrValue="-1"/>
+   <continuousMappingPoint lesserValue="1.0" greaterValue="1.0" equalValue="1.0" attrValue="0.0"/>
+  <continuousMappingPoint lesserValue="15.0" greaterValue="15.0" equalValue="15.0" attrValue="1"/>
+   </continuousMapping>
+   </visualProperty>
+
+            <visualProperty name="EDGE_TOOLTIP" default=""/>
+            <visualProperty name="EDGE_TARGET_ARROW_SHAPE" default="DELTA"/>
+            <visualProperty name="EDGE_SOURCE_ARROW_UNSELECTED_PAINT" default="#000000"/>
+            <visualProperty name="EDGE_CURVED" default="true"/>
+            <visualProperty name="EDGE_SOURCE_ARROW_SHAPE" default="NONE"/>
+            <visualProperty name="EDGE_SOURCE_ARROW_SELECTED_PAINT" default="#FFFF00"/>
+            <visualProperty name="EDGE_LABEL" default=""/>
+            <visualProperty name="EDGE_LABEL_WIDTH" default="200.0"/>
+            <visualProperty name="EDGE_TARGET_ARROW_SELECTED_PAINT" default="#CC0033"/>
+            <visualProperty name="EDGE_LABEL_TRANSPARENCY" default="255"/>
+            <visualProperty name="EDGE_SELECTED" default="false"/>
+            <visualProperty name="EDGE_LABEL_FONT_SIZE" default="10"/>
+            <visualProperty name="EDGE_VISIBLE" default="true"/>
+            <visualProperty name="EDGE_LABEL_COLOR" default="#6666FF"/>
+            <visualProperty name="EDGE_BEND" default="0.728545744495502,-0.684997151948455,0.6456513365424503"/>
+            <visualProperty name="EDGE_TARGET_ARROW_SIZE" default="6.0"/>
+            <visualProperty name="EDGE_TARGET_ARROW_UNSELECTED_PAINT" default="#000000"/>
+            <visualProperty name="EDGE_SOURCE_ARROW_SIZE" default="6.0"/>
+            <visualProperty name="EDGE_TRANSPARENCY" default="255"/>
+            <visualProperty name="EDGE_LABEL_FONT_FACE" default="SansSerif.plain,plain,10"/>
+            <visualProperty name="EDGE_STROKE_SELECTED_PAINT" default="#FF0000"/>
+            <visualProperty name="EDGE_STROKE_UNSELECTED_PAINT" default="#c56ff7">
+                <continuousMapping attributeType="float" attributeName="weight">
+                    <continuousMappingPoint lesserValue="#F00808" greaterValue="#F00808" equalValue="#F00808" attrValue="-2.0"/>
+                    <continuousMappingPoint lesserValue="#F00808" greaterValue="#F00808" equalValue="#F00808" attrValue="-0.000000001"/>
+                    <continuousMappingPoint lesserValue="#2AEF07" greaterValue="#2AEF07" equalValue="#2AEF07" attrValue="0.0"/> 
+                    <continuousMappingPoint lesserValue="#2AEF07" greaterValue="#2AEF07" equalValue="#2AEF07" attrValue="0.505049"/>
+                    <continuousMappingPoint lesserValue="#c56ff7" greaterValue="#c56ff7" equalValue="#c56ff7" attrValue="0.505050"/>
+                    <continuousMappingPoint lesserValue="#2AEF07" greaterValue="#2AEF07" equalValue="#2AEF07" attrValue="0.505051"/>
+                    <continuousMappingPoint lesserValue="#2AEF07" greaterValue="#2AEF07" equalValue="#2AEF07" attrValue="2.0"/>
+                </continuousMapping>
+            </visualProperty>
+        </edge>
+    </visualStyle>
+</vizmap>
+

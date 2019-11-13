@@ -1,0 +1,2 @@
+Actinobacteria	Alphaproteobacteria	Bacilli	Bacteroidia	Betaproteobacteria	Clostridia	Cyanobacteria	Epsilonproteobacteria	Erysipelotrichi	Flavobacteria	Fusobacteria	Gammaproteobacteria	Holophagae	Unclassified
+0.021465044	0.001028149	0.289409687	0.016127296	0.005979719	0.143011425	0.000353919	5.53072E-05	3.96324E-05	0.001130334	0.000250893	0.514392021	6.27561E-07	0.006647104

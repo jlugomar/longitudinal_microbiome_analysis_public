@@ -1,0 +1,387 @@
+testSetResults$V1
+plot(testSetResults$V1, main="Corum test set train from Hein et al.")
+hist(testSetResults$V1, main="Corum test set train from Hein et al.")
+hist(testSetResults$V1, pch=21, bg=c("red","blue")[unclass(testSetResults $V2)], main="Corum test set train from Hein et al.")
+plot(testSetResults$V1, pch=21, bg=c("red","blue")[unclass(testSetResults $V2)], main="Corum test set train from Hein et al.")
+classLabels <- factor(testSetResults$V2, levels= c(0, 1), labels = c("0 Unknown", "1 Positives"))
+classLabels
+library(sm)
+plot(testSetResults$V1, pch=21, bg=c("red","blue")[unclass(testSetResults $V2)], sm.density.compare(testSetResults$V1, classLabels, xlab="Pr[c=(p1,p2)]") )
+sm.density.compare(testSetResults$V1, classLabels, xlab="Pr[c=(p1,p2)]")
+title(main="Corum test set train from Hein et al.")
+colfill<-c(2:(2+length(levels(classLabels))))
+legend(locator(1), levels(classLabels), fill=colfill)
+sm.density.compare(testSetResults$V1, classLabels, xlab="Pr[c=(p1,p2)]")
+title(main="Corum test set train from Hein et al.")
+colfill<-c(2:(2+length(levels(classLabels))))
+legend(locator(1), levels(classLabels), fill=colfill)
+testSetResults <- as.matrix(read.table('corum_LR_bioplex_results_all.txt', sep="\t", header=FALSE))
+testSetResults <- data.frame(testSetResults)
+classLabels <- factor(testSetResults$V2, levels= c(0, 1), labels = c("0 Unknown", "1 Positives"))
+sm.density.compare(testSetResults$V1, classLabels, xlab="Pr[c=(p1,p2)]")
+title(main="Corum test set train from BioPlex unfiltered")
+vaginalMicrobiota <- as.matrix(read.table('human_vaginal_microbiota_bn_sample_discretized.tsv', sep="\t", header=TRUE))
+vaginalMicrobiota <- data.frame(vaginalMicrobiota)
+summary(vaginalMicrobiota)
+bl = data.frame(from = c("Ethnic_Group", "Nugent_Category", "Aerococcus", "Anaerococcus", "Ureaplasma", "Parvimonas", "L..iners", "Finegoldia", "Staphylococcus", "Porphyromonas", "Atopobium", "Gardnerella", "L..crispatus", "Peptostreptococcus", "Sneathia", "Streptococcus", "Prevotella", "Peptoniphilus", "Incertae_Sedis_XI.1", "L..gasseri", "Corynebacterium", "Dialister", "L.otu5", "L.otu3", "Ruminococcaceae.3", "Age", "Nugent_Category", "Aerococcus", "Anaerococcus", "Ureaplasma", "Parvimonas", "L..iners", "Finegoldia", "Staphylococcus", "Porphyromonas", "Atopobium", "Gardnerella", "L..crispatus", "Peptostreptococcus", "Sneathia", "Streptococcus", "Prevotella", "Peptoniphilus", "Incertae_Sedis_XI.1", "L..gasseri", "Corynebacterium", "Dialister", "L.otu5", "L.otu3", "Ruminococcaceae.3"), to = c("Age", "Age", "Age", "Age", "Age", "Age", "Age", "Age", "Age", "Age", "Age", "Age", "Age", "Age", "Age", "Age", "Age", "Age", "Age", "Age", "Age", "Age", "Age", "Age", "Age", "Ethnic_Group", "Ethnic_Group", "Ethnic_Gro
+up", "Ethnic_Group", "Ethnic_Group", "Ethnic_Group", "Ethnic_Group", "Ethnic_Group", "Ethnic_Group", "Ethnic_Group", "Ethnic_Group", "Ethnic_Group", "Ethnic_Group", "Ethnic_Group", "Ethnic_Group", "Ethnic_Group", "Ethnic_Group", "Ethnic_Group", "Ethnic_Group", "Ethnic_Group", "Ethnic_Group", "Ethnic_Group", "Ethnic_Group", "Ethnic_Group", "Ethnic_Group"))
+dag = hc(vaginalMicrobiota, blacklist=bl)
+library(bnlearn)
+dag = hc(vaginalMicrobiota, blacklist=bl)
+a = alpha.star(dag, vaginalMicrobiota)
+dag = hc(vaginalMicrobiota, blacklist=bl, score = "bde", iss = a)
+a = alpha.star(dag, vaginalMicrobiota)
+dag = hc(vaginalMicrobiota, blacklist=bl, score = "bde", iss = a)
+a = alpha.star(dag, vaginalMicrobiota)
+dag = hc(vaginalMicrobiota, blacklist=bl, score = "bde", iss = a)
+fit = bn.fit(dag, vaginalMicrobiota)
+plot(dag)
+dag.arc("Age")
+arcs("Age")
+arcs
+dag.arcs
+dag.arc()
+boot.strength(vaginalMicrobiota, algorithm = "hc")
+r <- boot.strength(vaginalMicrobiota, algorithm = "hc")
+r[(r$strength > 0.7) & (r$direction >= 0.5), ]
+averaged.network(r)
+arcs
+plot(averaged.network(r))
+vaginalMicrobiota <- as.matrix(read.table('human_vaginal_microbiota_bn_sample_discretized.tsv', sep="\t", header=TRUE))
+dir()
+pairsMatrix <- as.matrix(read.table('blake_bioplex_feature_revisitMerge_pairsOnly_preyMerge2_heinCollapseMerge_pairsOnly_preyMerge2.txt', sep=",", header=TRUE))
+summary(pairsMatrix)
+write.table(pairsMatrix, file="pairsFeatureMatrix.txt", sep="\t", col.names=TRUE)
+pairsMatrix <- as.matrix(read.table('blake_bioplex_feature_revisitMerge_pairsOnly_preyMerge2_heinCollapseMerge_pairsOnly_preyMerge2.txt', sep=",", header=TRUE))
+write.table(pairsMatrix, file="pairsFeatureMatrix.txt", sep="\t", col.names=TRUE)
+write.table(pairsMatrix, file="pairsFeatureMatrix.txt", sep="\t", row.names=TRUE, col.names=TRUE)
+pnorm(27.4, mean=50, sd=20)
+x <- rnorm(1000, mean=10, sd=1)
+hist(x, probability=TRUE)#
+xx <- seq(min(x), max(x), length=10)#
+lines(xx, dnorm(xx, mean=10, sd=1))
+hist(x, probability=TRUE)
+xx <- seq(min(x), max(x), length=10)
+xx
+dnorm(xx, mean=10, sd=1)
+xx <- seq(min(x), max(x), length=10)
+lines(xx, dnorm(xx, mean=10, sd=1))
+x <- rnorm(1000, mean=50, sd=1)
+hist(x, probability=TRUE)
+x <- rnorm(1000, mean=10, sd=1)
+hist(x, probability=TRUE)
+x <- rnorm(1000, mean=50, sd=1)
+hist(x, probability=TRUE)
+library(sm)
+testSetResults <- as.matrix(read.table('hein_train_features.txt', sep="\t", header=FALSE))
+dir
+testSetResults <- as.matrix(read.table('hein_train_features.txt', sep="\t", header=FALSE))
+testSetResults
+testSetResults <- data.frame(testSetResults)
+classLabels <- factor(testSetResults$V2, levels= c(0, 1), labels = c("0 Unknown", "1 Positives"))
+sm.density.compare(testSetResults$V1, classLabels, xlab="Pr[c=(p1,p2)]")
+testSetResults <- as.matrix(read.table('hein_train_features.txt', sep="\t", header=FALSE))
+testSetResults
+testSetResults <- data.frame(testSetResults)
+classLabels <- factor(testSetResults$V2, levels= c(0, 1), labels = c("0 Unknown", "1 Positives"))
+sm.density.compare(testSetResults$V1, classLabels, xlab="Pr[c=(p1,p2)]")
+legend(locator(1), levels(classLabels), fill=colfill)
+testSetResults <- as.matrix(read.table('Hein_etal_pairwise_features_training', sep="\t", header=FALSE))
+testSetResults <- as.matrix(read.table('Hein_etal_pairwise_features_training.tsv', sep="\t", header=FALSE))
+testSetResults <- data.frame(testSetResults)
+classLabels <- factor(testSetResults$V2, levels= c(0, 1), labels = c("0 Unknown", "1 Positives"))
+testSetResults
+summary(testSetResults)
+classLabels <- factor(testSetResults$V7, levels= c(0, 1), labels = c("0 Unknown", "1 Positives"))
+sm.density.compare(testSetResults$V3, classLabels, xlab="Pr[c=(p1,p2)]")
+library(sm)
+sm.density.compare(testSetResults$V3, classLabels, xlab="Pr[c=(p1,p2)]")
+sm.density.compare(testSetResults$V6, classLabels, xlab="Pr[c=(p1,p2)]")
+sm.density.compare(testSetResults$V7, classLabels, xlab="Pr[c=(p1,p2)]")
+hist(v&)
+hist(testSetResults$v7)
+hist(testSetResults$V7)
+sm.density.compare(testSetResults$V4, classLabels, xlab="Pr[c=(p1,p2)]")
+sm.density.compare(testSetResults$V5, classLabels, xlab="Pr[c=(p1,p2)]")
+sm.density.compare(testSetResults$V6, classLabels, xlab="Pr[c=(p1,p2)]")
+summary(testSetResults)
+trainSetResultsHein <- as.matrix(read.table('Hein_etal_pairwise_features_training', sep="\t", header=FALSE))
+trainSetResultsHein <- as.matrix(read.table('Hein_etal_pairwise_features_training.tsv', sep="\t", header=FALSE))
+trainSetResultsHein <- data.frame(trainSetResultsHein)
+testSetResultsHein <- as.matrix(read.table('Hein_etal_pairwise_features_test.tsv', sep="\t", header=FALSE))
+testSetResultsHein <- data.frame(testSetResultsHein)
+classLabels <- factor(trainSetResults$V7, levels= c(0, 1), labels = c("0 Unknown", "1 Positives"))
+classLabels <- factor(trainSetResultsHein$V7, levels= c(0, 1), labels = c("0 Unknown", "1 Positives"))
+sm.density.compare(trainSetResults$V3, classLabels, xlab="(p1,p2)")
+sm.density.compare(trainSetResultsHein$V3, classLabels, xlab="(p1,p2)")
+title(main="Distributions of Pearson's correlation coefficient on Hein et al")
+sm.density.compare
+?sm.density.compare
+sm.density.compare(trainSetResultsHein$V3, classLabels, xlab="(p1,p2)")
+trainSetResultsHein$V3
+trainSetResultsHein$V3 > 0
+sm.density.compare(trainSetResultsHein$V3, classLabels, xlab="(p1,p2)")
+sm.density.compare(trainSetResultsHein$V4, classLabels, xlab="(p1,p2)")
+title(main="Distributions of Pearson's correlation coefficient on TSCs for positives Hein et al")#
+>
+title(main="Density of Pearson's corr coeff on TSCs for positives (green) vs. negatives (red) [Hein et al.]")
+sm.density.compare(trainSetResultsHein$V4, classLabels, xlab="(p1,p2)")
+title(main="Density of Pearson's corr coeff on TSCs for positives (green) vs. negatives (red) [Hein et al.]")
+clear
+trainSetResultsHein <- as.matrix(read.table('Hein_etal_pairwise_features_training.tsv', sep="\t", header=FALSE))
+trainSetResultsHein <- data.frame(trainSetResultsHein)
+classLabels <- factor(trainSetResultsHein$V7, levels= c(0, 1), labels = c("0 Unknown", "1 Positives"))
+sm.density.compare(trainSetResultsHein$V3, classLabels, xlab="(p1,p2)")
+title(main="Density of Pearson's corr coeff on TSCs for positives (green) vs. negatives (red) on training set [Hein et al.]")
+sm.density.compare(trainSetResultsHein$V4, classLabels, xlab="(p1,p2)")
+title(main="Density of Pearson's corr coeff on RNA expression for positives (green) vs. negatives (red) on training set [Hein et al.]")
+sm.density.compare(trainSetResultsHein$V5, classLabels, xlab="(p1,p2)")
+title(main="Density of Pearson's corr coeff on LFQ per cellline for positives (green) vs. negatives (red) on training set [Hein et al.]")
+sm.density.compare(trainSetResultsHein$V6, classLabels, xlab="(p1,p2)")
+title(main="Density of Pearson's corr coeff on LFQ per tissue for positives (green) vs. negatives (red) on training set [Hein et al.]")
+testSetResultsHein <- as.matrix(read.table('Hein_etal_pairwise_features_test.tsv', sep="\t", header=FALSE))
+testSetResultsHein <- data.frame(testSetResultsHein)
+sm.density.compare(testSetResultsHein$V3, classLabels, xlab="(p1,p2)")
+classLabels <- factor(testSetResultsHein$V7, levels= c(0, 1), labels = c("0 Unknown", "1 Positives"))
+sm.density.compare(testSetResultsHein$V3, classLabels, xlab="(p1,p2)")
+title(main="Density of Pearson's corr coeff on TSCs for positives (green) vs. negatives (red) on test set [Hein et al.]")
+sm.density.compare(testSetResultsHein$V4, classLabels, xlab="(p1,p2)")
+title(main="Density of Pearson's corr coeff on RNA expression for positives (green) vs. negatives (red) on test set [Hein et al.]")
+sm.density.compare(testSetResultsHein$V5, classLabels, xlab="(p1,p2)")
+title(main="Density of Pearson's corr coeff on LFQ per cellline for positives (green) vs. negatives (red) on test set [Hein et al.]")
+sm.density.compare(testSetResultsHein$V6, classLabels, xlab="(p1,p2)")
+title(main="Density of Pearson's corr coeff on LFQ per tissue for positives (green) vs. negatives (red) on test set [Hein et al.]")
+trainSetResultsBioPlex <- as.matrix(read.table('Marcotte_bioplex_pairwise_features_training.tsv', sep="\t", header=FALSE))
+trainSetResultsBioPlex <- data.frame(trainSetResultsBioPlex)
+classLabels <- factor(trainSetResultsBioPlex$V7, levels= c(0, 1), labels = c("0 Unknown", "1 Positives"))
+sm.density.compare(trainSetResultsBioPlex$V3, classLabels, xlab="(p1,p2)")
+title(main="Density of Pearson's corr coeff on TSCs for positives (green) vs. negatives (red) on training set [BioPlex]")
+sm.density.compare(trainSetResultsBioPlex$V4, classLabels, xlab="(p1,p2)")
+title(main="Density of Pearson's corr coeff on RNA expression for positives (green) vs. negatives (red) on training set [BioPlex]")
+sm.density.compare(trainSetResultsBioPlex$V5, classLabels, xlab="(p1,p2)")
+title(main="Density of Pearson's corr coeff on LFQ per cellline for positives (green) vs. negatives (red) on training set [Bioplex]")
+sm.density.compare(trainSetResultsBioPlex$V6, classLabels, xlab="(p1,p2)")
+title(main="Density of Pearson's corr coeff on LFQ per tissue for positives (green) vs. negatives (red) on training set [Bioplex]")
+testSetResultsBioPlex <- as.matrix(read.table('Marcotte_bioplex_pairwise_features_test.tsv', sep="\t", header=FALSE))
+testSetResultsBioPlex <- data.frame(testSetResultsBioPlex)
+classLabels <- factor(testSetResultsBioPlex$V7, levels= c(0, 1), labels = c("0 Unknown", "1 Positives"))
+sm.density.compare(testSetResultsBioPlex$V3, classLabels, xlab="(p1,p2)")
+title(main="Density of Pearson's corr coeff on TSCs for positives (green) vs. negatives (red) on test set [BioPlex]")
+sm.density.compare(testSetResultsBioPlex$V3, classLabels, xlab="(p1,p2)")
+title(main="Density of Pearson's corr coeff on TSCs for positives (green) vs. negatives (red) on test set [BioPlex]")
+sm.density.compare(testSetResultsBioPlex$V4, classLabels, xlab="(p1,p2)")
+title(main="Density of Pearson's corr coeff on RNA expression for positives (green) vs. negatives (red) on test set [BioPlex]")
+sm.density.compare(testSetResultsBioPlex$V5, classLabels, xlab="(p1,p2)")
+title(main="Density of Pearson's corr coeff on LFQ per cellline for positives (green) vs. negatives (red) on test set [Bioplex]")
+sm.density.compare(testSetResultsBioPlex$V6, classLabels, xlab="(p1,p2)")
+title(main="Density of Pearson's corr coeff on LFQ per tissue for positives (green) vs. negatives (red) on test set [Bioplex]")
+alignmentMetadata <- as.matrix(read.table('alignment_metadata.tsv', sep="\t", header=FALSE))
+alignmentMetadata <- data.frame(alignmentMetadata)
+classLabels <- factor(alignmentMetadata$V3, levels= c(0, 1), labels = c("0 Unknown", "1 Positives"))
+classLabels <- factor(alignmentMetadata$V3, levels= c(0, 1), labels = c("0 AllReferences", "1 SelectedReference"))
+sm.density.compare(alignmentMetadata$V1, classLabels, xlab="Reference alignment")
+classLabels <- factor(alignmentMetadata$V4, levels= c(0, 1), labels = c("0 OtherReferences", "1 SelectedReference"))
+sm.density.compare(alignmentMetadata$V1, classLabels, xlab="Reference alignment")
+summary(alignmentMetadata)
+alignmentMetadata$V4
+library(sm)
+sm.density.compare(alignmentMetadata$V1, classLabels, xlab="Reference alignment")
+sm.density.compare(alignmentMetadata$V1, classLabels, xlab="Taxon error")
+title(main="Density of taxon error for selected reference (green) vs. other references (red) on infant gut microbiota")
+sm.density.compare(alignmentMetadata$V2, classLabels, xlab="a")
+title(main="Density of 'a' values for selected reference (green) vs. other references (red) on infant gut microbiota")
+sm.density.compare(alignmentMetadata$V2, classLabels, xlab="b")
+sm.density.compare(alignmentMetadata$V3, classLabels, xlab="b")
+title(main="Density of 'b' values for selected reference (green) vs. other references (red) on infant gut microbiota")
+0.001229034#
+0.001458678#
+0.001479774#
+0.001494374#
+0.001574665#
+0.001759533#
+0.001778421#
+0.001825136#
+0.001851304#
+0.001935441#
+0.001945664#
+0.001998054#
+0.002012311#
+0.002021748#
+0.002065845#
+0.002119373#
+0.00221486#
+0.002277238#
+0.002295754#
+0.002303924#
+0.002411698#
+0.002442118#
+0.002701709#
+0.00273164#
+0.002742968#
+0.002821129#
+0.00296917#
+0.003043628#
+0.003115547#
+0.003117289#
+0.003164475#
+0.003189609#
+0.003332033#
+0.003386124#
+0.003559546#
+0.003636965#
+0.003672415#
+0.003732285#
+0.00378546#
+0.003800191#
+0.003826659#
+0.003869254#
+0.003905469#
+0.004078445#
+0.004143508#
+0.004273031#
+0.004475311#
+0.004621826#
+0.004673771#
+0.004745688#
+0.00479198#
+0.004915364#
+0.005184229#
+0.005200868#
+0.005401831#
+0.005501784#
+0.005536624#
+0.005624239#
+0.005833333#
+0.005904446#
+0.005971593#
+0.006330377#
+0.006373884#
+0.006523888#
+0.00653576#
+0.006623308#
+0.006743927#
+0.007137973#
+0.007622238#
+0.007968383#
+0.0081234#
+0.008124524#
+0.008193858#
+0.008234796#
+0.008469466#
+0.008779206#
+0.008887142#
+0.009143182#
+0.009344788#
+0.009353473#
+0.009681318#
+0.009744345#
+0.010420611#
+0.011117601#
+0.011385502#
+0.011637345#
+0.012289705#
+0.01267354#
+0.012726868#
+0.013292788#
+0.014299852#
+0.014422095#
+0.015128985#
+0.01519626#
+0.015580157#
+0.018759768#
+0.019980394#
+0.022172547#
+0.023143636#
+0.027833608#
+0.038654901#
+0.039956231#
+0.051809011#
+0.062816096#
+0.067302146
+alignmentMetadata <- as.matrix(read.table('taxonError.txt', sep="\t", header=FALSE))
+summary(alignmentMetadata)
+source("https://bioconductor.org/biocLite.R")
+biocLite("hgu133plus2.db")
+ls
+dir
+$probe
+sumary(%)
+select(rat2302.db, c("1552256_a_at","1552257_a_at"), c("SYMBOL","ENTREZID", "GENENAME"))
+select(hgu133plus2.db, c("1552256_a_at","1552257_a_at"), c("SYMBOL","ENTREZID", "GENENAME"))
+select("hgu133plus2.db", c("1552256_a_at","1552257_a_at"), c("SYMBOL","ENTREZID", "GENENAME"))
+select(hgu133plus2.db, c("1552256_a_at","1552257_a_at"), c("SYMBOL","ENTREZID", "GENENAME"))
+hgu133plus2.db
+biocLite("annotate")
+select(hgu133plus2.db, c("1552256_a_at","1552257_a_at"), c("SYMBOL","ENTREZID", "GENENAME"))
+x <- hgu133plus2ACCNUM
+x <- hgu133plus2
+hgu133plus2
+hgu133plus2$
+hgu133plus2probe
+summary(hgu133plus2)
+get("1559804_at", hgu133plus2SYMBOL)
+biocLite("annotate")
+library(biomaRt)
+mart <- useMart("ensembl","hsapiens_gene_ensembl")
+library(biomaRt)
+mart <- useMart("ensembl","hsapiens_gene_ensembl")
+library(biomaRt)
+library(biomart)
+library(biomartr)
+mart <- useMart("ensembl","hsapiens_gene_ensembl")
+library("annotate")#
+library("rat2302.db")    # here use your chip hgu133a.db#
+#
+select(rat2302.db, c("1368587_at","1385248_a_at"), c("SYMBOL","ENTREZID", "GENENAME"))
+library("annotate")
+library("rat2302.db")
+biocLite("hgu133plus2probe")
+## try http:// if https:// URLs are not supported#
+source("https://bioc.ism.ac.jp/biocLite.R")
+biocLite("hgu133plus2probe")
+ls
+dir
+cddir Do
+⧨
+Near my home#
+No Preferences#
+Change Collapse commute preferences container#
+I’m open to working remotely#
+#
+No#
+Enable or disable your career preference to work remote#
+#
+What types of jobs are you open to?#
+Full-time#
+#
+Contract#
+#
+Part-time#
+#
+Internship#
+#
+Volunteer#
+#
+Temporary#
+Go to Jobs #
+#
+Jose Lugo-Martinez#
+See jobs where you’d be a top applicant#
+Get an edge on the competition#
+#
+Try Free for 1 Month
+cd Document
+cd Documents
+dir
+ls
+dir()
+cd "Documents/"
+cd "Documents"
+cd "Documents/"
+cd Documents/
+cd "Documents/"
+source("/Users/elyonyi/Documents/GitHub/longitudinal_microbiome_analysis_public/visualization/CreateStyle.R")
+ls
+dir()
+setwd("Documents/GitHub/longitudinal_microbiome_analysis_public/visualization/")
+dir()
