@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+http://graphml.graphdrawing.org/xmlns/1.1/graphml.xsd">
+<key id="key_weight" for="edge" attr.name="weight" attr.type="double"/>
+<key id="key_bootScore" for="edge" attr.name="bootScore" attr.type="double"/>
+<graph id="example" edgedefault="directed">
+<node id="Day of life sample obtained_t0"/>
+<node id="Gestational age at birth_t0"/>
+<node id="Postconceptional age sample obtained_t0"/>
+<node id="Gender_t0"/>
+<node id="Mode of birth_t0"/>
+<node id="Room type_t0"/>
+<node id="Human milk used_t0"/>
+<node id="Days of antibiotics_t0"/>
+<node id="Actinobacteria_t0"/>
+<node id="Alphaproteobacteria_t0"/>
+<node id="Bacilli_t0"/>
+<node id="Bacteroidia_t0"/>
+<node id="Betaproteobacteria_t0"/>
+<node id="Clostridia_t0"/>
+<node id="Cyanobacteria_t0"/>
+<node id="Epsilonproteobacteria_t0"/>
+<node id="Erysipelotrichi_t0"/>
+<node id="Flavobacteria_t0"/>
+<node id="Fusobacteria_t0"/>
+<node id="Gammaproteobacteria_t0"/>
+<node id="Holophagae_t0"/>
+<node id="Unclassified_t0"/>
+<node id="Day of life sample obtained_tn"/>
+<node id="Gestational age at birth_tn"/>
+<node id="Postconceptional age sample obtained_tn"/>
+<node id="Gender_tn"/>
+<node id="Mode of birth_tn"/>
+<node id="Room type_tn"/>
+<node id="Human milk used_tn"/>
+<node id="Days of antibiotics_tn"/>
+<node id="Actinobacteria_tn"/>
+<node id="Alphaproteobacteria_tn"/>
+<node id="Bacilli_tn"/>
+<node id="Bacteroidia_tn"/>
+<node id="Betaproteobacteria_tn"/>
+<node id="Clostridia_tn"/>
+<node id="Cyanobacteria_tn"/>
+<node id="Epsilonproteobacteria_tn"/>
+<node id="Erysipelotrichi_tn"/>
+<node id="Flavobacteria_tn"/>
+<node id="Fusobacteria_tn"/>
+<node id="Gammaproteobacteria_tn"/>
+<node id="Holophagae_tn"/>
+<node id="Unclassified_tn"/>
+<edge id="e1" source="Day of life sample obtained_t0" target="Day of life sample obtained_tn">
+<data key="key_weight">244420.998156</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e2" source="Gestational age at birth_t0" target="Gestational age at birth_tn">
+<data key="key_weight">651054.687463</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e3" source="Postconceptional age sample obtained_t0" target="Postconceptional age sample obtained_tn">
+<data key="key_weight">1.000000</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e4" source="Unclassified_t0" target="Postconceptional age sample obtained_tn">
+<data key="key_weight">0.000000</data>
+<data key="key_bootScore">0.900000</data>
+</edge>
+<edge id="e5" source="Gender_t0" target="Gender_tn">
+<data key="key_weight">52709.004273</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e6" source="Mode of birth_t0" target="Mode of birth_tn">
+<data key="key_weight">41809.627532</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e7" source="Room type_t0" target="Room type_tn">
+<data key="key_weight">53883.188213</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e8" source="Human milk used_t0" target="Human milk used_tn">
+<data key="key_weight">87949.416678</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e9" source="Human milk used_t0" target="Days of antibiotics_tn">
+<data key="key_weight">47293.056457</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e10" source="Days of antibiotics_t0" target="Days of antibiotics_tn">
+<data key="key_weight">205142.430695</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e11" source="Room type_t0" target="Actinobacteria_tn">
+<data key="key_weight">31597.850489</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e12" source="Human milk used_t0" target="Actinobacteria_tn">
+<data key="key_weight">4437.659651</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e13" source="Actinobacteria_t0" target="Actinobacteria_tn">
+<data key="key_weight">49532.003170</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e14" source="Gender_t0" target="Alphaproteobacteria_tn">
+<data key="key_weight">15668.385423</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e15" source="Human milk used_t0" target="Alphaproteobacteria_tn">
+<data key="key_weight">51238.251304</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e16" source="Alphaproteobacteria_t0" target="Alphaproteobacteria_tn">
+<data key="key_weight">82642.436146</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e17" source="Gender_t0" target="Bacilli_tn">
+<data key="key_weight">4916.709015</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e18" source="Human milk used_t0" target="Bacilli_tn">
+<data key="key_weight">1639.361055</data>
+<data key="key_bootScore">0.900000</data>
+</edge>
+<edge id="e19" source="Bacilli_t0" target="Bacilli_tn">
+<data key="key_weight">59937.879797</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e20" source="Room type_t0" target="Bacteroidia_tn">
+<data key="key_weight">57336.460036</data>
+<data key="key_bootScore">0.900000</data>
+</edge>
+<edge id="e21" source="Human milk used_t0" target="Bacteroidia_tn">
+<data key="key_weight">12865.380443</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e22" source="Bacteroidia_t0" target="Bacteroidia_tn">
+<data key="key_weight">113162.425802</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e23" source="Gender_t0" target="Betaproteobacteria_tn">
+<data key="key_weight">43242.326903</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e24" source="Human milk used_t0" target="Betaproteobacteria_tn">
+<data key="key_weight">31394.056864</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e25" source="Betaproteobacteria_t0" target="Betaproteobacteria_tn">
+<data key="key_weight">67147.620312</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e26" source="Gender_t0" target="Clostridia_tn">
+<data key="key_weight">1265.015939</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e27" source="Mode of birth_t0" target="Clostridia_tn">
+<data key="key_weight">1755.237149</data>
+<data key="key_bootScore">0.700000</data>
+</edge>
+<edge id="e28" source="Clostridia_t0" target="Clostridia_tn">
+<data key="key_weight">55602.322584</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e29" source="Mode of birth_t0" target="Cyanobacteria_tn">
+<data key="key_weight">128321.164174</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e30" source="Human milk used_t0" target="Cyanobacteria_tn">
+<data key="key_weight">173630.583175</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e31" source="Cyanobacteria_t0" target="Cyanobacteria_tn">
+<data key="key_weight">4184.727753</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e32" source="Gender_t0" target="Epsilonproteobacteria_tn">
+<data key="key_weight">50305.905526</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e33" source="Room type_t0" target="Epsilonproteobacteria_tn">
+<data key="key_weight">26007.672702</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e34" source="Epsilonproteobacteria_t0" target="Epsilonproteobacteria_tn">
+<data key="key_weight">128668.853303</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e35" source="Gender_t0" target="Erysipelotrichi_tn">
+<data key="key_weight">1590.699982</data>
+<data key="key_bootScore">0.900000</data>
+</edge>
+<edge id="e36" source="Mode of birth_t0" target="Erysipelotrichi_tn">
+<data key="key_weight">73750.627564</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e37" source="Erysipelotrichi_t0" target="Erysipelotrichi_tn">
+<data key="key_weight">41882.572615</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e38" source="Gender_t0" target="Flavobacteria_tn">
+<data key="key_weight">12377.380797</data>
+<data key="key_bootScore">0.700000</data>
+</edge>
+<edge id="e39" source="Human milk used_t0" target="Flavobacteria_tn">
+<data key="key_weight">11448.919795</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e40" source="Flavobacteria_t0" target="Flavobacteria_tn">
+<data key="key_weight">154858.444836</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e41" source="Room type_t0" target="Fusobacteria_tn">
+<data key="key_weight">194472.973523</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e42" source="Human milk used_t0" target="Fusobacteria_tn">
+<data key="key_weight">148898.368783</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e43" source="Fusobacteria_t0" target="Fusobacteria_tn">
+<data key="key_weight">89549.750123</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e44" source="Gender_t0" target="Gammaproteobacteria_tn">
+<data key="key_weight">2917.379731</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e45" source="Human milk used_t0" target="Gammaproteobacteria_tn">
+<data key="key_weight">1726.751479</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e46" source="Gammaproteobacteria_t0" target="Gammaproteobacteria_tn">
+<data key="key_weight">67471.522943</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e47" source="Mode of birth_t0" target="Holophagae_tn">
+<data key="key_weight">33227.939242</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e48" source="Cyanobacteria_t0" target="Holophagae_tn">
+<data key="key_weight">2204.301733</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e49" source="Holophagae_t0" target="Holophagae_tn">
+<data key="key_weight">261733.733956</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e50" source="Gender_t0" target="Unclassified_tn">
+<data key="key_weight">185668.922038</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e51" source="Human milk used_t0" target="Unclassified_tn">
+<data key="key_weight">67084.692256</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+<edge id="e52" source="Unclassified_t0" target="Unclassified_tn">
+<data key="key_weight">33395.873240</data>
+<data key="key_bootScore">1.000000</data>
+</edge>
+</graph>
+</graphml>

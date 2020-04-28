@@ -124,6 +124,8 @@ evalcount = 0;
 evalnums = 0;
 maxScore = -Inf;
 currentScore = 0;
+choseni = 0;
+chosenj = 0;
 numSample = 0.5 * (size(contData, 2) + size(discData, 2));
 
 %% Initialize network structure with self-loops (only for DBNs and variables of interest)
@@ -132,6 +134,8 @@ if (isfield(searchParameter, 'DBN') && searchParameter.DBN)
     [search, numevals] = search.EvalSelfEdges();
     evalcount = evalcount + numevals;
     candidateSelfEdges = find(search.lldiff > bf_thresh);
+%    outline = ['Total candidate self-edges;', num2str(length(candidateSelfEdges))];
+%    disp(outline);
     % If no more candidate self-edges, exit initialization
     if (isempty(candidateSelfEdges))
         done = true;
@@ -148,7 +152,7 @@ if (isfield(searchParameter, 'DBN') && searchParameter.DBN)
         % Decide if a candidate edge should be added. If so, add edge.
         [search, success] = search.DoEdgeAdd(choseni, chosenj, currentEdgeDiffScore);
 %        outline = ['Candidate edge;', num2str(choseni), ';', num2str(chosenj), ';', num2str(currentEdgeDiffScore)];
-        disp(outline);
+%        disp(outline);
         if (success)
             % Debugging
             if (verbose)
@@ -175,8 +179,8 @@ end
 % Compute initial network structure BIC or AIC score 
 currentPenalizedScore = currentScore - currentPenaltyScore;
 
-lastChooseni = 0;
-lastChoosenj = 0;
+lastChoseni = 0;
+lastChosenj = 0;
 %% Do an exhaustive greedy hill-climbing search
 while (~done && (currentPenalizedScore > maxScore || invalidOperation))
     invalidOperation = false;
@@ -211,7 +215,7 @@ while (~done && (currentPenalizedScore > maxScore || invalidOperation))
     if (newPenalizedScore > currentPenalizedScore)
         [search, success, ~] = search.DoEdgeAdd(choseni, chosenj, newEdgeDiffScore);
 %        outline = ['Candidate edge;', num2str(choseni), ';', num2str(chosenj), ';', num2str(newEdgeDiffScore)];
-        disp(outline);
+%        disp(outline);
         if (success)
             % Debugging
             if (verbose)
@@ -227,7 +231,7 @@ while (~done && (currentPenalizedScore > maxScore || invalidOperation))
         else
             % This edge operation is invalid: creates a cycle or exceedes number of parents
             invalidOperation = true;
-            if lastChooseni == chooseni && lastChoosenj == choosenj
+            if lastChoseni == choseni && lastChosenj == chosenj
                 done = true;
             end
         end
@@ -235,8 +239,8 @@ while (~done && (currentPenalizedScore > maxScore || invalidOperation))
         % Stop search. This edge operation (add, delete, or reverse) did not improve BIC score
         newPenalizedScore - currentPenalizedScore;
     end
-    lastChooseni = chooseni;
-    lastChoosenj = choosenj;
+    lastChoseni = choseni;
+    lastChosenj = chosenj;
 end
 
 %% Update edge weight for continuous to continuous nodes to reflect regression coefficient sign 

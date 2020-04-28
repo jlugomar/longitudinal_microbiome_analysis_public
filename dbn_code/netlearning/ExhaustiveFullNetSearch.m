@@ -117,6 +117,8 @@ addedeges = {};
 done = false;
 evalcount = 0;
 evalnums = 0;
+choseni = 0;
+chosenj = 0;
 
 %% Initialize network structure with self-loops (only for DBNs and variables of interest)
 if (isfield(searchParameter,'DBN') && searchParameter.DBN)

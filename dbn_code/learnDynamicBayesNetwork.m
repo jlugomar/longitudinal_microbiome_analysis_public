@@ -24,8 +24,10 @@ function DBN = learnDynamicBayesNetwork(filename, pheno, cols2learn, maxParents,
 %     DBN           % BayesNet class object representing a 2-stage dynamic bayes net (TSBN)
 %
 % Sample calls:
-% G = learnDynamicBayesNetwork('infant_gut_microbiota_dbn_sample_noalignment_sr3d, '', [], 5, false, false, true); %MLE 
-% G = learnDynamicBayesNetwork('human_vaginal_microbiota_dbn_sample_noalignment_nosplines', '', [], 5, false, false, false, 1, 1, 1); %MAP
+% G = learnDynamicBayesNetwork('example', '', [], 3, false, false, true); %MLE w/o intra edges
+% G = learnDynamicBayesNetwork('example', '', [], 3, false, true, true); %MLE w/ intra edges
+% G = learnDynamicBayesNetwork('example', '', [], 3, true, false, false, 1, 1, 1); %MAP w/o intra edges
+% G = learnDynamicBayesNetwork('example', '', [], 3, true, true, false, 1, 1, 1); %MAP w/ intra edges
 %
     if (nargin < 12)
         MAXDISCVALS = 4;

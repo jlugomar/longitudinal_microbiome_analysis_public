@@ -1,5 +1,5 @@
 function DBN = bootstrapLearnDynamicBayesNetwork(filename, pheno, nboots, edgeThreshold, cols2learn, maxParents, localNetStruc, intraEdges, mle, nu, alpha, sigma2, BFTHRESH, MAXDISCVALS, verbose)
-%DBN = bootstrapLearnDynamicBayesNetwork(filename, pheno, nboots, edgeThreshold, maxParents, localNetStruc, intraEdges, mle, nu, alpha, sigma2, BFTHRESH, MAXDISCVALS, verbose)
+%DBN = bootstrapLearnDynamicBayesNetwork(filename, pheno, nboots, edgeThreshold, cols2learn, maxParents, localNetStruc, intraEdges, mle, nu, alpha, sigma2, BFTHRESH, MAXDISCVALS, verbose)
 %
 % Function to use bootstrapping to generate multiple datasets and learn on
 % each a hybrid bayesian network.  
@@ -32,8 +32,10 @@ function DBN = bootstrapLearnDynamicBayesNetwork(filename, pheno, nboots, edgeTh
 %                   % bayes net (TSBN)
 %
 % Sample calls:
-% G = bootstrapLearnDynamicBayesNetwork('infant_gut_microbiota_dbn_sample_alignment_filtered_sr5d', '', 10, 0.7, 5, false, false, true); %MLE 
-% G = bootstrapLearnDynamicBayesNetwork('infant_gut_microbiota_dbn_sample_alignment_filtered_sr5d', '', 10, 0.7, 5, false, false, false, 1, 1, 1); %MAP
+% G = bootstrapLearnDynamicBayesNetwork('example', '', 10, 0.7, [], 3, false, false, true); %MLE w/o intra edges
+% G = bootstrapLearnDynamicBayesNetwork('example', '', 10, 0.7, [], 3, false, true, true); %MLE w/ intra edges
+% G = bootstrapLearnDynamicBayesNetwork('example', '', 10, 0.7, [], 3, true, false, false, 1, 1, 1); %MAP w/o intra edges
+% G = bootstrapLearnDynamicBayesNetwork('example', '', 10, 0.7, [], 3, true, true, false, 1, 1, 1); %MAP w/intra edges
 
     if (nargin < 15)
         verbose = false;

@@ -20,7 +20,7 @@ function [predictions, truelikelihood] = inferenceDynamicBayesNetwork(DBN, testd
 %                             each variable than the value assigned to that var by the input data.
 %
 % Sample call: 
-%   [p, t] = inferenceDynamicBayesNetwork(G, 'human_vaginal_microbiota_dbn_sample_noalignment_nosplines', [3:25], 'vaginal_testset');
+%   [p, t] = inferenceDynamicBayesNetwork(G, 'example', [9:22], 'example_testset');
 
     if (nargin < 5)
         verbose = false;
